@@ -1,11 +1,12 @@
 import { createBrowserRouter } from 'react-router-dom';
+import { ProcessingPage } from '@/pages/ProcessingPage';
 import { Layout } from './Layout';
 
 export const router = createBrowserRouter(
   [
     {
       element: <Layout />,
-      children: [],
+      children: [{ path: 'processing', element: <ProcessingPage /> }],
     },
   ],
   {
