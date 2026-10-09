@@ -1,5 +1,6 @@
 import { Navigate, createBrowserRouter } from 'react-router-dom';
 import { AiAnswerPage } from '@/pages/AiAnswerPage';
+import { ArchitecturePage } from '@/pages/ArchitecturePage';
 import { DocumentPage } from '@/pages/DocumentPage';
 import { KnowledgeBasePage } from '@/pages/KnowledgeBasePage';
 import { ProcessingPage } from '@/pages/ProcessingPage';
@@ -19,6 +20,7 @@ export const router = createBrowserRouter(
         { path: 'rag', element: <RagSearchPage /> },
         { path: 'rag/context', element: <RetrievedContextPage /> },
         { path: 'rag/answer', element: <AiAnswerPage /> },
+        { path: 'architecture', element: <ArchitecturePage /> },
         { path: '*', element: <Navigate to="/kb" replace /> },
       ],
     },
