@@ -1,4 +1,6 @@
-import { createBrowserRouter } from 'react-router-dom';
+import { Navigate, createBrowserRouter } from 'react-router-dom';
+import { DocumentPage } from '@/pages/DocumentPage';
+import { KnowledgeBasePage } from '@/pages/KnowledgeBasePage';
 import { ProcessingPage } from '@/pages/ProcessingPage';
 import { Layout } from './Layout';
 
@@ -6,7 +8,13 @@ export const router = createBrowserRouter(
   [
     {
       element: <Layout />,
-      children: [{ path: 'processing', element: <ProcessingPage /> }],
+      children: [
+        { index: true, element: <Navigate to="/kb" replace /> },
+        { path: 'kb', element: <KnowledgeBasePage /> },
+        { path: 'kb/articles/:articleId', element: <DocumentPage /> },
+        { path: 'processing', element: <ProcessingPage /> },
+        { path: '*', element: <Navigate to="/kb" replace /> },
+      ],
     },
   ],
   {
