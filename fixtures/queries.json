@@ -1,0 +1,32 @@
+{
+  "queries": [
+    {
+      "id": "fees-reduce",
+      "label": "Reduce USDT fees",
+      "text": "How can I reduce USDT TRC-20 transaction fees?",
+      "filters": {},
+      "expected_level": "HIGH"
+    },
+    {
+      "id": "rental-forecast",
+      "label": "Energy rental cost in 2027",
+      "text": "What will Energy rental cost in 2027?",
+      "filters": {},
+      "expected_level": "LOW"
+    },
+    {
+      "id": "multisig-fees",
+      "label": "Multisig and fees",
+      "text": "How does multisig affect transaction fees?",
+      "filters": {},
+      "expected_level": "MEDIUM"
+    },
+    {
+      "id": "fees-reduce-tr",
+      "label": "Reduce USDT fees (TR only)",
+      "text": "How can I reduce USDT TRC-20 transaction fees?",
+      "filters": { "language": "TR" },
+      "expected_level": "LOW"
+    }
+  ]
+}

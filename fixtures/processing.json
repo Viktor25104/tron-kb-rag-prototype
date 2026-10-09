@@ -1,0 +1,589 @@
+{
+  "project_id": "tron-pool-energy",
+  "jobs": [
+    {
+      "article_id": "art-usdt-fees-en",
+      "status": "PROCESSED",
+      "current_stage": null,
+      "updated_at": "2026-09-18T10:20:00Z",
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 840,
+          "counters": {
+            "characters": 19254
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 360,
+          "counters": {
+            "sections": 4
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "COMPLETED",
+          "duration_ms": 1900,
+          "counters": {
+            "chunks": 12
+          }
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "COMPLETED",
+          "duration_ms": 12800,
+          "counters": {
+            "facts": 8,
+            "claims": 3,
+            "entities": 6
+          }
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "COMPLETED",
+          "duration_ms": 6200,
+          "counters": {
+            "embedded": 12,
+            "total": 12
+          }
+        },
+        {
+          "stage": "INDEXED",
+          "state": "COMPLETED",
+          "duration_ms": 520,
+          "counters": {
+            "indexed": 12
+          }
+        }
+      ],
+      "error": null
+    },
+    {
+      "article_id": "art-energy-works",
+      "status": "PROCESSED",
+      "current_stage": null,
+      "updated_at": "2026-07-02T08:00:00Z",
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 777,
+          "counters": {
+            "characters": 14406
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 337,
+          "counters": {
+            "sections": 4
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "COMPLETED",
+          "duration_ms": 1749,
+          "counters": {
+            "chunks": 10
+          }
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "COMPLETED",
+          "duration_ms": 11740,
+          "counters": {
+            "facts": 5,
+            "claims": 1,
+            "entities": 7
+          }
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "COMPLETED",
+          "duration_ms": 5690,
+          "counters": {
+            "embedded": 10,
+            "total": 10
+          }
+        },
+        {
+          "stage": "INDEXED",
+          "state": "COMPLETED",
+          "duration_ms": 484,
+          "counters": {
+            "indexed": 10
+          }
+        }
+      ],
+      "error": null
+    },
+    {
+      "article_id": "art-rental-vs-burn",
+      "status": "PROCESSED",
+      "current_stage": null,
+      "updated_at": "2026-08-21T14:45:00Z",
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 784,
+          "counters": {
+            "characters": 13050
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 344,
+          "counters": {
+            "sections": 3
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "COMPLETED",
+          "duration_ms": 1756,
+          "counters": {
+            "chunks": 10
+          }
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "COMPLETED",
+          "duration_ms": 11747,
+          "counters": {
+            "facts": 5,
+            "claims": 2,
+            "entities": 4
+          }
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "COMPLETED",
+          "duration_ms": 5697,
+          "counters": {
+            "embedded": 10,
+            "total": 10
+          }
+        },
+        {
+          "stage": "INDEXED",
+          "state": "COMPLETED",
+          "duration_ms": 491,
+          "counters": {
+            "indexed": 10
+          }
+        }
+      ],
+      "error": null
+    },
+    {
+      "article_id": "art-bandwidth",
+      "status": "PROCESSED",
+      "current_stage": null,
+      "updated_at": "2026-05-14T09:30:00Z",
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 791,
+          "counters": {
+            "characters": 10698
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 351,
+          "counters": {
+            "sections": 3
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "COMPLETED",
+          "duration_ms": 1763,
+          "counters": {
+            "chunks": 10
+          }
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "COMPLETED",
+          "duration_ms": 11754,
+          "counters": {
+            "facts": 5,
+            "claims": 1,
+            "entities": 7
+          }
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "COMPLETED",
+          "duration_ms": 5704,
+          "counters": {
+            "embedded": 10,
+            "total": 10
+          }
+        },
+        {
+          "stage": "INDEXED",
+          "state": "COMPLETED",
+          "duration_ms": 498,
+          "counters": {
+            "indexed": 10
+          }
+        }
+      ],
+      "error": null
+    },
+    {
+      "article_id": "art-usdt-fees-ru",
+      "status": "PROCESSED",
+      "current_stage": null,
+      "updated_at": "2026-09-25T11:00:00Z",
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 798,
+          "counters": {
+            "characters": 10740
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 358,
+          "counters": {
+            "sections": 3
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "COMPLETED",
+          "duration_ms": 1770,
+          "counters": {
+            "chunks": 10
+          }
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "COMPLETED",
+          "duration_ms": 11761,
+          "counters": {
+            "facts": 3,
+            "claims": 1,
+            "entities": 6
+          }
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "COMPLETED",
+          "duration_ms": 5711,
+          "counters": {
+            "embedded": 10,
+            "total": 10
+          }
+        },
+        {
+          "stage": "INDEXED",
+          "state": "COMPLETED",
+          "duration_ms": 505,
+          "counters": {
+            "indexed": 10
+          }
+        }
+      ],
+      "error": null
+    },
+    {
+      "article_id": "art-wallet-setup",
+      "status": "PROCESSED",
+      "current_stage": null,
+      "updated_at": "2026-06-10T16:10:00Z",
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 805,
+          "counters": {
+            "characters": 11286
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 365,
+          "counters": {
+            "sections": 3
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "COMPLETED",
+          "duration_ms": 1777,
+          "counters": {
+            "chunks": 10
+          }
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "COMPLETED",
+          "duration_ms": 11768,
+          "counters": {
+            "facts": 4,
+            "claims": 1,
+            "entities": 6
+          }
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "COMPLETED",
+          "duration_ms": 5718,
+          "counters": {
+            "embedded": 10,
+            "total": 10
+          }
+        },
+        {
+          "stage": "INDEXED",
+          "state": "COMPLETED",
+          "duration_ms": 512,
+          "counters": {
+            "indexed": 10
+          }
+        }
+      ],
+      "error": null
+    },
+    {
+      "article_id": "art-delegation-guide",
+      "status": "FAILED",
+      "current_stage": "EMBEDDING",
+      "updated_at": "2026-10-06T07:42:00Z",
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 882,
+          "counters": {
+            "characters": 10614
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 402,
+          "counters": {
+            "sections": 3
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "COMPLETED",
+          "duration_ms": 1942,
+          "counters": {
+            "chunks": 12
+          }
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "COMPLETED",
+          "duration_ms": 12842,
+          "counters": {
+            "facts": 3,
+            "claims": 0,
+            "entities": 4
+          }
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "FAILED",
+          "duration_ms": 93412,
+          "counters": {
+            "embedded": 3,
+            "total": 12
+          }
+        },
+        {
+          "stage": "INDEXED",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        }
+      ],
+      "error": {
+        "stage": "EMBEDDING",
+        "message": "embedding provider timeout (3 retries)",
+        "retries": 3,
+        "occurred_at": "2026-10-06T07:44:12Z",
+        "log": [
+          "2026-10-06T07:42:51Z INFO  embedding batch 1/4 (3 chunks) ok in 2.9s",
+          "2026-10-06T07:43:21Z WARN  embedding batch 2/4 timed out after 30s, retry 1/3",
+          "2026-10-06T07:43:51Z WARN  embedding batch 2/4 timed out after 30s, retry 2/3",
+          "2026-10-06T07:44:12Z WARN  embedding batch 2/4 timed out after 30s, retry 3/3",
+          "2026-10-06T07:44:12Z ERROR embedding provider timeout (3 retries); 3/12 chunks embedded, job halted"
+        ]
+      }
+    },
+    {
+      "article_id": "art-trc20-vs-erc20",
+      "status": "PROCESSING",
+      "current_stage": "CHUNKING",
+      "updated_at": "2026-10-08T13:05:00Z",
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 451,
+          "counters": {
+            "characters": 18240
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 211,
+          "counters": {
+            "sections": 3
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "RUNNING",
+          "duration_ms": null,
+          "counters": {}
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        },
+        {
+          "stage": "INDEXED",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        }
+      ],
+      "error": null
+    },
+    {
+      "article_id": "art-usdt-fees-tr",
+      "status": "QUEUED",
+      "current_stage": null,
+      "updated_at": "2026-10-09T06:30:00Z",
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        },
+        {
+          "stage": "INDEXED",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        }
+      ],
+      "error": null
+    },
+    {
+      "article_id": "art-multisig",
+      "status": "PROCESSED",
+      "current_stage": null,
+      "updated_at": "2026-04-03T12:00:00Z",
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 833,
+          "counters": {
+            "characters": 11550
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 393,
+          "counters": {
+            "sections": 3
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "COMPLETED",
+          "duration_ms": 1805,
+          "counters": {
+            "chunks": 10
+          }
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "COMPLETED",
+          "duration_ms": 11796,
+          "counters": {
+            "facts": 4,
+            "claims": 1,
+            "entities": 6
+          }
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "COMPLETED",
+          "duration_ms": 5746,
+          "counters": {
+            "embedded": 10,
+            "total": 10
+          }
+        },
+        {
+          "stage": "INDEXED",
+          "state": "COMPLETED",
+          "duration_ms": 540,
+          "counters": {
+            "indexed": 10
+          }
+        }
+      ],
+      "error": null
+    }
+  ]
+}

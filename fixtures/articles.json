@@ -1,0 +1,1328 @@
+{
+  "project_id": "tron-pool-energy",
+  "embedding_model": "text-embedding-3-small",
+  "articles": [
+    {
+      "id": "art-usdt-fees-en",
+      "title": "USDT TRC-20 Transaction Fees",
+      "url": "https://tron-pool-energy.example/blog/usdt-trc20-transaction-fees",
+      "source_id": "src-tpe",
+      "language": "EN",
+      "version": "1.2",
+      "status": "PROCESSED",
+      "updated_at": "2026-09-18T10:20:00Z",
+      "chunk_count": 12,
+      "embedded_count": 12,
+      "versions": [
+        {
+          "version": "1.0",
+          "released_at": "2026-03-02",
+          "change_reason": "Initial publication",
+          "is_live": false
+        },
+        {
+          "version": "1.1",
+          "released_at": "2026-05-27",
+          "change_reason": "Energy price updated after governance vote",
+          "is_live": false
+        },
+        {
+          "version": "1.2",
+          "released_at": "2026-09-18",
+          "change_reason": "Added section on checking the fee before sending",
+          "is_live": true
+        }
+      ],
+      "sections": [
+        {
+          "id": "sec-fees-1",
+          "title": "What you pay for a USDT transfer",
+          "chunks": [
+            {
+              "id": "ch-fees-1-1",
+              "text": "Every USDT transfer on TRON is a call to the TRC-20 token contract, so the network charges for the computation in Energy and for the transaction size in Bandwidth. A standard transfer uses about 345 bytes of Bandwidth and roughly 65,000 Energy when the recipient already holds USDT. If the recipient address has never held USDT, the contract has to create a new storage slot and the cost roughly doubles to about 130,000 Energy.",
+              "semantic_tags": [
+                "usdt",
+                "trc20",
+                "transfer",
+                "transaction",
+                "fee",
+                "energy",
+                "bandwidth",
+                "cost"
+              ]
+            },
+            {
+              "id": "ch-fees-1-2",
+              "text": "When the sender has no staked or rented Energy, the network burns TRX to cover it. At the current price of 210 sun per unit of Energy, a transfer to an address that already holds USDT burns about 13.7 TRX, and a transfer to an empty address burns about 27 TRX. These amounts dominate the total fee; the Bandwidth part is usually covered by the free daily allowance.",
+              "semantic_tags": [
+                "usdt",
+                "trc20",
+                "transaction",
+                "fee",
+                "burn",
+                "trx",
+                "energy",
+                "cost"
+              ]
+            },
+            {
+              "id": "ch-fees-1-3",
+              "text": "Fees are paid by the sender only. The recipient pays nothing to receive USDT, and the amount transferred does not affect the fee: moving 10 USDT costs the same Energy as moving 100,000 USDT.",
+              "semantic_tags": [
+                "usdt",
+                "trc20",
+                "fee",
+                "transaction",
+                "sender"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec-fees-2",
+          "title": "Ways to reduce the fee",
+          "chunks": [
+            {
+              "id": "ch-fees-2-1",
+              "text": "The most effective way to reduce USDT TRC-20 transaction fees is to pay with Energy instead of burning TRX. Energy can be obtained by staking TRX under Stake 2.0 or by renting it from an Energy provider for a fixed period. Renting 65,000 Energy for one hour typically costs a fraction of the 13.7 TRX that would otherwise be burned.",
+              "semantic_tags": [
+                "reduce",
+                "usdt",
+                "trc20",
+                "transaction",
+                "fee",
+                "energy",
+                "rental",
+                "staking"
+              ]
+            },
+            {
+              "id": "ch-fees-2-2",
+              "text": "Staking makes sense for wallets that send transfers every day: staked TRX produces Energy that regenerates over 24 hours. For occasional transfers, renting is cheaper because no capital is locked for the 14-day unstaking period.",
+              "semantic_tags": [
+                "reduce",
+                "fee",
+                "staking",
+                "energy",
+                "rental",
+                "cost",
+                "trx"
+              ]
+            },
+            {
+              "id": "ch-fees-2-3",
+              "text": "Batching payouts also helps. Sending funds to recipients that already hold USDT avoids the doubled Energy cost of a first transfer, and consolidating many small payments into fewer transfers reduces the total number of contract calls and the total fee.",
+              "semantic_tags": [
+                "reduce",
+                "usdt",
+                "trc20",
+                "transaction",
+                "fee",
+                "batching",
+                "transfer"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec-fees-3",
+          "title": "Checking the fee before sending",
+          "chunks": [
+            {
+              "id": "ch-fees-3-1",
+              "text": "Wallets estimate Energy usage before broadcasting, but the estimate can be off when the recipient state changes. Tronscan shows the exact Energy and Bandwidth consumed by each confirmed transaction, which is the reliable way to audit what a transfer actually cost.",
+              "semantic_tags": [
+                "fee",
+                "estimate",
+                "energy",
+                "bandwidth",
+                "tronscan",
+                "transaction"
+              ]
+            },
+            {
+              "id": "ch-fees-3-2",
+              "text": "If a transfer fails because the sender ran out of Energy and had too little TRX to burn, the consumed resources are not refunded. Keeping a buffer of 30 TRX on the sending address prevents failed transfers when the dynamic Energy factor raises the cost of a USDT call.",
+              "semantic_tags": [
+                "fee",
+                "trx",
+                "failed",
+                "transaction",
+                "energy",
+                "usdt"
+              ]
+            },
+            {
+              "id": "ch-fees-3-3",
+              "text": "Wallets usually show the fee in TRX even when the transfer will be paid with Energy. If the estimate is not zero, the Energy on the address does not cover the whole call, and the remainder will be burned as TRX.",
+              "semantic_tags": [
+                "fee",
+                "estimate",
+                "energy",
+                "trx",
+                "wallet"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec-fees-4",
+          "title": "Fees at scale",
+          "chunks": [
+            {
+              "id": "ch-fees-4-1",
+              "text": "Exchanges and payment processors send thousands of USDT transfers a day, so they usually stake TRX for a baseline of Energy and rent extra Energy for peaks. Mixing the two keeps the average cost per transfer predictable without locking capital for the busiest days.",
+              "semantic_tags": [
+                "usdt",
+                "energy",
+                "staking",
+                "rental",
+                "cost",
+                "business"
+              ]
+            },
+            {
+              "id": "ch-fees-4-2",
+              "text": "Scheduled payouts are easier to optimise than ad-hoc ones. Grouping withdrawals into batches lets an operator rent Energy once for the whole batch instead of per transfer, which also simplifies accounting.",
+              "semantic_tags": [
+                "batching",
+                "rental",
+                "energy",
+                "business",
+                "payout"
+              ]
+            },
+            {
+              "id": "ch-fees-4-3",
+              "text": "Sweeping customer deposit addresses into a hot wallet is itself a series of TRC-20 transfers, and every sweep pays the full Energy cost. Operators sweep only balances large enough to justify that cost.",
+              "semantic_tags": [
+                "usdt",
+                "trc20",
+                "sweep",
+                "wallet",
+                "business"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-energy-works",
+      "title": "How TRON Energy Works",
+      "url": "https://developers.tron.network/docs/resource-model#energy",
+      "source_id": "src-tron-docs",
+      "language": "EN",
+      "version": "1.1",
+      "status": "PROCESSED",
+      "updated_at": "2026-07-02T08:00:00Z",
+      "chunk_count": 10,
+      "embedded_count": 10,
+      "versions": [
+        {
+          "version": "1.0",
+          "released_at": "2025-11-14",
+          "change_reason": "Imported from TRON developer docs",
+          "is_live": false
+        },
+        {
+          "version": "1.1",
+          "released_at": "2026-07-02",
+          "change_reason": "Dynamic Energy section re-synced with upstream",
+          "is_live": true
+        }
+      ],
+      "sections": [
+        {
+          "id": "sec-energy-1",
+          "title": "Energy as a resource",
+          "chunks": [
+            {
+              "id": "ch-energy-1-1",
+              "text": "Energy is the TRON resource consumed by smart contract execution. Every instruction executed by the TRON Virtual Machine costs Energy, so contract calls such as TRC-20 transfers need far more of it than plain TRX transfers, which use only Bandwidth.",
+              "semantic_tags": [
+                "energy",
+                "resource",
+                "contract",
+                "trc20",
+                "trx",
+                "transaction"
+              ]
+            },
+            {
+              "id": "ch-energy-1-2",
+              "text": "An account obtains Energy in two ways: by staking TRX, which grants a share of the network's total Energy proportional to the stake, or by receiving delegated Energy from another account. If neither is available, the transaction burns TRX at the network Energy price.",
+              "semantic_tags": [
+                "energy",
+                "staking",
+                "delegation",
+                "burn",
+                "trx",
+                "fee"
+              ]
+            },
+            {
+              "id": "ch-energy-1-3",
+              "text": "Plain TRX transfers and TRC-10 token transfers do not execute contract code and consume no Energy. Only calls into smart contracts, including every TRC-20 token operation, are metered in Energy.",
+              "semantic_tags": [
+                "energy",
+                "trx",
+                "contract",
+                "trc20"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec-energy-2",
+          "title": "Regeneration and limits",
+          "chunks": [
+            {
+              "id": "ch-energy-2-1",
+              "text": "Energy obtained through staking regenerates gradually over 24 hours after use. The amount an account receives depends on its stake relative to the total TRX staked for Energy across the network, so the same stake yields less Energy when more TRX is staked overall.",
+              "semantic_tags": [
+                "energy",
+                "staking",
+                "regeneration",
+                "trx"
+              ]
+            },
+            {
+              "id": "ch-energy-2-2",
+              "text": "Each contract call sets a fee limit in TRX. If execution needs more Energy than the account holds plus what the fee limit allows it to burn, the call fails with an out-of-energy error and the resources consumed up to that point are still charged.",
+              "semantic_tags": [
+                "energy",
+                "fee",
+                "limit",
+                "contract",
+                "failed",
+                "trx"
+              ]
+            },
+            {
+              "id": "ch-energy-2-3",
+              "text": "Unstaking under Stake 2.0 releases the TRX after a 14-day waiting period. During that time the stake no longer produces Energy, so an account that unstakes should plan to burn TRX or rent Energy until the funds are back.",
+              "semantic_tags": [
+                "staking",
+                "energy",
+                "unstake",
+                "trx"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec-energy-3",
+          "title": "Dynamic Energy model",
+          "chunks": [
+            {
+              "id": "ch-energy-3-1",
+              "text": "Popular contracts are subject to the dynamic Energy model: when a contract's usage exceeds a threshold during a maintenance period, the Energy cost of calling it increases by an energy factor. The USDT TRC-20 contract has been subject to this adjustment during periods of heavy usage, which raises the fee of every transfer.",
+              "semantic_tags": [
+                "energy",
+                "dynamic",
+                "contract",
+                "usdt",
+                "trc20",
+                "fee",
+                "cost",
+                "transaction"
+              ]
+            },
+            {
+              "id": "ch-energy-3-2",
+              "text": "The network Energy price is set by TRON governance through Super Representative votes. The unit price was lowered from 420 sun to 210 sun in 2024, which halved the TRX burned for contract calls.",
+              "semantic_tags": [
+                "energy",
+                "price",
+                "governance",
+                "trx",
+                "burn",
+                "cost"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec-energy-4",
+          "title": "Monitoring Energy usage",
+          "chunks": [
+            {
+              "id": "ch-energy-4-1",
+              "text": "Account resources are visible through the getaccountresource API and on Tronscan: the Energy limit, Energy used in the current window and the amounts delegated in or out. Checking them before a batch of transfers avoids unexpected burns.",
+              "semantic_tags": [
+                "energy",
+                "monitoring",
+                "api",
+                "tronscan"
+              ]
+            },
+            {
+              "id": "ch-energy-4-2",
+              "text": "Each transaction receipt records energy_usage and energy_fee. Summing energy_fee over a period gives the TRX actually burned, which is the baseline any staking or rental strategy should be compared against.",
+              "semantic_tags": [
+                "energy",
+                "receipt",
+                "trx",
+                "monitoring"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-rental-vs-burn",
+      "title": "Energy Rental vs Burning TRX",
+      "url": "https://tron-pool-energy.example/blog/energy-rental-vs-burning-trx",
+      "source_id": "src-tpe",
+      "language": "EN",
+      "version": "1.0",
+      "status": "PROCESSED",
+      "updated_at": "2026-08-21T14:45:00Z",
+      "chunk_count": 10,
+      "embedded_count": 10,
+      "versions": [
+        {
+          "version": "1.0",
+          "released_at": "2026-08-21",
+          "change_reason": "Initial publication",
+          "is_live": true
+        }
+      ],
+      "sections": [
+        {
+          "id": "sec-rental-1",
+          "title": "Burning TRX",
+          "chunks": [
+            {
+              "id": "ch-rental-1-1",
+              "text": "Burning is the default: when a sender has no Energy, the network converts TRX into the Energy a contract call needs. It requires no setup, but it is the most expensive way to pay for USDT transfers, and the amount follows the network Energy price set by governance.",
+              "semantic_tags": [
+                "burn",
+                "trx",
+                "energy",
+                "price",
+                "usdt"
+              ]
+            },
+            {
+              "id": "ch-rental-1-2",
+              "text": "For a business sending a few hundred USDT transfers per month, burning can amount to several thousand TRX. That spend is predictable only while the network Energy price stays unchanged.",
+              "semantic_tags": [
+                "burn",
+                "trx",
+                "business",
+                "usdt",
+                "price"
+              ]
+            },
+            {
+              "id": "ch-rental-1-3",
+              "text": "Burning has one operational advantage: it never depends on a third party. For low-volume senders who value simplicity, keeping a TRX balance and burning is a legitimate choice.",
+              "semantic_tags": [
+                "burn",
+                "trx",
+                "simplicity"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec-rental-2",
+          "title": "Renting Energy",
+          "chunks": [
+            {
+              "id": "ch-rental-2-1",
+              "text": "Energy rental providers delegate Energy from their own staked TRX to the customer's address for a fixed period, typically one hour to 30 days. The customer pays in TRX and the delegation is reclaimed automatically when the period ends.",
+              "semantic_tags": [
+                "rental",
+                "energy",
+                "delegation",
+                "provider",
+                "period"
+              ]
+            },
+            {
+              "id": "ch-rental-2-2",
+              "text": "Rental prices are quoted per unit of Energy per period and move with demand. Market prices for one-hour rentals have ranged widely, and providers do not publish forward pricing, so any estimate of future rental prices is a guess.",
+              "semantic_tags": [
+                "rental",
+                "price",
+                "market",
+                "energy",
+                "forecast"
+              ]
+            },
+            {
+              "id": "ch-rental-2-3",
+              "text": "Rental orders specify an amount of Energy and a receiving address. Ordering slightly more than one transfer needs leaves room for the dynamic Energy factor, which can push a USDT call above the usual 65,000 units.",
+              "semantic_tags": [
+                "rental",
+                "energy",
+                "order",
+                "usdt",
+                "dynamic"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec-rental-3",
+          "title": "Choosing between them",
+          "chunks": [
+            {
+              "id": "ch-rental-3-1",
+              "text": "Rental is cheaper than burning whenever the rental price per unit is below the burn price, which has held for most of the market's history. Burning remains a fallback when a rental order fails or the delegation expires mid-batch.",
+              "semantic_tags": [
+                "rental",
+                "burn",
+                "compare",
+                "energy",
+                "price"
+              ]
+            },
+            {
+              "id": "ch-rental-3-2",
+              "text": "Providers also differ in minimum order size and in how fast delegation lands on the address. A slow delegation means the transfer burns TRX anyway, so latency matters as much as the quoted price.",
+              "semantic_tags": [
+                "rental",
+                "provider",
+                "delegation",
+                "latency"
+              ]
+            },
+            {
+              "id": "ch-rental-3-3",
+              "text": "A rule of thumb: addresses that send a few USDT transfers a week can burn or use short rentals, daily senders benefit from longer rentals, and high-volume operators combine staking with rentals for peaks.",
+              "semantic_tags": [
+                "rental",
+                "burn",
+                "staking",
+                "usdt",
+                "compare"
+              ]
+            },
+            {
+              "id": "ch-rental-3-4",
+              "text": "When comparing providers, look at the effective price per transfer rather than the quoted price per unit. Minimum order sizes and Energy left unused at the end of a period change the real figure more than small differences in the headline rate.",
+              "semantic_tags": [
+                "rental",
+                "provider",
+                "price",
+                "compare"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-bandwidth",
+      "title": "Bandwidth Explained",
+      "url": "https://developers.tron.network/docs/resource-model#bandwidth",
+      "source_id": "src-tron-docs",
+      "language": "EN",
+      "version": "1.0",
+      "status": "PROCESSED",
+      "updated_at": "2026-05-14T09:30:00Z",
+      "chunk_count": 10,
+      "embedded_count": 10,
+      "versions": [
+        {
+          "version": "1.0",
+          "released_at": "2026-05-14",
+          "change_reason": "Imported from TRON developer docs",
+          "is_live": true
+        }
+      ],
+      "sections": [
+        {
+          "id": "sec-bw-1",
+          "title": "What Bandwidth pays for",
+          "chunks": [
+            {
+              "id": "ch-bw-1-1",
+              "text": "Bandwidth pays for the size of a transaction in bytes. Every transaction, including TRX transfers and TRC-20 contract calls, consumes Bandwidth equal to its serialized size; a typical USDT transfer is about 345 bytes.",
+              "semantic_tags": [
+                "bandwidth",
+                "transaction",
+                "size",
+                "trc20",
+                "usdt"
+              ]
+            },
+            {
+              "id": "ch-bw-1-2",
+              "text": "Each activated account receives 600 free Bandwidth points per day. Accounts that need more can stake TRX for Bandwidth or burn TRX at 1,000 sun per byte.",
+              "semantic_tags": [
+                "bandwidth",
+                "free",
+                "staking",
+                "burn",
+                "trx"
+              ]
+            },
+            {
+              "id": "ch-bw-1-3",
+              "text": "Free Bandwidth regenerates over 24 hours, like Energy. Bandwidth from staked TRX is used first, the free allowance covers the rest, and only when both run out does the transaction burn TRX.",
+              "semantic_tags": [
+                "bandwidth",
+                "free",
+                "staking",
+                "regeneration",
+                "trx"
+              ]
+            },
+            {
+              "id": "ch-bw-1-4",
+              "text": "Memo fields, extra signatures and larger contract parameters all increase the serialized size of a transaction and therefore its Bandwidth use. A plain TRX transfer is the smallest common transaction at roughly 270 bytes.",
+              "semantic_tags": [
+                "bandwidth",
+                "size",
+                "transaction",
+                "trx"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec-bw-2",
+          "title": "Bandwidth and fees",
+          "chunks": [
+            {
+              "id": "ch-bw-2-1",
+              "text": "For most wallets the free allowance covers one or two transfers a day, which is why Bandwidth rarely shows up in the fee. Exchanges and payment processors exceed it quickly and pay for Bandwidth explicitly.",
+              "semantic_tags": [
+                "bandwidth",
+                "fee",
+                "free",
+                "wallet"
+              ]
+            },
+            {
+              "id": "ch-bw-2-2",
+              "text": "Creating a new account by sending TRX to an unused address costs an additional 1 TRX on top of the Bandwidth for the transaction itself.",
+              "semantic_tags": [
+                "account",
+                "activation",
+                "fee",
+                "trx",
+                "bandwidth"
+              ]
+            },
+            {
+              "id": "ch-bw-2-3",
+              "text": "Burned Bandwidth is cheap next to Energy: a 345-byte USDT transfer burns about 0.35 TRX at 1,000 sun per byte, against roughly 13.7 TRX for the Energy part.",
+              "semantic_tags": [
+                "bandwidth",
+                "burn",
+                "usdt",
+                "energy",
+                "cost"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec-bw-3",
+          "title": "Planning Bandwidth",
+          "chunks": [
+            {
+              "id": "ch-bw-3-1",
+              "text": "Staking TRX for Bandwidth pays off only for accounts that send many transactions per day. For most users the free allowance plus occasional burning is cheaper than locking TRX for 14 days.",
+              "semantic_tags": [
+                "bandwidth",
+                "staking",
+                "cost",
+                "trx"
+              ]
+            },
+            {
+              "id": "ch-bw-3-2",
+              "text": "Bandwidth can be delegated under Stake 2.0 just like Energy, so a treasury account can cover the Bandwidth of many hot wallets from a single stake.",
+              "semantic_tags": [
+                "bandwidth",
+                "delegation",
+                "staking",
+                "wallet"
+              ]
+            },
+            {
+              "id": "ch-bw-3-3",
+              "text": "Payment systems monitor free Bandwidth per address: once an address runs out, every outgoing transaction starts burning TRX, which shows up as small but frequent charges.",
+              "semantic_tags": [
+                "bandwidth",
+                "monitoring",
+                "trx"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-usdt-fees-ru",
+      "title": "Комиссии USDT TRC-20",
+      "url": "https://tron-pool-energy.example/ru/blog/usdt-trc20-komissii",
+      "source_id": "src-tpe",
+      "language": "RU",
+      "version": "1.0",
+      "status": "PROCESSED",
+      "updated_at": "2026-09-25T11:00:00Z",
+      "chunk_count": 10,
+      "embedded_count": 10,
+      "versions": [
+        {
+          "version": "1.0",
+          "released_at": "2026-09-25",
+          "change_reason": "Translation of USDT TRC-20 Transaction Fees v1.2",
+          "is_live": true
+        }
+      ],
+      "sections": [
+        {
+          "id": "sec-feesru-1",
+          "title": "Из чего складывается комиссия",
+          "chunks": [
+            {
+              "id": "ch-feesru-1-1",
+              "text": "Каждый перевод USDT в сети TRON — это вызов контракта TRC-20, поэтому сеть берёт плату энергией за вычисления и пропускной способностью за размер транзакции. Перевод на адрес, где уже есть USDT, расходует около 65 000 единиц энергии, перевод на пустой адрес — около 130 000.",
+              "semantic_tags": [
+                "usdt",
+                "trc20",
+                "fee",
+                "transaction",
+                "energy",
+                "bandwidth"
+              ]
+            },
+            {
+              "id": "ch-feesru-1-2",
+              "text": "Если у отправителя нет энергии, сеть сжигает TRX: около 13,7 TRX за обычный перевод и около 27 TRX за перевод на новый адрес. Получатель ничего не платит, а сумма перевода на комиссию не влияет.",
+              "semantic_tags": [
+                "usdt",
+                "trc20",
+                "fee",
+                "burn",
+                "trx"
+              ]
+            },
+            {
+              "id": "ch-feesru-1-3",
+              "text": "Комиссию платит только отправитель. Получатель ничего не платит за входящий перевод USDT, а сумма перевода на расход энергии не влияет: 10 USDT и 100 000 USDT стоят одинаково.",
+              "semantic_tags": [
+                "usdt",
+                "trc20",
+                "fee",
+                "sender"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec-feesru-2",
+          "title": "Как снизить комиссию",
+          "chunks": [
+            {
+              "id": "ch-feesru-2-1",
+              "text": "Самый действенный способ снизить комиссию — оплачивать перевод энергией, а не сжигать TRX. Энергию можно получить стейкингом TRX или арендовать у провайдера на нужный срок.",
+              "semantic_tags": [
+                "reduce",
+                "fee",
+                "energy",
+                "rental",
+                "staking",
+                "usdt",
+                "trc20"
+              ]
+            },
+            {
+              "id": "ch-feesru-2-2",
+              "text": "Для редких переводов аренда выгоднее стейкинга: не нужно замораживать капитал на 14 дней вывода из стейкинга.",
+              "semantic_tags": [
+                "reduce",
+                "rental",
+                "staking",
+                "cost"
+              ]
+            },
+            {
+              "id": "ch-feesru-2-3",
+              "text": "Пакетные выплаты тоже помогают: отправка на адреса, где уже есть USDT, избавляет от удвоенного расхода энергии, а объединение мелких платежей сокращает число вызовов контракта.",
+              "semantic_tags": [
+                "reduce",
+                "batching",
+                "usdt",
+                "fee"
+              ]
+            },
+            {
+              "id": "ch-feesru-2-4",
+              "text": "Стейкинг оправдан для кошельков, которые отправляют переводы каждый день: застейканные TRX дают энергию, которая восстанавливается за 24 часа.",
+              "semantic_tags": [
+                "staking",
+                "energy",
+                "reduce",
+                "trx"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec-feesru-3",
+          "title": "Проверка комиссии перед отправкой",
+          "chunks": [
+            {
+              "id": "ch-feesru-3-1",
+              "text": "Кошельки оценивают расход энергии до отправки, но оценка может ошибаться, если состояние получателя изменилось. Точный расход энергии и пропускной способности по каждой транзакции показывает Tronscan.",
+              "semantic_tags": [
+                "fee",
+                "estimate",
+                "energy",
+                "bandwidth",
+                "tronscan"
+              ]
+            },
+            {
+              "id": "ch-feesru-3-2",
+              "text": "Если перевод упал из-за нехватки энергии, а TRX для сжигания не хватило, израсходованные ресурсы не возвращаются. Запас в 30 TRX на адресе отправителя защищает от таких сбоев.",
+              "semantic_tags": [
+                "fee",
+                "trx",
+                "failed",
+                "energy"
+              ]
+            },
+            {
+              "id": "ch-feesru-3-3",
+              "text": "При высокой нагрузке на контракт USDT действует динамическая модель энергии, и стоимость вызова растёт. Это стоит учитывать, когда энергия арендуется под конкретный перевод.",
+              "semantic_tags": [
+                "energy",
+                "dynamic",
+                "usdt",
+                "rental"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-wallet-setup",
+      "title": "TRON Wallet Setup Guide",
+      "url": "https://tron-pool-energy.example/guides/tron-wallet-setup",
+      "source_id": "src-tpe",
+      "language": "EN",
+      "version": "1.1",
+      "status": "PROCESSED",
+      "updated_at": "2026-06-10T16:10:00Z",
+      "chunk_count": 10,
+      "embedded_count": 10,
+      "versions": [
+        {
+          "version": "1.0",
+          "released_at": "2024-02-19",
+          "change_reason": "Initial publication",
+          "is_live": false
+        },
+        {
+          "version": "1.1",
+          "released_at": "2026-06-10",
+          "change_reason": "Rewrote the section on preparing to send USDT",
+          "is_live": true
+        }
+      ],
+      "sections": [
+        {
+          "id": "sec-wallet-1",
+          "title": "Creating a wallet",
+          "chunks": [
+            {
+              "id": "ch-wallet-1-1",
+              "text": "A TRON wallet is a key pair: the private key signs transactions and the address is derived from the public key. Write down the recovery phrase offline before funding the address; anyone with the phrase controls the funds.",
+              "semantic_tags": [
+                "wallet",
+                "key",
+                "address",
+                "security"
+              ]
+            },
+            {
+              "id": "ch-wallet-1-2",
+              "text": "A new address is not active on-chain until it receives its first TRX or TRC-20 transfer. Activation costs the sender 1 TRX, so fund the address with TRX first if it will pay its own fees.",
+              "semantic_tags": [
+                "wallet",
+                "activation",
+                "trx",
+                "trc20",
+                "fee"
+              ]
+            },
+            {
+              "id": "ch-wallet-1-3",
+              "text": "Hardware wallets keep the private key on a separate device and sign transactions there, which protects funds even if the computer is compromised. Most of them support TRON and TRC-20 tokens through companion apps.",
+              "semantic_tags": [
+                "wallet",
+                "security",
+                "hardware",
+                "key"
+              ]
+            },
+            {
+              "id": "ch-wallet-1-4",
+              "text": "TRON addresses start with the letter T and are 34 characters long. USDT sent to an address on another network cannot be recovered, so check the network before confirming.",
+              "semantic_tags": [
+                "wallet",
+                "address",
+                "network",
+                "usdt"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec-wallet-2",
+          "title": "Preparing to send USDT",
+          "chunks": [
+            {
+              "id": "ch-wallet-2-1",
+              "text": "Before the first USDT transfer, keep enough TRX on the address to burn for Energy, or rent Energy in advance. A wallet that holds USDT but no TRX and no Energy cannot send USDT at all.",
+              "semantic_tags": [
+                "usdt",
+                "wallet",
+                "trx",
+                "energy",
+                "fee",
+                "transfer"
+              ]
+            },
+            {
+              "id": "ch-wallet-2-2",
+              "text": "Each account receives 5,000 free Bandwidth points per day, which is enough for several transfers without paying for Bandwidth.",
+              "semantic_tags": [
+                "bandwidth",
+                "free",
+                "wallet"
+              ]
+            },
+            {
+              "id": "ch-wallet-2-3",
+              "text": "Test a new setup with a small transfer first. Confirming that a few USDT arrive and checking the Energy and TRX consumed on Tronscan costs little and catches address mistakes before larger amounts move.",
+              "semantic_tags": [
+                "usdt",
+                "wallet",
+                "test",
+                "transfer",
+                "energy"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec-wallet-3",
+          "title": "Keeping the wallet safe",
+          "chunks": [
+            {
+              "id": "ch-wallet-3-1",
+              "text": "Never share the recovery phrase or private key, and be careful with sites that ask to connect a wallet and approve token spending. A malicious approval lets a contract move TRC-20 tokens without further confirmation.",
+              "semantic_tags": [
+                "wallet",
+                "security",
+                "approval",
+                "trc20"
+              ]
+            },
+            {
+              "id": "ch-wallet-3-2",
+              "text": "Review token approvals periodically and revoke the ones you no longer need. Revoking an approval is a contract call and consumes Energy like any other TRC-20 operation.",
+              "semantic_tags": [
+                "wallet",
+                "approval",
+                "energy",
+                "trc20"
+              ]
+            },
+            {
+              "id": "ch-wallet-3-3",
+              "text": "For larger balances, split funds between a hot wallet for daily transfers and a cold wallet that rarely signs anything. Treasury setups often require approval from several keys on the cold side.",
+              "semantic_tags": [
+                "wallet",
+                "security",
+                "cold",
+                "hot"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-delegation-guide",
+      "title": "Energy Delegation Guide",
+      "url": "https://tron-pool-energy.example/guides/energy-delegation",
+      "source_id": "src-tpe",
+      "language": "EN",
+      "version": "1.0",
+      "status": "FAILED",
+      "updated_at": "2026-10-06T07:42:00Z",
+      "chunk_count": 12,
+      "embedded_count": 3,
+      "versions": [
+        {
+          "version": "1.0",
+          "released_at": "2026-10-06",
+          "change_reason": "Initial publication",
+          "is_live": true
+        }
+      ],
+      "sections": [
+        {
+          "id": "sec-deleg-1",
+          "title": "Delegation under Stake 2.0",
+          "chunks": [
+            {
+              "id": "ch-deleg-1-1",
+              "text": "Stake 2.0 lets an account delegate the Energy produced by its staked TRX to any other address without transferring the TRX itself. The delegator keeps ownership and can reclaim the resources at any time unless the delegation is locked.",
+              "semantic_tags": [
+                "delegation",
+                "energy",
+                "staking",
+                "trx"
+              ]
+            },
+            {
+              "id": "ch-deleg-1-2",
+              "text": "Delegation can be locked for a fixed period, during which the delegator cannot reclaim it. Rental providers use locked delegation so customers are guaranteed the Energy for the paid term.",
+              "semantic_tags": [
+                "delegation",
+                "lock",
+                "rental",
+                "energy"
+              ]
+            },
+            {
+              "id": "ch-deleg-1-3",
+              "text": "Only staked TRX can back a delegation. Delegating does not move the voting power of the stake, which stays with the delegator.",
+              "semantic_tags": [
+                "delegation",
+                "staking",
+                "trx",
+                "voting"
+              ],
+              "embedded": true
+            },
+            {
+              "id": "ch-deleg-1-4",
+              "text": "A receiver cannot re-delegate resources it received; only the original staker can delegate them.",
+              "semantic_tags": [
+                "delegation",
+                "receiver"
+              ],
+              "embedded": false
+            }
+          ]
+        },
+        {
+          "id": "sec-deleg-2",
+          "title": "Delegating and reclaiming",
+          "chunks": [
+            {
+              "id": "ch-deleg-2-1",
+              "text": "To delegate, the account calls DelegateResource with the receiver address, the resource type and the amount of staked TRX backing it. Reclaiming uses UnDelegateResource and takes effect immediately unless a lock is active.",
+              "semantic_tags": [
+                "delegation",
+                "api",
+                "energy",
+                "trx"
+              ],
+              "embedded": false
+            },
+            {
+              "id": "ch-deleg-2-2",
+              "text": "Delegated Energy is consumed by the receiver like its own Energy, while regeneration is driven by the delegator's stake.",
+              "semantic_tags": [
+                "delegation",
+                "energy",
+                "regeneration"
+              ],
+              "embedded": false
+            },
+            {
+              "id": "ch-deleg-2-3",
+              "text": "Delegating Bandwidth works the same way, with the resource type set to BANDWIDTH instead of ENERGY.",
+              "semantic_tags": [
+                "delegation",
+                "bandwidth",
+                "api"
+              ],
+              "embedded": false
+            },
+            {
+              "id": "ch-deleg-2-4",
+              "text": "Every DelegateResource and UnDelegateResource call is a transaction of its own and consumes Bandwidth, so frequent re-delegation has a small but real cost.",
+              "semantic_tags": [
+                "delegation",
+                "bandwidth",
+                "cost"
+              ],
+              "embedded": false
+            }
+          ]
+        },
+        {
+          "id": "sec-deleg-3",
+          "title": "Delegation in practice",
+          "chunks": [
+            {
+              "id": "ch-deleg-3-1",
+              "text": "Teams with several hot wallets often stake once on a treasury account and delegate Energy to each wallet according to its expected volume.",
+              "semantic_tags": [
+                "delegation",
+                "energy",
+                "wallet",
+                "staking"
+              ],
+              "embedded": false
+            },
+            {
+              "id": "ch-deleg-3-2",
+              "text": "Delegated amounts can be rebalanced without unstaking: reclaim part of the delegation from a quiet wallet and delegate it to a busy one.",
+              "semantic_tags": [
+                "delegation",
+                "energy",
+                "rebalance"
+              ],
+              "embedded": false
+            },
+            {
+              "id": "ch-deleg-3-3",
+              "text": "Tronscan lists delegations in and out for every account, which makes it the quickest way to audit who holds a treasury's resources.",
+              "semantic_tags": [
+                "delegation",
+                "monitoring",
+                "tronscan"
+              ],
+              "embedded": false
+            },
+            {
+              "id": "ch-deleg-3-4",
+              "text": "Track locked delegations together with their expiry dates: the delegator can reclaim the resources only after the lock ends.",
+              "semantic_tags": [
+                "delegation",
+                "lock"
+              ],
+              "embedded": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-trc20-vs-erc20",
+      "title": "TRC-20 vs ERC-20 Comparison",
+      "url": "https://tron-pool-energy.example/blog/trc20-vs-erc20",
+      "source_id": "src-tpe",
+      "language": "EN",
+      "version": "1.0",
+      "status": "PROCESSING",
+      "updated_at": "2026-10-08T13:05:00Z",
+      "chunk_count": 0,
+      "embedded_count": 0,
+      "versions": [
+        {
+          "version": "1.0",
+          "released_at": "2026-10-08",
+          "change_reason": "Initial publication",
+          "is_live": true
+        }
+      ],
+      "sections": [
+        {
+          "id": "sec-trc20-1",
+          "title": "Token standards at a glance",
+          "chunks": []
+        },
+        {
+          "id": "sec-trc20-2",
+          "title": "Fees on TRON and Ethereum",
+          "chunks": []
+        },
+        {
+          "id": "sec-trc20-3",
+          "title": "When to use which network",
+          "chunks": []
+        }
+      ]
+    },
+    {
+      "id": "art-usdt-fees-tr",
+      "title": "USDT TRC-20 İşlem Ücretleri",
+      "url": "https://tron-pool-energy.example/tr/blog/usdt-trc20-islem-ucretleri",
+      "source_id": "src-tpe",
+      "language": "TR",
+      "version": "1.0",
+      "status": "QUEUED",
+      "updated_at": "2026-10-09T06:30:00Z",
+      "chunk_count": 0,
+      "embedded_count": 0,
+      "versions": [
+        {
+          "version": "1.0",
+          "released_at": "2026-10-09",
+          "change_reason": "Translation of USDT TRC-20 Transaction Fees v1.2",
+          "is_live": true
+        }
+      ],
+      "sections": []
+    },
+    {
+      "id": "art-multisig",
+      "title": "Multi-signature on TRON",
+      "url": "https://developers.tron.network/docs/multi-signature",
+      "source_id": "src-tron-docs",
+      "language": "EN",
+      "version": "1.0",
+      "status": "PROCESSED",
+      "updated_at": "2026-04-03T12:00:00Z",
+      "chunk_count": 10,
+      "embedded_count": 10,
+      "versions": [
+        {
+          "version": "1.0",
+          "released_at": "2026-04-03",
+          "change_reason": "Imported from TRON developer docs",
+          "is_live": true
+        }
+      ],
+      "sections": [
+        {
+          "id": "sec-msig-1",
+          "title": "Permissions model",
+          "chunks": [
+            {
+              "id": "ch-msig-1-1",
+              "text": "TRON accounts support multi-signature through a permission system: an owner permission, an optional witness permission and up to eight active permissions. Each permission lists keys with weights and a threshold that the combined signature weight must reach.",
+              "semantic_tags": [
+                "multisig",
+                "permission",
+                "key",
+                "threshold",
+                "account"
+              ]
+            },
+            {
+              "id": "ch-msig-1-2",
+              "text": "Active permissions can be restricted to specific operations, for example allowing a key to transfer TRX and call contracts but not to change permissions.",
+              "semantic_tags": [
+                "multisig",
+                "permission",
+                "operation",
+                "trx"
+              ]
+            },
+            {
+              "id": "ch-msig-1-3",
+              "text": "The owner permission can change every other permission, including itself, so its keys should be kept offline. A common pattern is a 2-of-3 owner permission with keys held by different people.",
+              "semantic_tags": [
+                "multisig",
+                "permission",
+                "owner",
+                "key",
+                "security"
+              ]
+            },
+            {
+              "id": "ch-msig-1-4",
+              "text": "Witness permissions exist only for Super Representative accounts and control block production keys. Ordinary accounts never need them.",
+              "semantic_tags": [
+                "multisig",
+                "permission",
+                "witness"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec-msig-2",
+          "title": "Fees for multi-signature",
+          "chunks": [
+            {
+              "id": "ch-msig-2-1",
+              "text": "Updating account permissions with AccountPermissionUpdate costs 100 TRX, burned from the account. The fee applies every time the permission structure changes, so a multisig setup should be planned before it is activated.",
+              "semantic_tags": [
+                "multisig",
+                "fee",
+                "transaction",
+                "permission",
+                "update",
+                "trx",
+                "cost"
+              ]
+            },
+            {
+              "id": "ch-msig-2-2",
+              "text": "A transaction signed under a multi-signature permission pays an additional 1 TRX fee on top of the usual Energy and Bandwidth costs, so multisig raises the fee of every USDT transfer sent from such an account.",
+              "semantic_tags": [
+                "multisig",
+                "fee",
+                "transaction",
+                "usdt",
+                "signature",
+                "cost"
+              ]
+            },
+            {
+              "id": "ch-msig-2-3",
+              "text": "Because every permission change burns 100 TRX, teams usually rehearse a new permission structure on the Nile testnet before applying it on mainnet, where mistakes are expensive and can lock an account.",
+              "semantic_tags": [
+                "multisig",
+                "permission",
+                "testnet",
+                "trx"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec-msig-3",
+          "title": "Operating a multisig account",
+          "chunks": [
+            {
+              "id": "ch-msig-3-1",
+              "text": "Signatures are collected off-chain: one party creates the transaction, the others sign it within the transaction expiration window, and any party can broadcast it once the threshold is met.",
+              "semantic_tags": [
+                "multisig",
+                "signature",
+                "transaction",
+                "broadcast"
+              ]
+            },
+            {
+              "id": "ch-msig-3-2",
+              "text": "Each extra signature on a multisig transaction adds about 65 bytes, which increases the Bandwidth it consumes and, once the free allowance is spent, the fee.",
+              "semantic_tags": [
+                "multisig",
+                "signature",
+                "bandwidth",
+                "transaction",
+                "fee"
+              ]
+            },
+            {
+              "id": "ch-msig-3-3",
+              "text": "If the combined weight of the available keys falls below the threshold, the account can no longer sign with that permission. Keeping a recovery key in the owner permission prevents funds from being locked for good.",
+              "semantic_tags": [
+                "multisig",
+                "threshold",
+                "recovery",
+                "key"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

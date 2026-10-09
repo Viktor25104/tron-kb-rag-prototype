@@ -1,7 +1,7 @@
 UV ?= uv
 BACKEND := backend
 
-.PHONY: install dev test lint
+.PHONY: install dev test lint export-fixtures
 
 install:
 	cd $(BACKEND) && $(UV) sync
@@ -14,3 +14,6 @@ test:
 
 lint:
 	cd $(BACKEND) && $(UV) run ruff check . && $(UV) run ruff format --check . && $(UV) run mypy
+
+export-fixtures:
+	cd $(BACKEND) && $(UV) run python -m scripts.export_traces
