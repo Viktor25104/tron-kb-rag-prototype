@@ -1,0 +1,4856 @@
+{
+  "articles": [
+    {
+      "id": "art-usdt-fees-en",
+      "project_id": "tron-pool-energy",
+      "title": "USDT TRC-20 Transaction Fees",
+      "url": "https://tron-pool-energy.example/blog/usdt-trc20-transaction-fees",
+      "source_id": "src-tpe",
+      "language": "EN",
+      "version": "1.2",
+      "status": "PROCESSED",
+      "updated_at": "2026-09-18T10:20:00Z",
+      "chunk_count": 12,
+      "embedded_count": 12,
+      "fact_counts": {
+        "VERIFIED": 5,
+        "UNVERIFIED": 3,
+        "OUTDATED": 0,
+        "CONFLICTING": 0,
+        "NO_SOURCE": 0
+      }
+    },
+    {
+      "id": "art-energy-works",
+      "project_id": "tron-pool-energy",
+      "title": "How TRON Energy Works",
+      "url": "https://developers.tron.network/docs/resource-model#energy",
+      "source_id": "src-tron-docs",
+      "language": "EN",
+      "version": "1.1",
+      "status": "PROCESSED",
+      "updated_at": "2026-07-02T08:00:00Z",
+      "chunk_count": 10,
+      "embedded_count": 10,
+      "fact_counts": {
+        "VERIFIED": 5,
+        "UNVERIFIED": 0,
+        "OUTDATED": 0,
+        "CONFLICTING": 0,
+        "NO_SOURCE": 0
+      }
+    },
+    {
+      "id": "art-rental-vs-burn",
+      "project_id": "tron-pool-energy",
+      "title": "Energy Rental vs Burning TRX",
+      "url": "https://tron-pool-energy.example/blog/energy-rental-vs-burning-trx",
+      "source_id": "src-tpe",
+      "language": "EN",
+      "version": "1.0",
+      "status": "PROCESSED",
+      "updated_at": "2026-08-21T14:45:00Z",
+      "chunk_count": 10,
+      "embedded_count": 10,
+      "fact_counts": {
+        "VERIFIED": 1,
+        "UNVERIFIED": 2,
+        "OUTDATED": 0,
+        "CONFLICTING": 2,
+        "NO_SOURCE": 0
+      }
+    },
+    {
+      "id": "art-bandwidth",
+      "project_id": "tron-pool-energy",
+      "title": "Bandwidth Explained",
+      "url": "https://developers.tron.network/docs/resource-model#bandwidth",
+      "source_id": "src-tron-docs",
+      "language": "EN",
+      "version": "1.0",
+      "status": "PROCESSED",
+      "updated_at": "2026-05-14T09:30:00Z",
+      "chunk_count": 10,
+      "embedded_count": 10,
+      "fact_counts": {
+        "VERIFIED": 5,
+        "UNVERIFIED": 0,
+        "OUTDATED": 0,
+        "CONFLICTING": 0,
+        "NO_SOURCE": 0
+      }
+    },
+    {
+      "id": "art-usdt-fees-ru",
+      "project_id": "tron-pool-energy",
+      "title": "Комиссии USDT TRC-20",
+      "url": "https://tron-pool-energy.example/ru/blog/usdt-trc20-komissii",
+      "source_id": "src-tpe",
+      "language": "RU",
+      "version": "1.0",
+      "status": "PROCESSED",
+      "updated_at": "2026-09-25T11:00:00Z",
+      "chunk_count": 10,
+      "embedded_count": 10,
+      "fact_counts": {
+        "VERIFIED": 2,
+        "UNVERIFIED": 1,
+        "OUTDATED": 0,
+        "CONFLICTING": 0,
+        "NO_SOURCE": 0
+      }
+    },
+    {
+      "id": "art-wallet-setup",
+      "project_id": "tron-pool-energy",
+      "title": "TRON Wallet Setup Guide",
+      "url": "https://tron-pool-energy.example/guides/tron-wallet-setup",
+      "source_id": "src-tpe",
+      "language": "EN",
+      "version": "1.1",
+      "status": "PROCESSED",
+      "updated_at": "2026-06-10T16:10:00Z",
+      "chunk_count": 10,
+      "embedded_count": 10,
+      "fact_counts": {
+        "VERIFIED": 3,
+        "UNVERIFIED": 0,
+        "OUTDATED": 1,
+        "CONFLICTING": 0,
+        "NO_SOURCE": 0
+      }
+    },
+    {
+      "id": "art-delegation-guide",
+      "project_id": "tron-pool-energy",
+      "title": "Energy Delegation Guide",
+      "url": "https://tron-pool-energy.example/guides/energy-delegation",
+      "source_id": "src-tpe",
+      "language": "EN",
+      "version": "1.0",
+      "status": "FAILED",
+      "updated_at": "2026-10-06T07:42:00Z",
+      "chunk_count": 12,
+      "embedded_count": 3,
+      "fact_counts": {
+        "VERIFIED": 2,
+        "UNVERIFIED": 1,
+        "OUTDATED": 0,
+        "CONFLICTING": 0,
+        "NO_SOURCE": 0
+      }
+    },
+    {
+      "id": "art-trc20-vs-erc20",
+      "project_id": "tron-pool-energy",
+      "title": "TRC-20 vs ERC-20 Comparison",
+      "url": "https://tron-pool-energy.example/blog/trc20-vs-erc20",
+      "source_id": "src-tpe",
+      "language": "EN",
+      "version": "1.0",
+      "status": "PROCESSING",
+      "updated_at": "2026-10-08T13:05:00Z",
+      "chunk_count": 0,
+      "embedded_count": 0,
+      "fact_counts": {
+        "VERIFIED": 0,
+        "UNVERIFIED": 0,
+        "OUTDATED": 0,
+        "CONFLICTING": 0,
+        "NO_SOURCE": 0
+      }
+    },
+    {
+      "id": "art-usdt-fees-tr",
+      "project_id": "tron-pool-energy",
+      "title": "USDT TRC-20 İşlem Ücretleri",
+      "url": "https://tron-pool-energy.example/tr/blog/usdt-trc20-islem-ucretleri",
+      "source_id": "src-tpe",
+      "language": "TR",
+      "version": "1.0",
+      "status": "QUEUED",
+      "updated_at": "2026-10-09T06:30:00Z",
+      "chunk_count": 0,
+      "embedded_count": 0,
+      "fact_counts": {
+        "VERIFIED": 0,
+        "UNVERIFIED": 0,
+        "OUTDATED": 0,
+        "CONFLICTING": 0,
+        "NO_SOURCE": 0
+      }
+    },
+    {
+      "id": "art-multisig",
+      "project_id": "tron-pool-energy",
+      "title": "Multi-signature on TRON",
+      "url": "https://developers.tron.network/docs/multi-signature",
+      "source_id": "src-tron-docs",
+      "language": "EN",
+      "version": "1.0",
+      "status": "PROCESSED",
+      "updated_at": "2026-04-03T12:00:00Z",
+      "chunk_count": 10,
+      "embedded_count": 10,
+      "fact_counts": {
+        "VERIFIED": 2,
+        "UNVERIFIED": 1,
+        "OUTDATED": 0,
+        "CONFLICTING": 1,
+        "NO_SOURCE": 0
+      }
+    }
+  ],
+  "article_topics": {
+    "art-usdt-fees-en": [
+      "top-cost",
+      "top-fees"
+    ],
+    "art-energy-works": [
+      "top-energy"
+    ],
+    "art-rental-vs-burn": [
+      "top-rental",
+      "top-cost"
+    ],
+    "art-bandwidth": [
+      "top-tron",
+      "top-fees"
+    ],
+    "art-usdt-fees-ru": [
+      "top-cost",
+      "top-fees"
+    ],
+    "art-wallet-setup": [
+      "top-transfers"
+    ],
+    "art-delegation-guide": [
+      "top-delegation"
+    ],
+    "art-trc20-vs-erc20": [
+      "top-usdt-trc20"
+    ],
+    "art-usdt-fees-tr": [
+      "top-fees"
+    ],
+    "art-multisig": [
+      "top-tron"
+    ]
+  },
+  "details": {
+    "art-usdt-fees-en": {
+      "article": {
+        "id": "art-usdt-fees-en",
+        "project_id": "tron-pool-energy",
+        "title": "USDT TRC-20 Transaction Fees",
+        "url": "https://tron-pool-energy.example/blog/usdt-trc20-transaction-fees",
+        "source_id": "src-tpe",
+        "language": "EN",
+        "version": "1.2",
+        "status": "PROCESSED",
+        "updated_at": "2026-09-18T10:20:00Z",
+        "chunk_count": 12,
+        "embedded_count": 12,
+        "sections": [
+          {
+            "id": "sec-fees-1",
+            "title": "What you pay for a USDT transfer",
+            "order": 1,
+            "chunks": [
+              {
+                "id": "ch-fees-1-1",
+                "section_id": "sec-fees-1",
+                "article_id": "art-usdt-fees-en",
+                "text": "Every USDT transfer on TRON is a call to the TRC-20 token contract, so the network charges for the computation in Energy and for the transaction size in Bandwidth. A standard transfer uses about 345 bytes of Bandwidth and roughly 65,000 Energy when the recipient already holds USDT. If the recipient address has never held USDT, the contract has to create a new storage slot and the cost roughly doubles to about 130,000 Energy.",
+                "token_count": 107,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-18T10:20:00Z",
+                "semantic_tags": [
+                  "usdt",
+                  "trc20",
+                  "transfer",
+                  "transaction",
+                  "fee",
+                  "energy",
+                  "bandwidth",
+                  "cost"
+                ]
+              },
+              {
+                "id": "ch-fees-1-2",
+                "section_id": "sec-fees-1",
+                "article_id": "art-usdt-fees-en",
+                "text": "When the sender has no staked or rented Energy, the network burns TRX to cover it. At the current price of 210 sun per unit of Energy, a transfer to an address that already holds USDT burns about 13.7 TRX, and a transfer to an empty address burns about 27 TRX. These amounts dominate the total fee; the Bandwidth part is usually covered by the free daily allowance.",
+                "token_count": 91,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-18T10:20:00Z",
+                "semantic_tags": [
+                  "usdt",
+                  "trc20",
+                  "transaction",
+                  "fee",
+                  "burn",
+                  "trx",
+                  "energy",
+                  "cost"
+                ]
+              },
+              {
+                "id": "ch-fees-1-3",
+                "section_id": "sec-fees-1",
+                "article_id": "art-usdt-fees-en",
+                "text": "Fees are paid by the sender only. The recipient pays nothing to receive USDT, and the amount transferred does not affect the fee: moving 10 USDT costs the same Energy as moving 100,000 USDT.",
+                "token_count": 47,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-18T10:20:00Z",
+                "semantic_tags": [
+                  "usdt",
+                  "trc20",
+                  "fee",
+                  "transaction",
+                  "sender"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-fees-2",
+            "title": "Ways to reduce the fee",
+            "order": 2,
+            "chunks": [
+              {
+                "id": "ch-fees-2-1",
+                "section_id": "sec-fees-2",
+                "article_id": "art-usdt-fees-en",
+                "text": "The most effective way to reduce USDT TRC-20 transaction fees is to pay with Energy instead of burning TRX. Energy can be obtained by staking TRX under Stake 2.0 or by renting it from an Energy provider for a fixed period. Renting 65,000 Energy for one hour typically costs a fraction of the 13.7 TRX that would otherwise be burned.",
+                "token_count": 83,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-18T10:20:00Z",
+                "semantic_tags": [
+                  "reduce",
+                  "usdt",
+                  "trc20",
+                  "transaction",
+                  "fee",
+                  "energy",
+                  "rental",
+                  "staking"
+                ]
+              },
+              {
+                "id": "ch-fees-2-2",
+                "section_id": "sec-fees-2",
+                "article_id": "art-usdt-fees-en",
+                "text": "Staking makes sense for wallets that send transfers every day: staked TRX produces Energy that regenerates over 24 hours. For occasional transfers, renting is cheaper because no capital is locked for the 14-day unstaking period.",
+                "token_count": 57,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-18T10:20:00Z",
+                "semantic_tags": [
+                  "reduce",
+                  "fee",
+                  "staking",
+                  "energy",
+                  "rental",
+                  "cost",
+                  "trx"
+                ]
+              },
+              {
+                "id": "ch-fees-2-3",
+                "section_id": "sec-fees-2",
+                "article_id": "art-usdt-fees-en",
+                "text": "Batching payouts also helps. Sending funds to recipients that already hold USDT avoids the doubled Energy cost of a first transfer, and consolidating many small payments into fewer transfers reduces the total number of contract calls and the total fee.",
+                "token_count": 63,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-18T10:20:00Z",
+                "semantic_tags": [
+                  "reduce",
+                  "usdt",
+                  "trc20",
+                  "transaction",
+                  "fee",
+                  "batching",
+                  "transfer"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-fees-3",
+            "title": "Checking the fee before sending",
+            "order": 3,
+            "chunks": [
+              {
+                "id": "ch-fees-3-1",
+                "section_id": "sec-fees-3",
+                "article_id": "art-usdt-fees-en",
+                "text": "Wallets estimate Energy usage before broadcasting, but the estimate can be off when the recipient state changes. Tronscan shows the exact Energy and Bandwidth consumed by each confirmed transaction, which is the reliable way to audit what a transfer actually cost.",
+                "token_count": 66,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-18T10:20:00Z",
+                "semantic_tags": [
+                  "fee",
+                  "estimate",
+                  "energy",
+                  "bandwidth",
+                  "tronscan",
+                  "transaction"
+                ]
+              },
+              {
+                "id": "ch-fees-3-2",
+                "section_id": "sec-fees-3",
+                "article_id": "art-usdt-fees-en",
+                "text": "If a transfer fails because the sender ran out of Energy and had too little TRX to burn, the consumed resources are not refunded. Keeping a buffer of 30 TRX on the sending address prevents failed transfers when the dynamic Energy factor raises the cost of a USDT call.",
+                "token_count": 67,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-18T10:20:00Z",
+                "semantic_tags": [
+                  "fee",
+                  "trx",
+                  "failed",
+                  "transaction",
+                  "energy",
+                  "usdt"
+                ]
+              },
+              {
+                "id": "ch-fees-3-3",
+                "section_id": "sec-fees-3",
+                "article_id": "art-usdt-fees-en",
+                "text": "Wallets usually show the fee in TRX even when the transfer will be paid with Energy. If the estimate is not zero, the Energy on the address does not cover the whole call, and the remainder will be burned as TRX.",
+                "token_count": 52,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-18T10:20:00Z",
+                "semantic_tags": [
+                  "fee",
+                  "estimate",
+                  "energy",
+                  "trx",
+                  "wallet"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-fees-4",
+            "title": "Fees at scale",
+            "order": 4,
+            "chunks": [
+              {
+                "id": "ch-fees-4-1",
+                "section_id": "sec-fees-4",
+                "article_id": "art-usdt-fees-en",
+                "text": "Exchanges and payment processors send thousands of USDT transfers a day, so they usually stake TRX for a baseline of Energy and rent extra Energy for peaks. Mixing the two keeps the average cost per transfer predictable without locking capital for the busiest days.",
+                "token_count": 66,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-18T10:20:00Z",
+                "semantic_tags": [
+                  "usdt",
+                  "energy",
+                  "staking",
+                  "rental",
+                  "cost",
+                  "business"
+                ]
+              },
+              {
+                "id": "ch-fees-4-2",
+                "section_id": "sec-fees-4",
+                "article_id": "art-usdt-fees-en",
+                "text": "Scheduled payouts are easier to optimise than ad-hoc ones. Grouping withdrawals into batches lets an operator rent Energy once for the whole batch instead of per transfer, which also simplifies accounting.",
+                "token_count": 51,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-18T10:20:00Z",
+                "semantic_tags": [
+                  "batching",
+                  "rental",
+                  "energy",
+                  "business",
+                  "payout"
+                ]
+              },
+              {
+                "id": "ch-fees-4-3",
+                "section_id": "sec-fees-4",
+                "article_id": "art-usdt-fees-en",
+                "text": "Sweeping customer deposit addresses into a hot wallet is itself a series of TRC-20 transfers, and every sweep pays the full Energy cost. Operators sweep only balances large enough to justify that cost.",
+                "token_count": 50,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-18T10:20:00Z",
+                "semantic_tags": [
+                  "usdt",
+                  "trc20",
+                  "sweep",
+                  "wallet",
+                  "business"
+                ]
+              }
+            ]
+          }
+        ],
+        "versions": [
+          {
+            "version": "1.0",
+            "released_at": "2026-03-02",
+            "change_reason": "Initial publication",
+            "is_live": false
+          },
+          {
+            "version": "1.1",
+            "released_at": "2026-05-27",
+            "change_reason": "Energy price updated after governance vote",
+            "is_live": false
+          },
+          {
+            "version": "1.2",
+            "released_at": "2026-09-18",
+            "change_reason": "Added section on checking the fee before sending",
+            "is_live": true
+          }
+        ]
+      },
+      "facts": [
+        {
+          "id": "fact-fees-1",
+          "chunk_id": "ch-fees-1-1",
+          "statement": "A USDT TRC-20 transfer to an address that already holds USDT consumes about 65,000 Energy.",
+          "status": "VERIFIED",
+          "source_id": "src-tronscan",
+          "verified_at": "2026-09-10T09:00:00Z"
+        },
+        {
+          "id": "fact-fees-2",
+          "chunk_id": "ch-fees-1-1",
+          "statement": "A USDT TRC-20 transfer to an address without USDT consumes about 130,000 Energy.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-09-10T09:00:00Z"
+        },
+        {
+          "id": "fact-fees-3",
+          "chunk_id": "ch-fees-1-2",
+          "statement": "When the sender has no Energy, the network burns 210 sun of TRX per unit of Energy.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-09-12T10:30:00Z"
+        },
+        {
+          "id": "fact-fees-4",
+          "chunk_id": "ch-fees-2-1",
+          "statement": "Paying for USDT TRC-20 transfers with staked or rented Energy is cheaper than burning TRX.",
+          "status": "VERIFIED",
+          "source_id": "src-tpe",
+          "verified_at": "2026-09-14T15:00:00Z"
+        },
+        {
+          "id": "fact-fees-5",
+          "chunk_id": "ch-fees-2-2",
+          "statement": "Unstaking TRX under Stake 2.0 takes 14 days.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-08-30T08:00:00Z"
+        },
+        {
+          "id": "fact-fees-7",
+          "chunk_id": "ch-fees-2-3",
+          "statement": "Sending USDT to an address that already holds USDT halves the Energy cost compared with a first transfer.",
+          "status": "UNVERIFIED",
+          "source_id": "src-tpe",
+          "verified_at": null
+        },
+        {
+          "id": "fact-fees-8",
+          "chunk_id": "ch-fees-2-3",
+          "statement": "Consolidating small payments into fewer transfers lowers the total monthly fee.",
+          "status": "UNVERIFIED",
+          "source_id": "src-tpe",
+          "verified_at": null
+        },
+        {
+          "id": "fact-fees-6",
+          "chunk_id": "ch-fees-3-2",
+          "statement": "A buffer of 30 TRX on the sending address prevents failed USDT transfers.",
+          "status": "UNVERIFIED",
+          "source_id": "src-tpe",
+          "verified_at": null
+        }
+      ],
+      "claims": [
+        {
+          "id": "claim-fees-1",
+          "chunk_id": "ch-fees-2-1",
+          "statement": "Renting Energy from TRON POOL ENERGY cuts USDT transfer fees by up to 70%.",
+          "status": "UNVERIFIED",
+          "source_id": "src-tpe"
+        },
+        {
+          "id": "claim-fees-2",
+          "chunk_id": "ch-fees-2-3",
+          "statement": "Batching payouts saves up to 40% on monthly transfer fees.",
+          "status": "NO_SOURCE",
+          "source_id": null
+        },
+        {
+          "id": "claim-fees-3",
+          "chunk_id": "ch-fees-3-1",
+          "statement": "Tronscan is the most reliable way to audit transfer costs.",
+          "status": "UNVERIFIED",
+          "source_id": "src-tpe"
+        }
+      ],
+      "entities": [
+        {
+          "id": "ent-tron",
+          "name": "TRON",
+          "type": "NETWORK",
+          "aliases": [
+            "tron network"
+          ]
+        },
+        {
+          "id": "ent-trx",
+          "name": "TRX",
+          "type": "TOKEN",
+          "aliases": [
+            "tronix"
+          ]
+        },
+        {
+          "id": "ent-usdt",
+          "name": "USDT",
+          "type": "TOKEN",
+          "aliases": [
+            "tether"
+          ]
+        },
+        {
+          "id": "ent-trc20",
+          "name": "TRC-20",
+          "type": "TOKEN_STANDARD",
+          "aliases": [
+            "trc20",
+            "trc 20"
+          ]
+        },
+        {
+          "id": "ent-energy",
+          "name": "Energy",
+          "type": "RESOURCE",
+          "aliases": [
+            "энергия",
+            "энергии",
+            "энергией"
+          ]
+        },
+        {
+          "id": "ent-bandwidth",
+          "name": "Bandwidth",
+          "type": "RESOURCE",
+          "aliases": [
+            "bandwidth points"
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "id": "top-cost",
+          "name": "Cost",
+          "parent_id": "top-energy"
+        },
+        {
+          "id": "top-fees",
+          "name": "Fees",
+          "parent_id": "top-usdt-trc20"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-tpe",
+          "name": "TRON POOL ENERGY",
+          "type": "SITE",
+          "url": "https://tron-pool-energy.example",
+          "reliability": 0.8
+        },
+        {
+          "id": "src-tronscan",
+          "name": "Tronscan",
+          "type": "EXTERNAL",
+          "url": "https://tronscan.org",
+          "reliability": 0.85
+        },
+        {
+          "id": "src-tron-docs",
+          "name": "TRON Docs",
+          "type": "TRON_DOCS",
+          "url": "https://developers.tron.network/docs",
+          "reliability": 0.95
+        }
+      ],
+      "chunk_entities": {
+        "ch-fees-1-1": [
+          "ent-bandwidth",
+          "ent-energy",
+          "ent-trc20",
+          "ent-tron",
+          "ent-usdt"
+        ],
+        "ch-fees-1-2": [
+          "ent-bandwidth",
+          "ent-energy",
+          "ent-trc20",
+          "ent-trx",
+          "ent-usdt"
+        ],
+        "ch-fees-1-3": [
+          "ent-energy",
+          "ent-trc20",
+          "ent-usdt"
+        ],
+        "ch-fees-2-1": [
+          "ent-energy",
+          "ent-trc20",
+          "ent-trx",
+          "ent-usdt"
+        ],
+        "ch-fees-2-2": [
+          "ent-energy",
+          "ent-trx"
+        ],
+        "ch-fees-2-3": [
+          "ent-energy",
+          "ent-trc20",
+          "ent-usdt"
+        ],
+        "ch-fees-3-1": [
+          "ent-bandwidth",
+          "ent-energy"
+        ],
+        "ch-fees-3-2": [
+          "ent-energy",
+          "ent-trc20",
+          "ent-trx",
+          "ent-usdt"
+        ],
+        "ch-fees-3-3": [
+          "ent-energy",
+          "ent-trx"
+        ],
+        "ch-fees-4-1": [
+          "ent-energy",
+          "ent-trx",
+          "ent-usdt"
+        ],
+        "ch-fees-4-2": [
+          "ent-energy",
+          "ent-usdt"
+        ],
+        "ch-fees-4-3": [
+          "ent-energy",
+          "ent-trc20",
+          "ent-usdt"
+        ]
+      }
+    },
+    "art-energy-works": {
+      "article": {
+        "id": "art-energy-works",
+        "project_id": "tron-pool-energy",
+        "title": "How TRON Energy Works",
+        "url": "https://developers.tron.network/docs/resource-model#energy",
+        "source_id": "src-tron-docs",
+        "language": "EN",
+        "version": "1.1",
+        "status": "PROCESSED",
+        "updated_at": "2026-07-02T08:00:00Z",
+        "chunk_count": 10,
+        "embedded_count": 10,
+        "sections": [
+          {
+            "id": "sec-energy-1",
+            "title": "Energy as a resource",
+            "order": 1,
+            "chunks": [
+              {
+                "id": "ch-energy-1-1",
+                "section_id": "sec-energy-1",
+                "article_id": "art-energy-works",
+                "text": "Energy is the TRON resource consumed by smart contract execution. Every instruction executed by the TRON Virtual Machine costs Energy, so contract calls such as TRC-20 transfers need far more of it than plain TRX transfers, which use only Bandwidth.",
+                "token_count": 62,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-07-02T08:00:00Z",
+                "semantic_tags": [
+                  "energy",
+                  "resource",
+                  "contract",
+                  "trc20",
+                  "trx",
+                  "transaction"
+                ]
+              },
+              {
+                "id": "ch-energy-1-2",
+                "section_id": "sec-energy-1",
+                "article_id": "art-energy-works",
+                "text": "An account obtains Energy in two ways: by staking TRX, which grants a share of the network's total Energy proportional to the stake, or by receiving delegated Energy from another account. If neither is available, the transaction burns TRX at the network Energy price.",
+                "token_count": 66,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-07-02T08:00:00Z",
+                "semantic_tags": [
+                  "energy",
+                  "staking",
+                  "delegation",
+                  "burn",
+                  "trx",
+                  "fee"
+                ]
+              },
+              {
+                "id": "ch-energy-1-3",
+                "section_id": "sec-energy-1",
+                "article_id": "art-energy-works",
+                "text": "Plain TRX transfers and TRC-10 token transfers do not execute contract code and consume no Energy. Only calls into smart contracts, including every TRC-20 token operation, are metered in Energy.",
+                "token_count": 48,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-07-02T08:00:00Z",
+                "semantic_tags": [
+                  "energy",
+                  "trx",
+                  "contract",
+                  "trc20"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-energy-2",
+            "title": "Regeneration and limits",
+            "order": 2,
+            "chunks": [
+              {
+                "id": "ch-energy-2-1",
+                "section_id": "sec-energy-2",
+                "article_id": "art-energy-works",
+                "text": "Energy obtained through staking regenerates gradually over 24 hours after use. The amount an account receives depends on its stake relative to the total TRX staked for Energy across the network, so the same stake yields less Energy when more TRX is staked overall.",
+                "token_count": 66,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-07-02T08:00:00Z",
+                "semantic_tags": [
+                  "energy",
+                  "staking",
+                  "regeneration",
+                  "trx"
+                ]
+              },
+              {
+                "id": "ch-energy-2-2",
+                "section_id": "sec-energy-2",
+                "article_id": "art-energy-works",
+                "text": "Each contract call sets a fee limit in TRX. If execution needs more Energy than the account holds plus what the fee limit allows it to burn, the call fails with an out-of-energy error and the resources consumed up to that point are still charged.",
+                "token_count": 61,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-07-02T08:00:00Z",
+                "semantic_tags": [
+                  "energy",
+                  "fee",
+                  "limit",
+                  "contract",
+                  "failed",
+                  "trx"
+                ]
+              },
+              {
+                "id": "ch-energy-2-3",
+                "section_id": "sec-energy-2",
+                "article_id": "art-energy-works",
+                "text": "Unstaking under Stake 2.0 releases the TRX after a 14-day waiting period. During that time the stake no longer produces Energy, so an account that unstakes should plan to burn TRX or rent Energy until the funds are back.",
+                "token_count": 55,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-07-02T08:00:00Z",
+                "semantic_tags": [
+                  "staking",
+                  "energy",
+                  "unstake",
+                  "trx"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-energy-3",
+            "title": "Dynamic Energy model",
+            "order": 3,
+            "chunks": [
+              {
+                "id": "ch-energy-3-1",
+                "section_id": "sec-energy-3",
+                "article_id": "art-energy-works",
+                "text": "Popular contracts are subject to the dynamic Energy model: when a contract's usage exceeds a threshold during a maintenance period, the Energy cost of calling it increases by an energy factor. The USDT TRC-20 contract has been subject to this adjustment during periods of heavy usage, which raises the fee of every transfer.",
+                "token_count": 81,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-07-02T08:00:00Z",
+                "semantic_tags": [
+                  "energy",
+                  "dynamic",
+                  "contract",
+                  "usdt",
+                  "trc20",
+                  "fee",
+                  "cost",
+                  "transaction"
+                ]
+              },
+              {
+                "id": "ch-energy-3-2",
+                "section_id": "sec-energy-3",
+                "article_id": "art-energy-works",
+                "text": "The network Energy price is set by TRON governance through Super Representative votes. The unit price was lowered from 420 sun to 210 sun in 2024, which halved the TRX burned for contract calls.",
+                "token_count": 48,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-07-02T08:00:00Z",
+                "semantic_tags": [
+                  "energy",
+                  "price",
+                  "governance",
+                  "trx",
+                  "burn",
+                  "cost"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-energy-4",
+            "title": "Monitoring Energy usage",
+            "order": 4,
+            "chunks": [
+              {
+                "id": "ch-energy-4-1",
+                "section_id": "sec-energy-4",
+                "article_id": "art-energy-works",
+                "text": "Account resources are visible through the getaccountresource API and on Tronscan: the Energy limit, Energy used in the current window and the amounts delegated in or out. Checking them before a batch of transfers avoids unexpected burns.",
+                "token_count": 59,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-07-02T08:00:00Z",
+                "semantic_tags": [
+                  "energy",
+                  "monitoring",
+                  "api",
+                  "tronscan"
+                ]
+              },
+              {
+                "id": "ch-energy-4-2",
+                "section_id": "sec-energy-4",
+                "article_id": "art-energy-works",
+                "text": "Each transaction receipt records energy_usage and energy_fee. Summing energy_fee over a period gives the TRX actually burned, which is the baseline any staking or rental strategy should be compared against.",
+                "token_count": 51,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-07-02T08:00:00Z",
+                "semantic_tags": [
+                  "energy",
+                  "receipt",
+                  "trx",
+                  "monitoring"
+                ]
+              }
+            ]
+          }
+        ],
+        "versions": [
+          {
+            "version": "1.0",
+            "released_at": "2025-11-14",
+            "change_reason": "Imported from TRON developer docs",
+            "is_live": false
+          },
+          {
+            "version": "1.1",
+            "released_at": "2026-07-02",
+            "change_reason": "Dynamic Energy section re-synced with upstream",
+            "is_live": true
+          }
+        ]
+      },
+      "facts": [
+        {
+          "id": "fact-energy-5",
+          "chunk_id": "ch-energy-1-3",
+          "statement": "Plain TRX transfers consume no Energy.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-06-28T12:00:00Z"
+        },
+        {
+          "id": "fact-energy-1",
+          "chunk_id": "ch-energy-2-1",
+          "statement": "Energy obtained by staking TRX regenerates over 24 hours.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-06-28T12:00:00Z"
+        },
+        {
+          "id": "fact-energy-4",
+          "chunk_id": "ch-energy-2-2",
+          "statement": "A contract call that runs out of Energy still pays for the Energy consumed before the failure.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-06-28T12:00:00Z"
+        },
+        {
+          "id": "fact-energy-3",
+          "chunk_id": "ch-energy-3-1",
+          "statement": "The USDT TRC-20 contract is subject to the dynamic Energy model.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-06-28T12:00:00Z"
+        },
+        {
+          "id": "fact-energy-2",
+          "chunk_id": "ch-energy-3-2",
+          "statement": "The Energy unit price was lowered from 420 sun to 210 sun in 2024.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-06-28T12:00:00Z"
+        }
+      ],
+      "claims": [
+        {
+          "id": "claim-energy-1",
+          "chunk_id": "ch-energy-3-1",
+          "statement": "The dynamic Energy factor can make a USDT transfer up to 3.4 times more expensive.",
+          "status": "UNVERIFIED",
+          "source_id": "src-tronscan"
+        }
+      ],
+      "entities": [
+        {
+          "id": "ent-tron",
+          "name": "TRON",
+          "type": "NETWORK",
+          "aliases": [
+            "tron network"
+          ]
+        },
+        {
+          "id": "ent-trx",
+          "name": "TRX",
+          "type": "TOKEN",
+          "aliases": [
+            "tronix"
+          ]
+        },
+        {
+          "id": "ent-usdt",
+          "name": "USDT",
+          "type": "TOKEN",
+          "aliases": [
+            "tether"
+          ]
+        },
+        {
+          "id": "ent-trc20",
+          "name": "TRC-20",
+          "type": "TOKEN_STANDARD",
+          "aliases": [
+            "trc20",
+            "trc 20"
+          ]
+        },
+        {
+          "id": "ent-energy",
+          "name": "Energy",
+          "type": "RESOURCE",
+          "aliases": [
+            "энергия",
+            "энергии",
+            "энергией"
+          ]
+        },
+        {
+          "id": "ent-bandwidth",
+          "name": "Bandwidth",
+          "type": "RESOURCE",
+          "aliases": [
+            "bandwidth points"
+          ]
+        },
+        {
+          "id": "ent-delegation",
+          "name": "Delegation",
+          "type": "MECHANISM",
+          "aliases": [
+            "delegate",
+            "delegated energy"
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "id": "top-energy",
+          "name": "Energy",
+          "parent_id": "top-tron"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-tron-docs",
+          "name": "TRON Docs",
+          "type": "TRON_DOCS",
+          "url": "https://developers.tron.network/docs",
+          "reliability": 0.95
+        },
+        {
+          "id": "src-tronscan",
+          "name": "Tronscan",
+          "type": "EXTERNAL",
+          "url": "https://tronscan.org",
+          "reliability": 0.85
+        }
+      ],
+      "chunk_entities": {
+        "ch-energy-1-1": [
+          "ent-bandwidth",
+          "ent-energy",
+          "ent-trc20",
+          "ent-tron",
+          "ent-trx"
+        ],
+        "ch-energy-1-2": [
+          "ent-delegation",
+          "ent-energy",
+          "ent-trx"
+        ],
+        "ch-energy-1-3": [
+          "ent-energy",
+          "ent-trc20",
+          "ent-trx"
+        ],
+        "ch-energy-2-1": [
+          "ent-energy",
+          "ent-trx"
+        ],
+        "ch-energy-2-2": [
+          "ent-energy",
+          "ent-trx"
+        ],
+        "ch-energy-2-3": [
+          "ent-energy",
+          "ent-trx"
+        ],
+        "ch-energy-3-1": [
+          "ent-energy",
+          "ent-trc20",
+          "ent-usdt"
+        ],
+        "ch-energy-3-2": [
+          "ent-energy",
+          "ent-tron",
+          "ent-trx"
+        ],
+        "ch-energy-4-1": [
+          "ent-delegation",
+          "ent-energy"
+        ],
+        "ch-energy-4-2": [
+          "ent-energy",
+          "ent-trx"
+        ]
+      }
+    },
+    "art-rental-vs-burn": {
+      "article": {
+        "id": "art-rental-vs-burn",
+        "project_id": "tron-pool-energy",
+        "title": "Energy Rental vs Burning TRX",
+        "url": "https://tron-pool-energy.example/blog/energy-rental-vs-burning-trx",
+        "source_id": "src-tpe",
+        "language": "EN",
+        "version": "1.0",
+        "status": "PROCESSED",
+        "updated_at": "2026-08-21T14:45:00Z",
+        "chunk_count": 10,
+        "embedded_count": 10,
+        "sections": [
+          {
+            "id": "sec-rental-1",
+            "title": "Burning TRX",
+            "order": 1,
+            "chunks": [
+              {
+                "id": "ch-rental-1-1",
+                "section_id": "sec-rental-1",
+                "article_id": "art-rental-vs-burn",
+                "text": "Burning is the default: when a sender has no Energy, the network converts TRX into the Energy a contract call needs. It requires no setup, but it is the most expensive way to pay for USDT transfers, and the amount follows the network Energy price set by governance.",
+                "token_count": 66,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-08-21T14:45:00Z",
+                "semantic_tags": [
+                  "burn",
+                  "trx",
+                  "energy",
+                  "price",
+                  "usdt"
+                ]
+              },
+              {
+                "id": "ch-rental-1-2",
+                "section_id": "sec-rental-1",
+                "article_id": "art-rental-vs-burn",
+                "text": "For a business sending a few hundred USDT transfers per month, burning can amount to several thousand TRX. That spend is predictable only while the network Energy price stays unchanged.",
+                "token_count": 46,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-08-21T14:45:00Z",
+                "semantic_tags": [
+                  "burn",
+                  "trx",
+                  "business",
+                  "usdt",
+                  "price"
+                ]
+              },
+              {
+                "id": "ch-rental-1-3",
+                "section_id": "sec-rental-1",
+                "article_id": "art-rental-vs-burn",
+                "text": "Burning has one operational advantage: it never depends on a third party. For low-volume senders who value simplicity, keeping a TRX balance and burning is a legitimate choice.",
+                "token_count": 44,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-08-21T14:45:00Z",
+                "semantic_tags": [
+                  "burn",
+                  "trx",
+                  "simplicity"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-rental-2",
+            "title": "Renting Energy",
+            "order": 2,
+            "chunks": [
+              {
+                "id": "ch-rental-2-1",
+                "section_id": "sec-rental-2",
+                "article_id": "art-rental-vs-burn",
+                "text": "Energy rental providers delegate Energy from their own staked TRX to the customer's address for a fixed period, typically one hour to 30 days. The customer pays in TRX and the delegation is reclaimed automatically when the period ends.",
+                "token_count": 58,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-08-21T14:45:00Z",
+                "semantic_tags": [
+                  "rental",
+                  "energy",
+                  "delegation",
+                  "provider",
+                  "period"
+                ]
+              },
+              {
+                "id": "ch-rental-2-2",
+                "section_id": "sec-rental-2",
+                "article_id": "art-rental-vs-burn",
+                "text": "Rental prices are quoted per unit of Energy per period and move with demand. Market prices for one-hour rentals have ranged widely, and providers do not publish forward pricing, so any estimate of future rental prices is a guess.",
+                "token_count": 57,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-08-21T14:45:00Z",
+                "semantic_tags": [
+                  "rental",
+                  "price",
+                  "market",
+                  "energy",
+                  "forecast"
+                ]
+              },
+              {
+                "id": "ch-rental-2-3",
+                "section_id": "sec-rental-2",
+                "article_id": "art-rental-vs-burn",
+                "text": "Rental orders specify an amount of Energy and a receiving address. Ordering slightly more than one transfer needs leaves room for the dynamic Energy factor, which can push a USDT call above the usual 65,000 units.",
+                "token_count": 53,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-08-21T14:45:00Z",
+                "semantic_tags": [
+                  "rental",
+                  "energy",
+                  "order",
+                  "usdt",
+                  "dynamic"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-rental-3",
+            "title": "Choosing between them",
+            "order": 3,
+            "chunks": [
+              {
+                "id": "ch-rental-3-1",
+                "section_id": "sec-rental-3",
+                "article_id": "art-rental-vs-burn",
+                "text": "Rental is cheaper than burning whenever the rental price per unit is below the burn price, which has held for most of the market's history. Burning remains a fallback when a rental order fails or the delegation expires mid-batch.",
+                "token_count": 57,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-08-21T14:45:00Z",
+                "semantic_tags": [
+                  "rental",
+                  "burn",
+                  "compare",
+                  "energy",
+                  "price"
+                ]
+              },
+              {
+                "id": "ch-rental-3-2",
+                "section_id": "sec-rental-3",
+                "article_id": "art-rental-vs-burn",
+                "text": "Providers also differ in minimum order size and in how fast delegation lands on the address. A slow delegation means the transfer burns TRX anyway, so latency matters as much as the quoted price.",
+                "token_count": 48,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-08-21T14:45:00Z",
+                "semantic_tags": [
+                  "rental",
+                  "provider",
+                  "delegation",
+                  "latency"
+                ]
+              },
+              {
+                "id": "ch-rental-3-3",
+                "section_id": "sec-rental-3",
+                "article_id": "art-rental-vs-burn",
+                "text": "A rule of thumb: addresses that send a few USDT transfers a week can burn or use short rentals, daily senders benefit from longer rentals, and high-volume operators combine staking with rentals for peaks.",
+                "token_count": 51,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-08-21T14:45:00Z",
+                "semantic_tags": [
+                  "rental",
+                  "burn",
+                  "staking",
+                  "usdt",
+                  "compare"
+                ]
+              },
+              {
+                "id": "ch-rental-3-4",
+                "section_id": "sec-rental-3",
+                "article_id": "art-rental-vs-burn",
+                "text": "When comparing providers, look at the effective price per transfer rather than the quoted price per unit. Minimum order sizes and Energy left unused at the end of a period change the real figure more than small differences in the headline rate.",
+                "token_count": 61,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-08-21T14:45:00Z",
+                "semantic_tags": [
+                  "rental",
+                  "provider",
+                  "price",
+                  "compare"
+                ]
+              }
+            ]
+          }
+        ],
+        "versions": [
+          {
+            "version": "1.0",
+            "released_at": "2026-08-21",
+            "change_reason": "Initial publication",
+            "is_live": true
+          }
+        ]
+      },
+      "facts": [
+        {
+          "id": "fact-rental-3",
+          "chunk_id": "ch-rental-2-1",
+          "statement": "Energy delegated by a rental provider is reclaimed when the rental period ends.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-08-18T09:00:00Z"
+        },
+        {
+          "id": "fact-rental-4",
+          "chunk_id": "ch-rental-2-1",
+          "statement": "Energy rental periods range from one hour to 30 days.",
+          "status": "UNVERIFIED",
+          "source_id": "src-tpe",
+          "verified_at": null
+        },
+        {
+          "id": "fact-rental-1",
+          "chunk_id": "ch-rental-2-2",
+          "statement": "Renting 65,000 Energy for one hour costs about 3 TRX.",
+          "status": "CONFLICTING",
+          "source_id": "src-tpe",
+          "verified_at": "2026-08-20T10:00:00Z"
+        },
+        {
+          "id": "fact-rental-2",
+          "chunk_id": "ch-rental-2-2",
+          "statement": "Renting 65,000 Energy for one hour costs about 4.5 TRX.",
+          "status": "CONFLICTING",
+          "source_id": "src-ai-visibility",
+          "verified_at": "2026-08-20T10:00:00Z"
+        },
+        {
+          "id": "fact-rental-5",
+          "chunk_id": "ch-rental-3-1",
+          "statement": "Renting Energy has been cheaper than burning TRX for most of the market's history.",
+          "status": "UNVERIFIED",
+          "source_id": null,
+          "verified_at": null
+        }
+      ],
+      "claims": [
+        {
+          "id": "claim-rental-1",
+          "chunk_id": "ch-rental-1-2",
+          "statement": "Businesses overpay thousands of TRX per month by burning instead of renting.",
+          "status": "NO_SOURCE",
+          "source_id": null
+        },
+        {
+          "id": "claim-rental-2",
+          "chunk_id": "ch-rental-3-2",
+          "statement": "Delegation latency is the main hidden cost of cheap rental providers.",
+          "status": "UNVERIFIED",
+          "source_id": "src-ahrefs"
+        }
+      ],
+      "entities": [
+        {
+          "id": "ent-trx",
+          "name": "TRX",
+          "type": "TOKEN",
+          "aliases": [
+            "tronix"
+          ]
+        },
+        {
+          "id": "ent-usdt",
+          "name": "USDT",
+          "type": "TOKEN",
+          "aliases": [
+            "tether"
+          ]
+        },
+        {
+          "id": "ent-energy",
+          "name": "Energy",
+          "type": "RESOURCE",
+          "aliases": [
+            "энергия",
+            "энергии",
+            "энергией"
+          ]
+        },
+        {
+          "id": "ent-delegation",
+          "name": "Delegation",
+          "type": "MECHANISM",
+          "aliases": [
+            "delegate",
+            "delegated energy"
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "id": "top-rental",
+          "name": "Rental",
+          "parent_id": "top-energy"
+        },
+        {
+          "id": "top-cost",
+          "name": "Cost",
+          "parent_id": "top-energy"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-tpe",
+          "name": "TRON POOL ENERGY",
+          "type": "SITE",
+          "url": "https://tron-pool-energy.example",
+          "reliability": 0.8
+        },
+        {
+          "id": "src-tron-docs",
+          "name": "TRON Docs",
+          "type": "TRON_DOCS",
+          "url": "https://developers.tron.network/docs",
+          "reliability": 0.95
+        },
+        {
+          "id": "src-ai-visibility",
+          "name": "AI Visibility Monitor",
+          "type": "AI_VISIBILITY",
+          "url": "https://tron-pool-energy.example/internal/ai-visibility",
+          "reliability": 0.5
+        },
+        {
+          "id": "src-ahrefs",
+          "name": "Ahrefs",
+          "type": "AHREFS",
+          "url": "https://ahrefs.com",
+          "reliability": 0.6
+        }
+      ],
+      "chunk_entities": {
+        "ch-rental-1-1": [
+          "ent-energy",
+          "ent-trx",
+          "ent-usdt"
+        ],
+        "ch-rental-1-2": [
+          "ent-trx",
+          "ent-usdt"
+        ],
+        "ch-rental-1-3": [
+          "ent-energy",
+          "ent-trx"
+        ],
+        "ch-rental-2-1": [
+          "ent-delegation",
+          "ent-energy",
+          "ent-trx"
+        ],
+        "ch-rental-2-2": [
+          "ent-energy"
+        ],
+        "ch-rental-2-3": [
+          "ent-energy",
+          "ent-usdt"
+        ],
+        "ch-rental-3-1": [
+          "ent-delegation",
+          "ent-energy",
+          "ent-trx"
+        ],
+        "ch-rental-3-2": [
+          "ent-delegation",
+          "ent-trx"
+        ],
+        "ch-rental-3-3": [
+          "ent-energy",
+          "ent-trx",
+          "ent-usdt"
+        ],
+        "ch-rental-3-4": [
+          "ent-energy"
+        ]
+      }
+    },
+    "art-bandwidth": {
+      "article": {
+        "id": "art-bandwidth",
+        "project_id": "tron-pool-energy",
+        "title": "Bandwidth Explained",
+        "url": "https://developers.tron.network/docs/resource-model#bandwidth",
+        "source_id": "src-tron-docs",
+        "language": "EN",
+        "version": "1.0",
+        "status": "PROCESSED",
+        "updated_at": "2026-05-14T09:30:00Z",
+        "chunk_count": 10,
+        "embedded_count": 10,
+        "sections": [
+          {
+            "id": "sec-bw-1",
+            "title": "What Bandwidth pays for",
+            "order": 1,
+            "chunks": [
+              {
+                "id": "ch-bw-1-1",
+                "section_id": "sec-bw-1",
+                "article_id": "art-bandwidth",
+                "text": "Bandwidth pays for the size of a transaction in bytes. Every transaction, including TRX transfers and TRC-20 contract calls, consumes Bandwidth equal to its serialized size; a typical USDT transfer is about 345 bytes.",
+                "token_count": 54,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-05-14T09:30:00Z",
+                "semantic_tags": [
+                  "bandwidth",
+                  "transaction",
+                  "size",
+                  "trc20",
+                  "usdt"
+                ]
+              },
+              {
+                "id": "ch-bw-1-2",
+                "section_id": "sec-bw-1",
+                "article_id": "art-bandwidth",
+                "text": "Each activated account receives 600 free Bandwidth points per day. Accounts that need more can stake TRX for Bandwidth or burn TRX at 1,000 sun per byte.",
+                "token_count": 38,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-05-14T09:30:00Z",
+                "semantic_tags": [
+                  "bandwidth",
+                  "free",
+                  "staking",
+                  "burn",
+                  "trx"
+                ]
+              },
+              {
+                "id": "ch-bw-1-3",
+                "section_id": "sec-bw-1",
+                "article_id": "art-bandwidth",
+                "text": "Free Bandwidth regenerates over 24 hours, like Energy. Bandwidth from staked TRX is used first, the free allowance covers the rest, and only when both run out does the transaction burn TRX.",
+                "token_count": 47,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-05-14T09:30:00Z",
+                "semantic_tags": [
+                  "bandwidth",
+                  "free",
+                  "staking",
+                  "regeneration",
+                  "trx"
+                ]
+              },
+              {
+                "id": "ch-bw-1-4",
+                "section_id": "sec-bw-1",
+                "article_id": "art-bandwidth",
+                "text": "Memo fields, extra signatures and larger contract parameters all increase the serialized size of a transaction and therefore its Bandwidth use. A plain TRX transfer is the smallest common transaction at roughly 270 bytes.",
+                "token_count": 55,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-05-14T09:30:00Z",
+                "semantic_tags": [
+                  "bandwidth",
+                  "size",
+                  "transaction",
+                  "trx"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-bw-2",
+            "title": "Bandwidth and fees",
+            "order": 2,
+            "chunks": [
+              {
+                "id": "ch-bw-2-1",
+                "section_id": "sec-bw-2",
+                "article_id": "art-bandwidth",
+                "text": "For most wallets the free allowance covers one or two transfers a day, which is why Bandwidth rarely shows up in the fee. Exchanges and payment processors exceed it quickly and pay for Bandwidth explicitly.",
+                "token_count": 51,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-05-14T09:30:00Z",
+                "semantic_tags": [
+                  "bandwidth",
+                  "fee",
+                  "free",
+                  "wallet"
+                ]
+              },
+              {
+                "id": "ch-bw-2-2",
+                "section_id": "sec-bw-2",
+                "article_id": "art-bandwidth",
+                "text": "Creating a new account by sending TRX to an unused address costs an additional 1 TRX on top of the Bandwidth for the transaction itself.",
+                "token_count": 34,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-05-14T09:30:00Z",
+                "semantic_tags": [
+                  "account",
+                  "activation",
+                  "fee",
+                  "trx",
+                  "bandwidth"
+                ]
+              },
+              {
+                "id": "ch-bw-2-3",
+                "section_id": "sec-bw-2",
+                "article_id": "art-bandwidth",
+                "text": "Burned Bandwidth is cheap next to Energy: a 345-byte USDT transfer burns about 0.35 TRX at 1,000 sun per byte, against roughly 13.7 TRX for the Energy part.",
+                "token_count": 39,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-05-14T09:30:00Z",
+                "semantic_tags": [
+                  "bandwidth",
+                  "burn",
+                  "usdt",
+                  "energy",
+                  "cost"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-bw-3",
+            "title": "Planning Bandwidth",
+            "order": 3,
+            "chunks": [
+              {
+                "id": "ch-bw-3-1",
+                "section_id": "sec-bw-3",
+                "article_id": "art-bandwidth",
+                "text": "Staking TRX for Bandwidth pays off only for accounts that send many transactions per day. For most users the free allowance plus occasional burning is cheaper than locking TRX for 14 days.",
+                "token_count": 47,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-05-14T09:30:00Z",
+                "semantic_tags": [
+                  "bandwidth",
+                  "staking",
+                  "cost",
+                  "trx"
+                ]
+              },
+              {
+                "id": "ch-bw-3-2",
+                "section_id": "sec-bw-3",
+                "article_id": "art-bandwidth",
+                "text": "Bandwidth can be delegated under Stake 2.0 just like Energy, so a treasury account can cover the Bandwidth of many hot wallets from a single stake.",
+                "token_count": 36,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-05-14T09:30:00Z",
+                "semantic_tags": [
+                  "bandwidth",
+                  "delegation",
+                  "staking",
+                  "wallet"
+                ]
+              },
+              {
+                "id": "ch-bw-3-3",
+                "section_id": "sec-bw-3",
+                "article_id": "art-bandwidth",
+                "text": "Payment systems monitor free Bandwidth per address: once an address runs out, every outgoing transaction starts burning TRX, which shows up as small but frequent charges.",
+                "token_count": 42,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-05-14T09:30:00Z",
+                "semantic_tags": [
+                  "bandwidth",
+                  "monitoring",
+                  "trx"
+                ]
+              }
+            ]
+          }
+        ],
+        "versions": [
+          {
+            "version": "1.0",
+            "released_at": "2026-05-14",
+            "change_reason": "Imported from TRON developer docs",
+            "is_live": true
+          }
+        ]
+      },
+      "facts": [
+        {
+          "id": "fact-bw-3",
+          "chunk_id": "ch-bw-1-1",
+          "statement": "A USDT TRC-20 transfer uses about 345 bytes of Bandwidth.",
+          "status": "VERIFIED",
+          "source_id": "src-tronscan",
+          "verified_at": "2026-05-11T14:00:00Z"
+        },
+        {
+          "id": "fact-bw-1",
+          "chunk_id": "ch-bw-1-2",
+          "statement": "Each activated account receives 600 free Bandwidth points per day.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-05-10T09:00:00Z"
+        },
+        {
+          "id": "fact-bw-2",
+          "chunk_id": "ch-bw-1-2",
+          "statement": "Burning TRX for Bandwidth costs 1,000 sun per byte.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-05-10T09:00:00Z"
+        },
+        {
+          "id": "fact-bw-4",
+          "chunk_id": "ch-bw-2-2",
+          "statement": "Activating a new account costs an additional 1 TRX.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-05-10T09:00:00Z"
+        },
+        {
+          "id": "fact-bw-5",
+          "chunk_id": "ch-bw-2-3",
+          "statement": "Burning Bandwidth for a USDT TRC-20 transfer costs about 0.35 TRX.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-05-10T09:00:00Z"
+        }
+      ],
+      "claims": [
+        {
+          "id": "claim-bw-1",
+          "chunk_id": "ch-bw-2-1",
+          "statement": "Most retail wallets never pay for Bandwidth.",
+          "status": "UNVERIFIED",
+          "source_id": "src-ga4"
+        }
+      ],
+      "entities": [
+        {
+          "id": "ent-tron",
+          "name": "TRON",
+          "type": "NETWORK",
+          "aliases": [
+            "tron network"
+          ]
+        },
+        {
+          "id": "ent-trx",
+          "name": "TRX",
+          "type": "TOKEN",
+          "aliases": [
+            "tronix"
+          ]
+        },
+        {
+          "id": "ent-usdt",
+          "name": "USDT",
+          "type": "TOKEN",
+          "aliases": [
+            "tether"
+          ]
+        },
+        {
+          "id": "ent-trc20",
+          "name": "TRC-20",
+          "type": "TOKEN_STANDARD",
+          "aliases": [
+            "trc20",
+            "trc 20"
+          ]
+        },
+        {
+          "id": "ent-energy",
+          "name": "Energy",
+          "type": "RESOURCE",
+          "aliases": [
+            "энергия",
+            "энергии",
+            "энергией"
+          ]
+        },
+        {
+          "id": "ent-bandwidth",
+          "name": "Bandwidth",
+          "type": "RESOURCE",
+          "aliases": [
+            "bandwidth points"
+          ]
+        },
+        {
+          "id": "ent-delegation",
+          "name": "Delegation",
+          "type": "MECHANISM",
+          "aliases": [
+            "delegate",
+            "delegated energy"
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "id": "top-tron",
+          "name": "TRON",
+          "parent_id": null
+        },
+        {
+          "id": "top-fees",
+          "name": "Fees",
+          "parent_id": "top-usdt-trc20"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-tron-docs",
+          "name": "TRON Docs",
+          "type": "TRON_DOCS",
+          "url": "https://developers.tron.network/docs",
+          "reliability": 0.95
+        },
+        {
+          "id": "src-tronscan",
+          "name": "Tronscan",
+          "type": "EXTERNAL",
+          "url": "https://tronscan.org",
+          "reliability": 0.85
+        },
+        {
+          "id": "src-ga4",
+          "name": "Google Analytics 4",
+          "type": "GA4",
+          "url": "https://analytics.google.com",
+          "reliability": 0.7
+        }
+      ],
+      "chunk_entities": {
+        "ch-bw-1-1": [
+          "ent-bandwidth",
+          "ent-trc20",
+          "ent-trx",
+          "ent-usdt"
+        ],
+        "ch-bw-1-2": [
+          "ent-bandwidth",
+          "ent-trx"
+        ],
+        "ch-bw-1-3": [
+          "ent-bandwidth",
+          "ent-trx"
+        ],
+        "ch-bw-1-4": [
+          "ent-bandwidth",
+          "ent-trx"
+        ],
+        "ch-bw-2-1": [
+          "ent-bandwidth"
+        ],
+        "ch-bw-2-2": [
+          "ent-bandwidth",
+          "ent-trx"
+        ],
+        "ch-bw-2-3": [
+          "ent-bandwidth",
+          "ent-energy",
+          "ent-trx",
+          "ent-usdt"
+        ],
+        "ch-bw-3-1": [
+          "ent-bandwidth",
+          "ent-trx"
+        ],
+        "ch-bw-3-2": [
+          "ent-bandwidth",
+          "ent-delegation",
+          "ent-trx"
+        ],
+        "ch-bw-3-3": [
+          "ent-bandwidth",
+          "ent-tron",
+          "ent-trx"
+        ]
+      }
+    },
+    "art-usdt-fees-ru": {
+      "article": {
+        "id": "art-usdt-fees-ru",
+        "project_id": "tron-pool-energy",
+        "title": "Комиссии USDT TRC-20",
+        "url": "https://tron-pool-energy.example/ru/blog/usdt-trc20-komissii",
+        "source_id": "src-tpe",
+        "language": "RU",
+        "version": "1.0",
+        "status": "PROCESSED",
+        "updated_at": "2026-09-25T11:00:00Z",
+        "chunk_count": 10,
+        "embedded_count": 10,
+        "sections": [
+          {
+            "id": "sec-feesru-1",
+            "title": "Из чего складывается комиссия",
+            "order": 1,
+            "chunks": [
+              {
+                "id": "ch-feesru-1-1",
+                "section_id": "sec-feesru-1",
+                "article_id": "art-usdt-fees-ru",
+                "text": "Каждый перевод USDT в сети TRON — это вызов контракта TRC-20, поэтому сеть берёт плату энергией за вычисления и пропускной способностью за размер транзакции. Перевод на адрес, где уже есть USDT, расходует около 65 000 единиц энергии, перевод на пустой адрес — около 130 000.",
+                "token_count": 68,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-25T11:00:00Z",
+                "semantic_tags": [
+                  "usdt",
+                  "trc20",
+                  "fee",
+                  "transaction",
+                  "energy",
+                  "bandwidth"
+                ]
+              },
+              {
+                "id": "ch-feesru-1-2",
+                "section_id": "sec-feesru-1",
+                "article_id": "art-usdt-fees-ru",
+                "text": "Если у отправителя нет энергии, сеть сжигает TRX: около 13,7 TRX за обычный перевод и около 27 TRX за перевод на новый адрес. Получатель ничего не платит, а сумма перевода на комиссию не влияет.",
+                "token_count": 48,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-25T11:00:00Z",
+                "semantic_tags": [
+                  "usdt",
+                  "trc20",
+                  "fee",
+                  "burn",
+                  "trx"
+                ]
+              },
+              {
+                "id": "ch-feesru-1-3",
+                "section_id": "sec-feesru-1",
+                "article_id": "art-usdt-fees-ru",
+                "text": "Комиссию платит только отправитель. Получатель ничего не платит за входящий перевод USDT, а сумма перевода на расход энергии не влияет: 10 USDT и 100 000 USDT стоят одинаково.",
+                "token_count": 43,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-25T11:00:00Z",
+                "semantic_tags": [
+                  "usdt",
+                  "trc20",
+                  "fee",
+                  "sender"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-feesru-2",
+            "title": "Как снизить комиссию",
+            "order": 2,
+            "chunks": [
+              {
+                "id": "ch-feesru-2-1",
+                "section_id": "sec-feesru-2",
+                "article_id": "art-usdt-fees-ru",
+                "text": "Самый действенный способ снизить комиссию — оплачивать перевод энергией, а не сжигать TRX. Энергию можно получить стейкингом TRX или арендовать у провайдера на нужный срок.",
+                "token_count": 43,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-25T11:00:00Z",
+                "semantic_tags": [
+                  "reduce",
+                  "fee",
+                  "energy",
+                  "rental",
+                  "staking",
+                  "usdt",
+                  "trc20"
+                ]
+              },
+              {
+                "id": "ch-feesru-2-2",
+                "section_id": "sec-feesru-2",
+                "article_id": "art-usdt-fees-ru",
+                "text": "Для редких переводов аренда выгоднее стейкинга: не нужно замораживать капитал на 14 дней вывода из стейкинга.",
+                "token_count": 27,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-25T11:00:00Z",
+                "semantic_tags": [
+                  "reduce",
+                  "rental",
+                  "staking",
+                  "cost"
+                ]
+              },
+              {
+                "id": "ch-feesru-2-3",
+                "section_id": "sec-feesru-2",
+                "article_id": "art-usdt-fees-ru",
+                "text": "Пакетные выплаты тоже помогают: отправка на адреса, где уже есть USDT, избавляет от удвоенного расхода энергии, а объединение мелких платежей сокращает число вызовов контракта.",
+                "token_count": 44,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-25T11:00:00Z",
+                "semantic_tags": [
+                  "reduce",
+                  "batching",
+                  "usdt",
+                  "fee"
+                ]
+              },
+              {
+                "id": "ch-feesru-2-4",
+                "section_id": "sec-feesru-2",
+                "article_id": "art-usdt-fees-ru",
+                "text": "Стейкинг оправдан для кошельков, которые отправляют переводы каждый день: застейканные TRX дают энергию, которая восстанавливается за 24 часа.",
+                "token_count": 35,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-25T11:00:00Z",
+                "semantic_tags": [
+                  "staking",
+                  "energy",
+                  "reduce",
+                  "trx"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-feesru-3",
+            "title": "Проверка комиссии перед отправкой",
+            "order": 3,
+            "chunks": [
+              {
+                "id": "ch-feesru-3-1",
+                "section_id": "sec-feesru-3",
+                "article_id": "art-usdt-fees-ru",
+                "text": "Кошельки оценивают расход энергии до отправки, но оценка может ошибаться, если состояние получателя изменилось. Точный расход энергии и пропускной способности по каждой транзакции показывает Tronscan.",
+                "token_count": 50,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-25T11:00:00Z",
+                "semantic_tags": [
+                  "fee",
+                  "estimate",
+                  "energy",
+                  "bandwidth",
+                  "tronscan"
+                ]
+              },
+              {
+                "id": "ch-feesru-3-2",
+                "section_id": "sec-feesru-3",
+                "article_id": "art-usdt-fees-ru",
+                "text": "Если перевод упал из-за нехватки энергии, а TRX для сжигания не хватило, израсходованные ресурсы не возвращаются. Запас в 30 TRX на адресе отправителя защищает от таких сбоев.",
+                "token_count": 43,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-25T11:00:00Z",
+                "semantic_tags": [
+                  "fee",
+                  "trx",
+                  "failed",
+                  "energy"
+                ]
+              },
+              {
+                "id": "ch-feesru-3-3",
+                "section_id": "sec-feesru-3",
+                "article_id": "art-usdt-fees-ru",
+                "text": "При высокой нагрузке на контракт USDT действует динамическая модель энергии, и стоимость вызова растёт. Это стоит учитывать, когда энергия арендуется под конкретный перевод.",
+                "token_count": 43,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-09-25T11:00:00Z",
+                "semantic_tags": [
+                  "energy",
+                  "dynamic",
+                  "usdt",
+                  "rental"
+                ]
+              }
+            ]
+          }
+        ],
+        "versions": [
+          {
+            "version": "1.0",
+            "released_at": "2026-09-25",
+            "change_reason": "Translation of USDT TRC-20 Transaction Fees v1.2",
+            "is_live": true
+          }
+        ]
+      },
+      "facts": [
+        {
+          "id": "fact-feesru-1",
+          "chunk_id": "ch-feesru-1-1",
+          "statement": "Перевод USDT на адрес, где уже есть USDT, расходует около 65 000 единиц энергии.",
+          "status": "VERIFIED",
+          "source_id": "src-tronscan",
+          "verified_at": "2026-09-24T09:00:00Z"
+        },
+        {
+          "id": "fact-feesru-2",
+          "chunk_id": "ch-feesru-1-2",
+          "statement": "Без энергии сеть сжигает около 13,7 TRX за обычный перевод USDT.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-09-24T09:00:00Z"
+        },
+        {
+          "id": "fact-feesru-3",
+          "chunk_id": "ch-feesru-2-2",
+          "statement": "Вывод TRX из стейкинга занимает 14 дней.",
+          "status": "UNVERIFIED",
+          "source_id": "src-tpe",
+          "verified_at": null
+        }
+      ],
+      "claims": [
+        {
+          "id": "claim-feesru-1",
+          "chunk_id": "ch-feesru-2-1",
+          "statement": "Аренда энергии снижает комиссию за перевод USDT до 70%.",
+          "status": "UNVERIFIED",
+          "source_id": "src-tpe"
+        }
+      ],
+      "entities": [
+        {
+          "id": "ent-tron",
+          "name": "TRON",
+          "type": "NETWORK",
+          "aliases": [
+            "tron network"
+          ]
+        },
+        {
+          "id": "ent-trx",
+          "name": "TRX",
+          "type": "TOKEN",
+          "aliases": [
+            "tronix"
+          ]
+        },
+        {
+          "id": "ent-usdt",
+          "name": "USDT",
+          "type": "TOKEN",
+          "aliases": [
+            "tether"
+          ]
+        },
+        {
+          "id": "ent-trc20",
+          "name": "TRC-20",
+          "type": "TOKEN_STANDARD",
+          "aliases": [
+            "trc20",
+            "trc 20"
+          ]
+        },
+        {
+          "id": "ent-energy",
+          "name": "Energy",
+          "type": "RESOURCE",
+          "aliases": [
+            "энергия",
+            "энергии",
+            "энергией"
+          ]
+        },
+        {
+          "id": "ent-bandwidth",
+          "name": "Bandwidth",
+          "type": "RESOURCE",
+          "aliases": [
+            "bandwidth points"
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "id": "top-cost",
+          "name": "Cost",
+          "parent_id": "top-energy"
+        },
+        {
+          "id": "top-fees",
+          "name": "Fees",
+          "parent_id": "top-usdt-trc20"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-tpe",
+          "name": "TRON POOL ENERGY",
+          "type": "SITE",
+          "url": "https://tron-pool-energy.example",
+          "reliability": 0.8
+        },
+        {
+          "id": "src-tronscan",
+          "name": "Tronscan",
+          "type": "EXTERNAL",
+          "url": "https://tronscan.org",
+          "reliability": 0.85
+        },
+        {
+          "id": "src-tron-docs",
+          "name": "TRON Docs",
+          "type": "TRON_DOCS",
+          "url": "https://developers.tron.network/docs",
+          "reliability": 0.95
+        }
+      ],
+      "chunk_entities": {
+        "ch-feesru-1-1": [
+          "ent-bandwidth",
+          "ent-energy",
+          "ent-trc20",
+          "ent-tron",
+          "ent-usdt"
+        ],
+        "ch-feesru-1-2": [
+          "ent-energy",
+          "ent-trx",
+          "ent-usdt"
+        ],
+        "ch-feesru-1-3": [
+          "ent-energy",
+          "ent-trc20",
+          "ent-usdt"
+        ],
+        "ch-feesru-2-1": [
+          "ent-energy",
+          "ent-trc20",
+          "ent-trx"
+        ],
+        "ch-feesru-2-2": [
+          "ent-energy",
+          "ent-trx"
+        ],
+        "ch-feesru-2-3": [
+          "ent-energy",
+          "ent-trc20",
+          "ent-usdt"
+        ],
+        "ch-feesru-2-4": [
+          "ent-energy",
+          "ent-trx"
+        ],
+        "ch-feesru-3-1": [
+          "ent-bandwidth",
+          "ent-energy"
+        ],
+        "ch-feesru-3-2": [
+          "ent-energy",
+          "ent-trx"
+        ],
+        "ch-feesru-3-3": [
+          "ent-energy",
+          "ent-trc20",
+          "ent-usdt"
+        ]
+      }
+    },
+    "art-wallet-setup": {
+      "article": {
+        "id": "art-wallet-setup",
+        "project_id": "tron-pool-energy",
+        "title": "TRON Wallet Setup Guide",
+        "url": "https://tron-pool-energy.example/guides/tron-wallet-setup",
+        "source_id": "src-tpe",
+        "language": "EN",
+        "version": "1.1",
+        "status": "PROCESSED",
+        "updated_at": "2026-06-10T16:10:00Z",
+        "chunk_count": 10,
+        "embedded_count": 10,
+        "sections": [
+          {
+            "id": "sec-wallet-1",
+            "title": "Creating a wallet",
+            "order": 1,
+            "chunks": [
+              {
+                "id": "ch-wallet-1-1",
+                "section_id": "sec-wallet-1",
+                "article_id": "art-wallet-setup",
+                "text": "A TRON wallet is a key pair: the private key signs transactions and the address is derived from the public key. Write down the recovery phrase offline before funding the address; anyone with the phrase controls the funds.",
+                "token_count": 55,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-06-10T16:10:00Z",
+                "semantic_tags": [
+                  "wallet",
+                  "key",
+                  "address",
+                  "security"
+                ]
+              },
+              {
+                "id": "ch-wallet-1-2",
+                "section_id": "sec-wallet-1",
+                "article_id": "art-wallet-setup",
+                "text": "A new address is not active on-chain until it receives its first TRX or TRC-20 transfer. Activation costs the sender 1 TRX, so fund the address with TRX first if it will pay its own fees.",
+                "token_count": 46,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-06-10T16:10:00Z",
+                "semantic_tags": [
+                  "wallet",
+                  "activation",
+                  "trx",
+                  "trc20",
+                  "fee"
+                ]
+              },
+              {
+                "id": "ch-wallet-1-3",
+                "section_id": "sec-wallet-1",
+                "article_id": "art-wallet-setup",
+                "text": "Hardware wallets keep the private key on a separate device and sign transactions there, which protects funds even if the computer is compromised. Most of them support TRON and TRC-20 tokens through companion apps.",
+                "token_count": 53,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-06-10T16:10:00Z",
+                "semantic_tags": [
+                  "wallet",
+                  "security",
+                  "hardware",
+                  "key"
+                ]
+              },
+              {
+                "id": "ch-wallet-1-4",
+                "section_id": "sec-wallet-1",
+                "article_id": "art-wallet-setup",
+                "text": "TRON addresses start with the letter T and are 34 characters long. USDT sent to an address on another network cannot be recovered, so check the network before confirming.",
+                "token_count": 42,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-06-10T16:10:00Z",
+                "semantic_tags": [
+                  "wallet",
+                  "address",
+                  "network",
+                  "usdt"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-wallet-2",
+            "title": "Preparing to send USDT",
+            "order": 2,
+            "chunks": [
+              {
+                "id": "ch-wallet-2-1",
+                "section_id": "sec-wallet-2",
+                "article_id": "art-wallet-setup",
+                "text": "Before the first USDT transfer, keep enough TRX on the address to burn for Energy, or rent Energy in advance. A wallet that holds USDT but no TRX and no Energy cannot send USDT at all.",
+                "token_count": 46,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-06-10T16:10:00Z",
+                "semantic_tags": [
+                  "usdt",
+                  "wallet",
+                  "trx",
+                  "energy",
+                  "fee",
+                  "transfer"
+                ]
+              },
+              {
+                "id": "ch-wallet-2-2",
+                "section_id": "sec-wallet-2",
+                "article_id": "art-wallet-setup",
+                "text": "Each account receives 5,000 free Bandwidth points per day, which is enough for several transfers without paying for Bandwidth.",
+                "token_count": 31,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-06-10T16:10:00Z",
+                "semantic_tags": [
+                  "bandwidth",
+                  "free",
+                  "wallet"
+                ]
+              },
+              {
+                "id": "ch-wallet-2-3",
+                "section_id": "sec-wallet-2",
+                "article_id": "art-wallet-setup",
+                "text": "Test a new setup with a small transfer first. Confirming that a few USDT arrive and checking the Energy and TRX consumed on Tronscan costs little and catches address mistakes before larger amounts move.",
+                "token_count": 50,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-06-10T16:10:00Z",
+                "semantic_tags": [
+                  "usdt",
+                  "wallet",
+                  "test",
+                  "transfer",
+                  "energy"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-wallet-3",
+            "title": "Keeping the wallet safe",
+            "order": 3,
+            "chunks": [
+              {
+                "id": "ch-wallet-3-1",
+                "section_id": "sec-wallet-3",
+                "article_id": "art-wallet-setup",
+                "text": "Never share the recovery phrase or private key, and be careful with sites that ask to connect a wallet and approve token spending. A malicious approval lets a contract move TRC-20 tokens without further confirmation.",
+                "token_count": 54,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-06-10T16:10:00Z",
+                "semantic_tags": [
+                  "wallet",
+                  "security",
+                  "approval",
+                  "trc20"
+                ]
+              },
+              {
+                "id": "ch-wallet-3-2",
+                "section_id": "sec-wallet-3",
+                "article_id": "art-wallet-setup",
+                "text": "Review token approvals periodically and revoke the ones you no longer need. Revoking an approval is a contract call and consumes Energy like any other TRC-20 operation.",
+                "token_count": 42,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-06-10T16:10:00Z",
+                "semantic_tags": [
+                  "wallet",
+                  "approval",
+                  "energy",
+                  "trc20"
+                ]
+              },
+              {
+                "id": "ch-wallet-3-3",
+                "section_id": "sec-wallet-3",
+                "article_id": "art-wallet-setup",
+                "text": "For larger balances, split funds between a hot wallet for daily transfers and a cold wallet that rarely signs anything. Treasury setups often require approval from several keys on the cold side.",
+                "token_count": 48,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-06-10T16:10:00Z",
+                "semantic_tags": [
+                  "wallet",
+                  "security",
+                  "cold",
+                  "hot"
+                ]
+              }
+            ]
+          }
+        ],
+        "versions": [
+          {
+            "version": "1.0",
+            "released_at": "2024-02-19",
+            "change_reason": "Initial publication",
+            "is_live": false
+          },
+          {
+            "version": "1.1",
+            "released_at": "2026-06-10",
+            "change_reason": "Rewrote the section on preparing to send USDT",
+            "is_live": true
+          }
+        ]
+      },
+      "facts": [
+        {
+          "id": "fact-wallet-4",
+          "chunk_id": "ch-wallet-1-1",
+          "statement": "Anyone holding the recovery phrase controls the wallet's funds.",
+          "status": "VERIFIED",
+          "source_id": "src-tpe",
+          "verified_at": "2026-06-05T11:00:00Z"
+        },
+        {
+          "id": "fact-wallet-2",
+          "chunk_id": "ch-wallet-1-2",
+          "statement": "Activating a new address costs the sender 1 TRX.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-06-05T11:00:00Z"
+        },
+        {
+          "id": "fact-wallet-3",
+          "chunk_id": "ch-wallet-2-1",
+          "statement": "A wallet holding USDT but no TRX and no Energy cannot send USDT.",
+          "status": "VERIFIED",
+          "source_id": "src-tpe",
+          "verified_at": "2026-06-05T11:00:00Z"
+        },
+        {
+          "id": "fact-wallet-1",
+          "chunk_id": "ch-wallet-2-2",
+          "statement": "Each account receives 5,000 free Bandwidth points per day.",
+          "status": "OUTDATED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2023-05-10T09:00:00Z"
+        }
+      ],
+      "claims": [
+        {
+          "id": "claim-wallet-1",
+          "chunk_id": "ch-wallet-2-1",
+          "statement": "Running out of TRX is the most common reason for failed USDT transfers.",
+          "status": "UNVERIFIED",
+          "source_id": "src-gsc"
+        }
+      ],
+      "entities": [
+        {
+          "id": "ent-tron",
+          "name": "TRON",
+          "type": "NETWORK",
+          "aliases": [
+            "tron network"
+          ]
+        },
+        {
+          "id": "ent-trx",
+          "name": "TRX",
+          "type": "TOKEN",
+          "aliases": [
+            "tronix"
+          ]
+        },
+        {
+          "id": "ent-usdt",
+          "name": "USDT",
+          "type": "TOKEN",
+          "aliases": [
+            "tether"
+          ]
+        },
+        {
+          "id": "ent-trc20",
+          "name": "TRC-20",
+          "type": "TOKEN_STANDARD",
+          "aliases": [
+            "trc20",
+            "trc 20"
+          ]
+        },
+        {
+          "id": "ent-energy",
+          "name": "Energy",
+          "type": "RESOURCE",
+          "aliases": [
+            "энергия",
+            "энергии",
+            "энергией"
+          ]
+        },
+        {
+          "id": "ent-bandwidth",
+          "name": "Bandwidth",
+          "type": "RESOURCE",
+          "aliases": [
+            "bandwidth points"
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "id": "top-transfers",
+          "name": "Transfers",
+          "parent_id": "top-usdt-trc20"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-tpe",
+          "name": "TRON POOL ENERGY",
+          "type": "SITE",
+          "url": "https://tron-pool-energy.example",
+          "reliability": 0.8
+        },
+        {
+          "id": "src-tron-docs",
+          "name": "TRON Docs",
+          "type": "TRON_DOCS",
+          "url": "https://developers.tron.network/docs",
+          "reliability": 0.95
+        },
+        {
+          "id": "src-gsc",
+          "name": "Google Search Console",
+          "type": "GSC",
+          "url": "https://search.google.com/search-console",
+          "reliability": 0.7
+        }
+      ],
+      "chunk_entities": {
+        "ch-wallet-1-1": [
+          "ent-tron"
+        ],
+        "ch-wallet-1-2": [
+          "ent-trc20",
+          "ent-trx"
+        ],
+        "ch-wallet-1-3": [
+          "ent-trc20",
+          "ent-tron"
+        ],
+        "ch-wallet-1-4": [
+          "ent-tron",
+          "ent-usdt"
+        ],
+        "ch-wallet-2-1": [
+          "ent-energy",
+          "ent-trc20",
+          "ent-trx",
+          "ent-usdt"
+        ],
+        "ch-wallet-2-2": [
+          "ent-bandwidth"
+        ],
+        "ch-wallet-2-3": [
+          "ent-energy",
+          "ent-trx",
+          "ent-usdt"
+        ],
+        "ch-wallet-3-1": [
+          "ent-trc20"
+        ],
+        "ch-wallet-3-2": [
+          "ent-energy",
+          "ent-trc20"
+        ],
+        "ch-wallet-3-3": [
+          "ent-tron"
+        ]
+      }
+    },
+    "art-delegation-guide": {
+      "article": {
+        "id": "art-delegation-guide",
+        "project_id": "tron-pool-energy",
+        "title": "Energy Delegation Guide",
+        "url": "https://tron-pool-energy.example/guides/energy-delegation",
+        "source_id": "src-tpe",
+        "language": "EN",
+        "version": "1.0",
+        "status": "FAILED",
+        "updated_at": "2026-10-06T07:42:00Z",
+        "chunk_count": 12,
+        "embedded_count": 3,
+        "sections": [
+          {
+            "id": "sec-deleg-1",
+            "title": "Delegation under Stake 2.0",
+            "order": 1,
+            "chunks": [
+              {
+                "id": "ch-deleg-1-1",
+                "section_id": "sec-deleg-1",
+                "article_id": "art-delegation-guide",
+                "text": "Stake 2.0 lets an account delegate the Energy produced by its staked TRX to any other address without transferring the TRX itself. The delegator keeps ownership and can reclaim the resources at any time unless the delegation is locked.",
+                "token_count": 58,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-10-06T07:42:00Z",
+                "semantic_tags": [
+                  "delegation",
+                  "energy",
+                  "staking",
+                  "trx"
+                ]
+              },
+              {
+                "id": "ch-deleg-1-2",
+                "section_id": "sec-deleg-1",
+                "article_id": "art-delegation-guide",
+                "text": "Delegation can be locked for a fixed period, during which the delegator cannot reclaim it. Rental providers use locked delegation so customers are guaranteed the Energy for the paid term.",
+                "token_count": 46,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-10-06T07:42:00Z",
+                "semantic_tags": [
+                  "delegation",
+                  "lock",
+                  "rental",
+                  "energy"
+                ]
+              },
+              {
+                "id": "ch-deleg-1-3",
+                "section_id": "sec-deleg-1",
+                "article_id": "art-delegation-guide",
+                "text": "Only staked TRX can back a delegation. Delegating does not move the voting power of the stake, which stays with the delegator.",
+                "token_count": 31,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-10-06T07:42:00Z",
+                "semantic_tags": [
+                  "delegation",
+                  "staking",
+                  "trx",
+                  "voting"
+                ]
+              },
+              {
+                "id": "ch-deleg-1-4",
+                "section_id": "sec-deleg-1",
+                "article_id": "art-delegation-guide",
+                "text": "A receiver cannot re-delegate resources it received; only the original staker can delegate them.",
+                "token_count": 24,
+                "embedding_model": null,
+                "embedded": false,
+                "created_at": "2026-10-06T07:42:00Z",
+                "semantic_tags": [
+                  "delegation",
+                  "receiver"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-deleg-2",
+            "title": "Delegating and reclaiming",
+            "order": 2,
+            "chunks": [
+              {
+                "id": "ch-deleg-2-1",
+                "section_id": "sec-deleg-2",
+                "article_id": "art-delegation-guide",
+                "text": "To delegate, the account calls DelegateResource with the receiver address, the resource type and the amount of staked TRX backing it. Reclaiming uses UnDelegateResource and takes effect immediately unless a lock is active.",
+                "token_count": 55,
+                "embedding_model": null,
+                "embedded": false,
+                "created_at": "2026-10-06T07:42:00Z",
+                "semantic_tags": [
+                  "delegation",
+                  "api",
+                  "energy",
+                  "trx"
+                ]
+              },
+              {
+                "id": "ch-deleg-2-2",
+                "section_id": "sec-deleg-2",
+                "article_id": "art-delegation-guide",
+                "text": "Delegated Energy is consumed by the receiver like its own Energy, while regeneration is driven by the delegator's stake.",
+                "token_count": 30,
+                "embedding_model": null,
+                "embedded": false,
+                "created_at": "2026-10-06T07:42:00Z",
+                "semantic_tags": [
+                  "delegation",
+                  "energy",
+                  "regeneration"
+                ]
+              },
+              {
+                "id": "ch-deleg-2-3",
+                "section_id": "sec-deleg-2",
+                "article_id": "art-delegation-guide",
+                "text": "Delegating Bandwidth works the same way, with the resource type set to BANDWIDTH instead of ENERGY.",
+                "token_count": 24,
+                "embedding_model": null,
+                "embedded": false,
+                "created_at": "2026-10-06T07:42:00Z",
+                "semantic_tags": [
+                  "delegation",
+                  "bandwidth",
+                  "api"
+                ]
+              },
+              {
+                "id": "ch-deleg-2-4",
+                "section_id": "sec-deleg-2",
+                "article_id": "art-delegation-guide",
+                "text": "Every DelegateResource and UnDelegateResource call is a transaction of its own and consumes Bandwidth, so frequent re-delegation has a small but real cost.",
+                "token_count": 38,
+                "embedding_model": null,
+                "embedded": false,
+                "created_at": "2026-10-06T07:42:00Z",
+                "semantic_tags": [
+                  "delegation",
+                  "bandwidth",
+                  "cost"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-deleg-3",
+            "title": "Delegation in practice",
+            "order": 3,
+            "chunks": [
+              {
+                "id": "ch-deleg-3-1",
+                "section_id": "sec-deleg-3",
+                "article_id": "art-delegation-guide",
+                "text": "Teams with several hot wallets often stake once on a treasury account and delegate Energy to each wallet according to its expected volume.",
+                "token_count": 34,
+                "embedding_model": null,
+                "embedded": false,
+                "created_at": "2026-10-06T07:42:00Z",
+                "semantic_tags": [
+                  "delegation",
+                  "energy",
+                  "wallet",
+                  "staking"
+                ]
+              },
+              {
+                "id": "ch-deleg-3-2",
+                "section_id": "sec-deleg-3",
+                "article_id": "art-delegation-guide",
+                "text": "Delegated amounts can be rebalanced without unstaking: reclaim part of the delegation from a quiet wallet and delegate it to a busy one.",
+                "token_count": 34,
+                "embedding_model": null,
+                "embedded": false,
+                "created_at": "2026-10-06T07:42:00Z",
+                "semantic_tags": [
+                  "delegation",
+                  "energy",
+                  "rebalance"
+                ]
+              },
+              {
+                "id": "ch-deleg-3-3",
+                "section_id": "sec-deleg-3",
+                "article_id": "art-delegation-guide",
+                "text": "Tronscan lists delegations in and out for every account, which makes it the quickest way to audit who holds a treasury's resources.",
+                "token_count": 32,
+                "embedding_model": null,
+                "embedded": false,
+                "created_at": "2026-10-06T07:42:00Z",
+                "semantic_tags": [
+                  "delegation",
+                  "monitoring",
+                  "tronscan"
+                ]
+              },
+              {
+                "id": "ch-deleg-3-4",
+                "section_id": "sec-deleg-3",
+                "article_id": "art-delegation-guide",
+                "text": "Track locked delegations together with their expiry dates: the delegator can reclaim the resources only after the lock ends.",
+                "token_count": 31,
+                "embedding_model": null,
+                "embedded": false,
+                "created_at": "2026-10-06T07:42:00Z",
+                "semantic_tags": [
+                  "delegation",
+                  "lock"
+                ]
+              }
+            ]
+          }
+        ],
+        "versions": [
+          {
+            "version": "1.0",
+            "released_at": "2026-10-06",
+            "change_reason": "Initial publication",
+            "is_live": true
+          }
+        ]
+      },
+      "facts": [
+        {
+          "id": "fact-deleg-1",
+          "chunk_id": "ch-deleg-1-1",
+          "statement": "Stake 2.0 allows delegating Energy without transferring the staked TRX.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-10-05T08:00:00Z"
+        },
+        {
+          "id": "fact-deleg-2",
+          "chunk_id": "ch-deleg-1-2",
+          "statement": "Locked delegation cannot be reclaimed before the lock period ends.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-10-05T08:00:00Z"
+        },
+        {
+          "id": "fact-deleg-3",
+          "chunk_id": "ch-deleg-2-1",
+          "statement": "UnDelegateResource takes effect immediately when no lock is active.",
+          "status": "UNVERIFIED",
+          "source_id": "src-tpe",
+          "verified_at": null
+        }
+      ],
+      "claims": [],
+      "entities": [
+        {
+          "id": "ent-trx",
+          "name": "TRX",
+          "type": "TOKEN",
+          "aliases": [
+            "tronix"
+          ]
+        },
+        {
+          "id": "ent-energy",
+          "name": "Energy",
+          "type": "RESOURCE",
+          "aliases": [
+            "энергия",
+            "энергии",
+            "энергией"
+          ]
+        },
+        {
+          "id": "ent-bandwidth",
+          "name": "Bandwidth",
+          "type": "RESOURCE",
+          "aliases": [
+            "bandwidth points"
+          ]
+        },
+        {
+          "id": "ent-delegation",
+          "name": "Delegation",
+          "type": "MECHANISM",
+          "aliases": [
+            "delegate",
+            "delegated energy"
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "id": "top-delegation",
+          "name": "Delegation",
+          "parent_id": "top-energy"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-tpe",
+          "name": "TRON POOL ENERGY",
+          "type": "SITE",
+          "url": "https://tron-pool-energy.example",
+          "reliability": 0.8
+        },
+        {
+          "id": "src-tron-docs",
+          "name": "TRON Docs",
+          "type": "TRON_DOCS",
+          "url": "https://developers.tron.network/docs",
+          "reliability": 0.95
+        }
+      ],
+      "chunk_entities": {
+        "ch-deleg-1-1": [
+          "ent-delegation",
+          "ent-energy",
+          "ent-trx"
+        ],
+        "ch-deleg-1-2": [
+          "ent-delegation",
+          "ent-energy"
+        ],
+        "ch-deleg-1-3": [
+          "ent-delegation",
+          "ent-trx"
+        ],
+        "ch-deleg-1-4": [
+          "ent-delegation"
+        ],
+        "ch-deleg-2-1": [
+          "ent-delegation",
+          "ent-trx"
+        ],
+        "ch-deleg-2-2": [
+          "ent-delegation",
+          "ent-energy"
+        ],
+        "ch-deleg-2-3": [
+          "ent-bandwidth",
+          "ent-delegation"
+        ],
+        "ch-deleg-2-4": [
+          "ent-bandwidth",
+          "ent-delegation"
+        ],
+        "ch-deleg-3-1": [
+          "ent-delegation",
+          "ent-energy",
+          "ent-trx"
+        ],
+        "ch-deleg-3-2": [
+          "ent-delegation",
+          "ent-energy"
+        ],
+        "ch-deleg-3-3": [
+          "ent-delegation"
+        ],
+        "ch-deleg-3-4": [
+          "ent-delegation"
+        ]
+      }
+    },
+    "art-trc20-vs-erc20": {
+      "article": {
+        "id": "art-trc20-vs-erc20",
+        "project_id": "tron-pool-energy",
+        "title": "TRC-20 vs ERC-20 Comparison",
+        "url": "https://tron-pool-energy.example/blog/trc20-vs-erc20",
+        "source_id": "src-tpe",
+        "language": "EN",
+        "version": "1.0",
+        "status": "PROCESSING",
+        "updated_at": "2026-10-08T13:05:00Z",
+        "chunk_count": 0,
+        "embedded_count": 0,
+        "sections": [
+          {
+            "id": "sec-trc20-1",
+            "title": "Token standards at a glance",
+            "order": 1,
+            "chunks": []
+          },
+          {
+            "id": "sec-trc20-2",
+            "title": "Fees on TRON and Ethereum",
+            "order": 2,
+            "chunks": []
+          },
+          {
+            "id": "sec-trc20-3",
+            "title": "When to use which network",
+            "order": 3,
+            "chunks": []
+          }
+        ],
+        "versions": [
+          {
+            "version": "1.0",
+            "released_at": "2026-10-08",
+            "change_reason": "Initial publication",
+            "is_live": true
+          }
+        ]
+      },
+      "facts": [],
+      "claims": [],
+      "entities": [],
+      "topics": [
+        {
+          "id": "top-usdt-trc20",
+          "name": "USDT TRC-20",
+          "parent_id": "top-tron"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-tpe",
+          "name": "TRON POOL ENERGY",
+          "type": "SITE",
+          "url": "https://tron-pool-energy.example",
+          "reliability": 0.8
+        }
+      ],
+      "chunk_entities": {}
+    },
+    "art-usdt-fees-tr": {
+      "article": {
+        "id": "art-usdt-fees-tr",
+        "project_id": "tron-pool-energy",
+        "title": "USDT TRC-20 İşlem Ücretleri",
+        "url": "https://tron-pool-energy.example/tr/blog/usdt-trc20-islem-ucretleri",
+        "source_id": "src-tpe",
+        "language": "TR",
+        "version": "1.0",
+        "status": "QUEUED",
+        "updated_at": "2026-10-09T06:30:00Z",
+        "chunk_count": 0,
+        "embedded_count": 0,
+        "sections": [],
+        "versions": [
+          {
+            "version": "1.0",
+            "released_at": "2026-10-09",
+            "change_reason": "Translation of USDT TRC-20 Transaction Fees v1.2",
+            "is_live": true
+          }
+        ]
+      },
+      "facts": [],
+      "claims": [],
+      "entities": [],
+      "topics": [
+        {
+          "id": "top-fees",
+          "name": "Fees",
+          "parent_id": "top-usdt-trc20"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-tpe",
+          "name": "TRON POOL ENERGY",
+          "type": "SITE",
+          "url": "https://tron-pool-energy.example",
+          "reliability": 0.8
+        }
+      ],
+      "chunk_entities": {}
+    },
+    "art-multisig": {
+      "article": {
+        "id": "art-multisig",
+        "project_id": "tron-pool-energy",
+        "title": "Multi-signature on TRON",
+        "url": "https://developers.tron.network/docs/multi-signature",
+        "source_id": "src-tron-docs",
+        "language": "EN",
+        "version": "1.0",
+        "status": "PROCESSED",
+        "updated_at": "2026-04-03T12:00:00Z",
+        "chunk_count": 10,
+        "embedded_count": 10,
+        "sections": [
+          {
+            "id": "sec-msig-1",
+            "title": "Permissions model",
+            "order": 1,
+            "chunks": [
+              {
+                "id": "ch-msig-1-1",
+                "section_id": "sec-msig-1",
+                "article_id": "art-multisig",
+                "text": "TRON accounts support multi-signature through a permission system: an owner permission, an optional witness permission and up to eight active permissions. Each permission lists keys with weights and a threshold that the combined signature weight must reach.",
+                "token_count": 64,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-04-03T12:00:00Z",
+                "semantic_tags": [
+                  "multisig",
+                  "permission",
+                  "key",
+                  "threshold",
+                  "account"
+                ]
+              },
+              {
+                "id": "ch-msig-1-2",
+                "section_id": "sec-msig-1",
+                "article_id": "art-multisig",
+                "text": "Active permissions can be restricted to specific operations, for example allowing a key to transfer TRX and call contracts but not to change permissions.",
+                "token_count": 38,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-04-03T12:00:00Z",
+                "semantic_tags": [
+                  "multisig",
+                  "permission",
+                  "operation",
+                  "trx"
+                ]
+              },
+              {
+                "id": "ch-msig-1-3",
+                "section_id": "sec-msig-1",
+                "article_id": "art-multisig",
+                "text": "The owner permission can change every other permission, including itself, so its keys should be kept offline. A common pattern is a 2-of-3 owner permission with keys held by different people.",
+                "token_count": 47,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-04-03T12:00:00Z",
+                "semantic_tags": [
+                  "multisig",
+                  "permission",
+                  "owner",
+                  "key",
+                  "security"
+                ]
+              },
+              {
+                "id": "ch-msig-1-4",
+                "section_id": "sec-msig-1",
+                "article_id": "art-multisig",
+                "text": "Witness permissions exist only for Super Representative accounts and control block production keys. Ordinary accounts never need them.",
+                "token_count": 33,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-04-03T12:00:00Z",
+                "semantic_tags": [
+                  "multisig",
+                  "permission",
+                  "witness"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-msig-2",
+            "title": "Fees for multi-signature",
+            "order": 2,
+            "chunks": [
+              {
+                "id": "ch-msig-2-1",
+                "section_id": "sec-msig-2",
+                "article_id": "art-multisig",
+                "text": "Updating account permissions with AccountPermissionUpdate costs 100 TRX, burned from the account. The fee applies every time the permission structure changes, so a multisig setup should be planned before it is activated.",
+                "token_count": 55,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-04-03T12:00:00Z",
+                "semantic_tags": [
+                  "multisig",
+                  "fee",
+                  "transaction",
+                  "permission",
+                  "update",
+                  "trx",
+                  "cost"
+                ]
+              },
+              {
+                "id": "ch-msig-2-2",
+                "section_id": "sec-msig-2",
+                "article_id": "art-multisig",
+                "text": "A transaction signed under a multi-signature permission pays an additional 1 TRX fee on top of the usual Energy and Bandwidth costs, so multisig raises the fee of every USDT transfer sent from such an account.",
+                "token_count": 52,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-04-03T12:00:00Z",
+                "semantic_tags": [
+                  "multisig",
+                  "fee",
+                  "transaction",
+                  "usdt",
+                  "signature",
+                  "cost"
+                ]
+              },
+              {
+                "id": "ch-msig-2-3",
+                "section_id": "sec-msig-2",
+                "article_id": "art-multisig",
+                "text": "Because every permission change burns 100 TRX, teams usually rehearse a new permission structure on the Nile testnet before applying it on mainnet, where mistakes are expensive and can lock an account.",
+                "token_count": 50,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-04-03T12:00:00Z",
+                "semantic_tags": [
+                  "multisig",
+                  "permission",
+                  "testnet",
+                  "trx"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "sec-msig-3",
+            "title": "Operating a multisig account",
+            "order": 3,
+            "chunks": [
+              {
+                "id": "ch-msig-3-1",
+                "section_id": "sec-msig-3",
+                "article_id": "art-multisig",
+                "text": "Signatures are collected off-chain: one party creates the transaction, the others sign it within the transaction expiration window, and any party can broadcast it once the threshold is met.",
+                "token_count": 47,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-04-03T12:00:00Z",
+                "semantic_tags": [
+                  "multisig",
+                  "signature",
+                  "transaction",
+                  "broadcast"
+                ]
+              },
+              {
+                "id": "ch-msig-3-2",
+                "section_id": "sec-msig-3",
+                "article_id": "art-multisig",
+                "text": "Each extra signature on a multisig transaction adds about 65 bytes, which increases the Bandwidth it consumes and, once the free allowance is spent, the fee.",
+                "token_count": 39,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-04-03T12:00:00Z",
+                "semantic_tags": [
+                  "multisig",
+                  "signature",
+                  "bandwidth",
+                  "transaction",
+                  "fee"
+                ]
+              },
+              {
+                "id": "ch-msig-3-3",
+                "section_id": "sec-msig-3",
+                "article_id": "art-multisig",
+                "text": "If the combined weight of the available keys falls below the threshold, the account can no longer sign with that permission. Keeping a recovery key in the owner permission prevents funds from being locked for good.",
+                "token_count": 53,
+                "embedding_model": "text-embedding-3-small",
+                "embedded": true,
+                "created_at": "2026-04-03T12:00:00Z",
+                "semantic_tags": [
+                  "multisig",
+                  "threshold",
+                  "recovery",
+                  "key"
+                ]
+              }
+            ]
+          }
+        ],
+        "versions": [
+          {
+            "version": "1.0",
+            "released_at": "2026-04-03",
+            "change_reason": "Imported from TRON developer docs",
+            "is_live": true
+          }
+        ]
+      },
+      "facts": [
+        {
+          "id": "fact-msig-3",
+          "chunk_id": "ch-msig-1-1",
+          "statement": "A TRON account can have up to eight active permissions.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-03-30T10:00:00Z"
+        },
+        {
+          "id": "fact-msig-1",
+          "chunk_id": "ch-msig-2-1",
+          "statement": "AccountPermissionUpdate costs 100 TRX.",
+          "status": "VERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-03-30T10:00:00Z"
+        },
+        {
+          "id": "fact-msig-2",
+          "chunk_id": "ch-msig-2-2",
+          "statement": "A multi-signature transaction pays an additional 1 TRX fee.",
+          "status": "CONFLICTING",
+          "source_id": "src-tron-docs",
+          "verified_at": "2026-03-30T10:00:00Z"
+        },
+        {
+          "id": "fact-msig-4",
+          "chunk_id": "ch-msig-3-2",
+          "statement": "Each extra signature adds about 65 bytes to a transaction.",
+          "status": "UNVERIFIED",
+          "source_id": "src-tron-docs",
+          "verified_at": null
+        }
+      ],
+      "claims": [
+        {
+          "id": "claim-msig-1",
+          "chunk_id": "ch-msig-1-1",
+          "statement": "Multisig is the recommended setup for treasury wallets.",
+          "status": "UNVERIFIED",
+          "source_id": "src-tron-docs"
+        }
+      ],
+      "entities": [
+        {
+          "id": "ent-tron",
+          "name": "TRON",
+          "type": "NETWORK",
+          "aliases": [
+            "tron network"
+          ]
+        },
+        {
+          "id": "ent-trx",
+          "name": "TRX",
+          "type": "TOKEN",
+          "aliases": [
+            "tronix"
+          ]
+        },
+        {
+          "id": "ent-usdt",
+          "name": "USDT",
+          "type": "TOKEN",
+          "aliases": [
+            "tether"
+          ]
+        },
+        {
+          "id": "ent-energy",
+          "name": "Energy",
+          "type": "RESOURCE",
+          "aliases": [
+            "энергия",
+            "энергии",
+            "энергией"
+          ]
+        },
+        {
+          "id": "ent-bandwidth",
+          "name": "Bandwidth",
+          "type": "RESOURCE",
+          "aliases": [
+            "bandwidth points"
+          ]
+        },
+        {
+          "id": "ent-multisig",
+          "name": "Multisig",
+          "type": "MECHANISM",
+          "aliases": [
+            "multi-signature",
+            "multisignature",
+            "multi sig"
+          ]
+        }
+      ],
+      "topics": [
+        {
+          "id": "top-tron",
+          "name": "TRON",
+          "parent_id": null
+        }
+      ],
+      "sources": [
+        {
+          "id": "src-tron-docs",
+          "name": "TRON Docs",
+          "type": "TRON_DOCS",
+          "url": "https://developers.tron.network/docs",
+          "reliability": 0.95
+        }
+      ],
+      "chunk_entities": {
+        "ch-msig-1-1": [
+          "ent-multisig",
+          "ent-tron"
+        ],
+        "ch-msig-1-2": [
+          "ent-multisig",
+          "ent-trx"
+        ],
+        "ch-msig-1-3": [
+          "ent-multisig"
+        ],
+        "ch-msig-1-4": [
+          "ent-multisig",
+          "ent-tron"
+        ],
+        "ch-msig-2-1": [
+          "ent-multisig",
+          "ent-trx"
+        ],
+        "ch-msig-2-2": [
+          "ent-bandwidth",
+          "ent-energy",
+          "ent-multisig",
+          "ent-trx",
+          "ent-usdt"
+        ],
+        "ch-msig-2-3": [
+          "ent-multisig",
+          "ent-trx"
+        ],
+        "ch-msig-3-1": [
+          "ent-multisig"
+        ],
+        "ch-msig-3-2": [
+          "ent-bandwidth",
+          "ent-multisig"
+        ],
+        "ch-msig-3-3": [
+          "ent-multisig"
+        ]
+      }
+    }
+  },
+  "jobs": {
+    "art-usdt-fees-en": {
+      "article_id": "art-usdt-fees-en",
+      "status": "PROCESSED",
+      "current_stage": null,
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 840,
+          "counters": {
+            "characters": 19254
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 360,
+          "counters": {
+            "sections": 4
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "COMPLETED",
+          "duration_ms": 1900,
+          "counters": {
+            "chunks": 12
+          }
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "COMPLETED",
+          "duration_ms": 12800,
+          "counters": {
+            "facts": 8,
+            "claims": 3,
+            "entities": 6
+          }
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "COMPLETED",
+          "duration_ms": 6200,
+          "counters": {
+            "embedded": 12,
+            "total": 12
+          }
+        },
+        {
+          "stage": "INDEXED",
+          "state": "COMPLETED",
+          "duration_ms": 520,
+          "counters": {
+            "indexed": 12
+          }
+        }
+      ],
+      "error": null,
+      "updated_at": "2026-09-18T10:20:00Z"
+    },
+    "art-energy-works": {
+      "article_id": "art-energy-works",
+      "status": "PROCESSED",
+      "current_stage": null,
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 777,
+          "counters": {
+            "characters": 14406
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 337,
+          "counters": {
+            "sections": 4
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "COMPLETED",
+          "duration_ms": 1749,
+          "counters": {
+            "chunks": 10
+          }
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "COMPLETED",
+          "duration_ms": 11740,
+          "counters": {
+            "facts": 5,
+            "claims": 1,
+            "entities": 7
+          }
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "COMPLETED",
+          "duration_ms": 5690,
+          "counters": {
+            "embedded": 10,
+            "total": 10
+          }
+        },
+        {
+          "stage": "INDEXED",
+          "state": "COMPLETED",
+          "duration_ms": 484,
+          "counters": {
+            "indexed": 10
+          }
+        }
+      ],
+      "error": null,
+      "updated_at": "2026-07-02T08:00:00Z"
+    },
+    "art-rental-vs-burn": {
+      "article_id": "art-rental-vs-burn",
+      "status": "PROCESSED",
+      "current_stage": null,
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 784,
+          "counters": {
+            "characters": 13050
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 344,
+          "counters": {
+            "sections": 3
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "COMPLETED",
+          "duration_ms": 1756,
+          "counters": {
+            "chunks": 10
+          }
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "COMPLETED",
+          "duration_ms": 11747,
+          "counters": {
+            "facts": 5,
+            "claims": 2,
+            "entities": 4
+          }
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "COMPLETED",
+          "duration_ms": 5697,
+          "counters": {
+            "embedded": 10,
+            "total": 10
+          }
+        },
+        {
+          "stage": "INDEXED",
+          "state": "COMPLETED",
+          "duration_ms": 491,
+          "counters": {
+            "indexed": 10
+          }
+        }
+      ],
+      "error": null,
+      "updated_at": "2026-08-21T14:45:00Z"
+    },
+    "art-bandwidth": {
+      "article_id": "art-bandwidth",
+      "status": "PROCESSED",
+      "current_stage": null,
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 791,
+          "counters": {
+            "characters": 10698
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 351,
+          "counters": {
+            "sections": 3
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "COMPLETED",
+          "duration_ms": 1763,
+          "counters": {
+            "chunks": 10
+          }
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "COMPLETED",
+          "duration_ms": 11754,
+          "counters": {
+            "facts": 5,
+            "claims": 1,
+            "entities": 7
+          }
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "COMPLETED",
+          "duration_ms": 5704,
+          "counters": {
+            "embedded": 10,
+            "total": 10
+          }
+        },
+        {
+          "stage": "INDEXED",
+          "state": "COMPLETED",
+          "duration_ms": 498,
+          "counters": {
+            "indexed": 10
+          }
+        }
+      ],
+      "error": null,
+      "updated_at": "2026-05-14T09:30:00Z"
+    },
+    "art-usdt-fees-ru": {
+      "article_id": "art-usdt-fees-ru",
+      "status": "PROCESSED",
+      "current_stage": null,
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 798,
+          "counters": {
+            "characters": 10740
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 358,
+          "counters": {
+            "sections": 3
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "COMPLETED",
+          "duration_ms": 1770,
+          "counters": {
+            "chunks": 10
+          }
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "COMPLETED",
+          "duration_ms": 11761,
+          "counters": {
+            "facts": 3,
+            "claims": 1,
+            "entities": 6
+          }
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "COMPLETED",
+          "duration_ms": 5711,
+          "counters": {
+            "embedded": 10,
+            "total": 10
+          }
+        },
+        {
+          "stage": "INDEXED",
+          "state": "COMPLETED",
+          "duration_ms": 505,
+          "counters": {
+            "indexed": 10
+          }
+        }
+      ],
+      "error": null,
+      "updated_at": "2026-09-25T11:00:00Z"
+    },
+    "art-wallet-setup": {
+      "article_id": "art-wallet-setup",
+      "status": "PROCESSED",
+      "current_stage": null,
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 805,
+          "counters": {
+            "characters": 11286
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 365,
+          "counters": {
+            "sections": 3
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "COMPLETED",
+          "duration_ms": 1777,
+          "counters": {
+            "chunks": 10
+          }
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "COMPLETED",
+          "duration_ms": 11768,
+          "counters": {
+            "facts": 4,
+            "claims": 1,
+            "entities": 6
+          }
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "COMPLETED",
+          "duration_ms": 5718,
+          "counters": {
+            "embedded": 10,
+            "total": 10
+          }
+        },
+        {
+          "stage": "INDEXED",
+          "state": "COMPLETED",
+          "duration_ms": 512,
+          "counters": {
+            "indexed": 10
+          }
+        }
+      ],
+      "error": null,
+      "updated_at": "2026-06-10T16:10:00Z"
+    },
+    "art-delegation-guide": {
+      "article_id": "art-delegation-guide",
+      "status": "FAILED",
+      "current_stage": "EMBEDDING",
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 882,
+          "counters": {
+            "characters": 10614
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 402,
+          "counters": {
+            "sections": 3
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "COMPLETED",
+          "duration_ms": 1942,
+          "counters": {
+            "chunks": 12
+          }
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "COMPLETED",
+          "duration_ms": 12842,
+          "counters": {
+            "facts": 3,
+            "claims": 0,
+            "entities": 4
+          }
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "FAILED",
+          "duration_ms": 93412,
+          "counters": {
+            "embedded": 3,
+            "total": 12
+          }
+        },
+        {
+          "stage": "INDEXED",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        }
+      ],
+      "error": {
+        "stage": "EMBEDDING",
+        "message": "embedding provider timeout (3 retries)",
+        "retries": 3,
+        "occurred_at": "2026-10-06T07:44:12Z",
+        "log": [
+          "2026-10-06T07:42:51Z INFO  embedding batch 1/4 (3 chunks) ok in 2.9s",
+          "2026-10-06T07:43:21Z WARN  embedding batch 2/4 timed out after 30s, retry 1/3",
+          "2026-10-06T07:43:51Z WARN  embedding batch 2/4 timed out after 30s, retry 2/3",
+          "2026-10-06T07:44:12Z WARN  embedding batch 2/4 timed out after 30s, retry 3/3",
+          "2026-10-06T07:44:12Z ERROR embedding provider timeout (3 retries); 3/12 chunks embedded, job halted"
+        ]
+      },
+      "updated_at": "2026-10-06T07:42:00Z"
+    },
+    "art-trc20-vs-erc20": {
+      "article_id": "art-trc20-vs-erc20",
+      "status": "PROCESSING",
+      "current_stage": "CHUNKING",
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 451,
+          "counters": {
+            "characters": 18240
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 211,
+          "counters": {
+            "sections": 3
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "RUNNING",
+          "duration_ms": null,
+          "counters": {}
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        },
+        {
+          "stage": "INDEXED",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        }
+      ],
+      "error": null,
+      "updated_at": "2026-10-08T13:05:00Z"
+    },
+    "art-usdt-fees-tr": {
+      "article_id": "art-usdt-fees-tr",
+      "status": "QUEUED",
+      "current_stage": null,
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        },
+        {
+          "stage": "INDEXED",
+          "state": "PENDING",
+          "duration_ms": null,
+          "counters": {}
+        }
+      ],
+      "error": null,
+      "updated_at": "2026-10-09T06:30:00Z"
+    },
+    "art-multisig": {
+      "article_id": "art-multisig",
+      "status": "PROCESSED",
+      "current_stage": null,
+      "stages": [
+        {
+          "stage": "PARSING",
+          "state": "COMPLETED",
+          "duration_ms": 833,
+          "counters": {
+            "characters": 11550
+          }
+        },
+        {
+          "stage": "SECTIONING",
+          "state": "COMPLETED",
+          "duration_ms": 393,
+          "counters": {
+            "sections": 3
+          }
+        },
+        {
+          "stage": "CHUNKING",
+          "state": "COMPLETED",
+          "duration_ms": 1805,
+          "counters": {
+            "chunks": 10
+          }
+        },
+        {
+          "stage": "KNOWLEDGE_EXTRACTION",
+          "state": "COMPLETED",
+          "duration_ms": 11796,
+          "counters": {
+            "facts": 4,
+            "claims": 1,
+            "entities": 6
+          }
+        },
+        {
+          "stage": "EMBEDDING",
+          "state": "COMPLETED",
+          "duration_ms": 5746,
+          "counters": {
+            "embedded": 10,
+            "total": 10
+          }
+        },
+        {
+          "stage": "INDEXED",
+          "state": "COMPLETED",
+          "duration_ms": 540,
+          "counters": {
+            "indexed": 10
+          }
+        }
+      ],
+      "error": null,
+      "updated_at": "2026-04-03T12:00:00Z"
+    }
+  },
+  "queue": [
+    {
+      "job": {
+        "article_id": "art-delegation-guide",
+        "status": "FAILED",
+        "current_stage": "EMBEDDING",
+        "stages": [
+          {
+            "stage": "PARSING",
+            "state": "COMPLETED",
+            "duration_ms": 882,
+            "counters": {
+              "characters": 10614
+            }
+          },
+          {
+            "stage": "SECTIONING",
+            "state": "COMPLETED",
+            "duration_ms": 402,
+            "counters": {
+              "sections": 3
+            }
+          },
+          {
+            "stage": "CHUNKING",
+            "state": "COMPLETED",
+            "duration_ms": 1942,
+            "counters": {
+              "chunks": 12
+            }
+          },
+          {
+            "stage": "KNOWLEDGE_EXTRACTION",
+            "state": "COMPLETED",
+            "duration_ms": 12842,
+            "counters": {
+              "facts": 3,
+              "claims": 0,
+              "entities": 4
+            }
+          },
+          {
+            "stage": "EMBEDDING",
+            "state": "FAILED",
+            "duration_ms": 93412,
+            "counters": {
+              "embedded": 3,
+              "total": 12
+            }
+          },
+          {
+            "stage": "INDEXED",
+            "state": "PENDING",
+            "duration_ms": null,
+            "counters": {}
+          }
+        ],
+        "error": {
+          "stage": "EMBEDDING",
+          "message": "embedding provider timeout (3 retries)",
+          "retries": 3,
+          "occurred_at": "2026-10-06T07:44:12Z",
+          "log": [
+            "2026-10-06T07:42:51Z INFO  embedding batch 1/4 (3 chunks) ok in 2.9s",
+            "2026-10-06T07:43:21Z WARN  embedding batch 2/4 timed out after 30s, retry 1/3",
+            "2026-10-06T07:43:51Z WARN  embedding batch 2/4 timed out after 30s, retry 2/3",
+            "2026-10-06T07:44:12Z WARN  embedding batch 2/4 timed out after 30s, retry 3/3",
+            "2026-10-06T07:44:12Z ERROR embedding provider timeout (3 retries); 3/12 chunks embedded, job halted"
+          ]
+        },
+        "updated_at": "2026-10-06T07:42:00Z"
+      },
+      "article": {
+        "id": "art-delegation-guide",
+        "project_id": "tron-pool-energy",
+        "title": "Energy Delegation Guide",
+        "url": "https://tron-pool-energy.example/guides/energy-delegation",
+        "source_id": "src-tpe",
+        "language": "EN",
+        "version": "1.0",
+        "status": "FAILED",
+        "updated_at": "2026-10-06T07:42:00Z",
+        "chunk_count": 12,
+        "embedded_count": 3
+      }
+    },
+    {
+      "job": {
+        "article_id": "art-trc20-vs-erc20",
+        "status": "PROCESSING",
+        "current_stage": "CHUNKING",
+        "stages": [
+          {
+            "stage": "PARSING",
+            "state": "COMPLETED",
+            "duration_ms": 451,
+            "counters": {
+              "characters": 18240
+            }
+          },
+          {
+            "stage": "SECTIONING",
+            "state": "COMPLETED",
+            "duration_ms": 211,
+            "counters": {
+              "sections": 3
+            }
+          },
+          {
+            "stage": "CHUNKING",
+            "state": "RUNNING",
+            "duration_ms": null,
+            "counters": {}
+          },
+          {
+            "stage": "KNOWLEDGE_EXTRACTION",
+            "state": "PENDING",
+            "duration_ms": null,
+            "counters": {}
+          },
+          {
+            "stage": "EMBEDDING",
+            "state": "PENDING",
+            "duration_ms": null,
+            "counters": {}
+          },
+          {
+            "stage": "INDEXED",
+            "state": "PENDING",
+            "duration_ms": null,
+            "counters": {}
+          }
+        ],
+        "error": null,
+        "updated_at": "2026-10-08T13:05:00Z"
+      },
+      "article": {
+        "id": "art-trc20-vs-erc20",
+        "project_id": "tron-pool-energy",
+        "title": "TRC-20 vs ERC-20 Comparison",
+        "url": "https://tron-pool-energy.example/blog/trc20-vs-erc20",
+        "source_id": "src-tpe",
+        "language": "EN",
+        "version": "1.0",
+        "status": "PROCESSING",
+        "updated_at": "2026-10-08T13:05:00Z",
+        "chunk_count": 0,
+        "embedded_count": 0
+      }
+    },
+    {
+      "job": {
+        "article_id": "art-usdt-fees-tr",
+        "status": "QUEUED",
+        "current_stage": null,
+        "stages": [
+          {
+            "stage": "PARSING",
+            "state": "PENDING",
+            "duration_ms": null,
+            "counters": {}
+          },
+          {
+            "stage": "SECTIONING",
+            "state": "PENDING",
+            "duration_ms": null,
+            "counters": {}
+          },
+          {
+            "stage": "CHUNKING",
+            "state": "PENDING",
+            "duration_ms": null,
+            "counters": {}
+          },
+          {
+            "stage": "KNOWLEDGE_EXTRACTION",
+            "state": "PENDING",
+            "duration_ms": null,
+            "counters": {}
+          },
+          {
+            "stage": "EMBEDDING",
+            "state": "PENDING",
+            "duration_ms": null,
+            "counters": {}
+          },
+          {
+            "stage": "INDEXED",
+            "state": "PENDING",
+            "duration_ms": null,
+            "counters": {}
+          }
+        ],
+        "error": null,
+        "updated_at": "2026-10-09T06:30:00Z"
+      },
+      "article": {
+        "id": "art-usdt-fees-tr",
+        "project_id": "tron-pool-energy",
+        "title": "USDT TRC-20 İşlem Ücretleri",
+        "url": "https://tron-pool-energy.example/tr/blog/usdt-trc20-islem-ucretleri",
+        "source_id": "src-tpe",
+        "language": "TR",
+        "version": "1.0",
+        "status": "QUEUED",
+        "updated_at": "2026-10-09T06:30:00Z",
+        "chunk_count": 0,
+        "embedded_count": 0
+      }
+    },
+    {
+      "job": {
+        "article_id": "art-usdt-fees-ru",
+        "status": "PROCESSED",
+        "current_stage": null,
+        "stages": [
+          {
+            "stage": "PARSING",
+            "state": "COMPLETED",
+            "duration_ms": 798,
+            "counters": {
+              "characters": 10740
+            }
+          },
+          {
+            "stage": "SECTIONING",
+            "state": "COMPLETED",
+            "duration_ms": 358,
+            "counters": {
+              "sections": 3
+            }
+          },
+          {
+            "stage": "CHUNKING",
+            "state": "COMPLETED",
+            "duration_ms": 1770,
+            "counters": {
+              "chunks": 10
+            }
+          },
+          {
+            "stage": "KNOWLEDGE_EXTRACTION",
+            "state": "COMPLETED",
+            "duration_ms": 11761,
+            "counters": {
+              "facts": 3,
+              "claims": 1,
+              "entities": 6
+            }
+          },
+          {
+            "stage": "EMBEDDING",
+            "state": "COMPLETED",
+            "duration_ms": 5711,
+            "counters": {
+              "embedded": 10,
+              "total": 10
+            }
+          },
+          {
+            "stage": "INDEXED",
+            "state": "COMPLETED",
+            "duration_ms": 505,
+            "counters": {
+              "indexed": 10
+            }
+          }
+        ],
+        "error": null,
+        "updated_at": "2026-09-25T11:00:00Z"
+      },
+      "article": {
+        "id": "art-usdt-fees-ru",
+        "project_id": "tron-pool-energy",
+        "title": "Комиссии USDT TRC-20",
+        "url": "https://tron-pool-energy.example/ru/blog/usdt-trc20-komissii",
+        "source_id": "src-tpe",
+        "language": "RU",
+        "version": "1.0",
+        "status": "PROCESSED",
+        "updated_at": "2026-09-25T11:00:00Z",
+        "chunk_count": 10,
+        "embedded_count": 10
+      }
+    },
+    {
+      "job": {
+        "article_id": "art-usdt-fees-en",
+        "status": "PROCESSED",
+        "current_stage": null,
+        "stages": [
+          {
+            "stage": "PARSING",
+            "state": "COMPLETED",
+            "duration_ms": 840,
+            "counters": {
+              "characters": 19254
+            }
+          },
+          {
+            "stage": "SECTIONING",
+            "state": "COMPLETED",
+            "duration_ms": 360,
+            "counters": {
+              "sections": 4
+            }
+          },
+          {
+            "stage": "CHUNKING",
+            "state": "COMPLETED",
+            "duration_ms": 1900,
+            "counters": {
+              "chunks": 12
+            }
+          },
+          {
+            "stage": "KNOWLEDGE_EXTRACTION",
+            "state": "COMPLETED",
+            "duration_ms": 12800,
+            "counters": {
+              "facts": 8,
+              "claims": 3,
+              "entities": 6
+            }
+          },
+          {
+            "stage": "EMBEDDING",
+            "state": "COMPLETED",
+            "duration_ms": 6200,
+            "counters": {
+              "embedded": 12,
+              "total": 12
+            }
+          },
+          {
+            "stage": "INDEXED",
+            "state": "COMPLETED",
+            "duration_ms": 520,
+            "counters": {
+              "indexed": 12
+            }
+          }
+        ],
+        "error": null,
+        "updated_at": "2026-09-18T10:20:00Z"
+      },
+      "article": {
+        "id": "art-usdt-fees-en",
+        "project_id": "tron-pool-energy",
+        "title": "USDT TRC-20 Transaction Fees",
+        "url": "https://tron-pool-energy.example/blog/usdt-trc20-transaction-fees",
+        "source_id": "src-tpe",
+        "language": "EN",
+        "version": "1.2",
+        "status": "PROCESSED",
+        "updated_at": "2026-09-18T10:20:00Z",
+        "chunk_count": 12,
+        "embedded_count": 12
+      }
+    },
+    {
+      "job": {
+        "article_id": "art-rental-vs-burn",
+        "status": "PROCESSED",
+        "current_stage": null,
+        "stages": [
+          {
+            "stage": "PARSING",
+            "state": "COMPLETED",
+            "duration_ms": 784,
+            "counters": {
+              "characters": 13050
+            }
+          },
+          {
+            "stage": "SECTIONING",
+            "state": "COMPLETED",
+            "duration_ms": 344,
+            "counters": {
+              "sections": 3
+            }
+          },
+          {
+            "stage": "CHUNKING",
+            "state": "COMPLETED",
+            "duration_ms": 1756,
+            "counters": {
+              "chunks": 10
+            }
+          },
+          {
+            "stage": "KNOWLEDGE_EXTRACTION",
+            "state": "COMPLETED",
+            "duration_ms": 11747,
+            "counters": {
+              "facts": 5,
+              "claims": 2,
+              "entities": 4
+            }
+          },
+          {
+            "stage": "EMBEDDING",
+            "state": "COMPLETED",
+            "duration_ms": 5697,
+            "counters": {
+              "embedded": 10,
+              "total": 10
+            }
+          },
+          {
+            "stage": "INDEXED",
+            "state": "COMPLETED",
+            "duration_ms": 491,
+            "counters": {
+              "indexed": 10
+            }
+          }
+        ],
+        "error": null,
+        "updated_at": "2026-08-21T14:45:00Z"
+      },
+      "article": {
+        "id": "art-rental-vs-burn",
+        "project_id": "tron-pool-energy",
+        "title": "Energy Rental vs Burning TRX",
+        "url": "https://tron-pool-energy.example/blog/energy-rental-vs-burning-trx",
+        "source_id": "src-tpe",
+        "language": "EN",
+        "version": "1.0",
+        "status": "PROCESSED",
+        "updated_at": "2026-08-21T14:45:00Z",
+        "chunk_count": 10,
+        "embedded_count": 10
+      }
+    }
+  ],
+  "filters": {
+    "project_ids": [
+      "tron-pool-energy"
+    ],
+    "languages": [
+      "EN",
+      "RU",
+      "UA",
+      "TR",
+      "ES"
+    ],
+    "statuses": [
+      "QUEUED",
+      "PROCESSING",
+      "PROCESSED",
+      "FAILED"
+    ],
+    "verification_statuses": [
+      "VERIFIED",
+      "UNVERIFIED",
+      "OUTDATED",
+      "CONFLICTING",
+      "NO_SOURCE"
+    ],
+    "sources": [
+      {
+        "id": "src-tpe",
+        "name": "TRON POOL ENERGY",
+        "type": "SITE",
+        "url": "https://tron-pool-energy.example",
+        "reliability": 0.8
+      },
+      {
+        "id": "src-tron-docs",
+        "name": "TRON Docs",
+        "type": "TRON_DOCS",
+        "url": "https://developers.tron.network/docs",
+        "reliability": 0.95
+      },
+      {
+        "id": "src-tronscan",
+        "name": "Tronscan",
+        "type": "EXTERNAL",
+        "url": "https://tronscan.org",
+        "reliability": 0.85
+      },
+      {
+        "id": "src-gsc",
+        "name": "Google Search Console",
+        "type": "GSC",
+        "url": "https://search.google.com/search-console",
+        "reliability": 0.7
+      },
+      {
+        "id": "src-ga4",
+        "name": "Google Analytics 4",
+        "type": "GA4",
+        "url": "https://analytics.google.com",
+        "reliability": 0.7
+      },
+      {
+        "id": "src-ahrefs",
+        "name": "Ahrefs",
+        "type": "AHREFS",
+        "url": "https://ahrefs.com",
+        "reliability": 0.6
+      },
+      {
+        "id": "src-ai-visibility",
+        "name": "AI Visibility Monitor",
+        "type": "AI_VISIBILITY",
+        "url": "https://tron-pool-energy.example/internal/ai-visibility",
+        "reliability": 0.5
+      }
+    ],
+    "topics": [
+      {
+        "id": "top-tron",
+        "name": "TRON",
+        "parent_id": null
+      },
+      {
+        "id": "top-energy",
+        "name": "Energy",
+        "parent_id": "top-tron"
+      },
+      {
+        "id": "top-rental",
+        "name": "Rental",
+        "parent_id": "top-energy"
+      },
+      {
+        "id": "top-delegation",
+        "name": "Delegation",
+        "parent_id": "top-energy"
+      },
+      {
+        "id": "top-cost",
+        "name": "Cost",
+        "parent_id": "top-energy"
+      },
+      {
+        "id": "top-usdt-trc20",
+        "name": "USDT TRC-20",
+        "parent_id": "top-tron"
+      },
+      {
+        "id": "top-fees",
+        "name": "Fees",
+        "parent_id": "top-usdt-trc20"
+      },
+      {
+        "id": "top-transfers",
+        "name": "Transfers",
+        "parent_id": "top-usdt-trc20"
+      }
+    ],
+    "entities": [
+      {
+        "id": "ent-tron",
+        "name": "TRON",
+        "type": "NETWORK",
+        "aliases": [
+          "tron network"
+        ]
+      },
+      {
+        "id": "ent-trx",
+        "name": "TRX",
+        "type": "TOKEN",
+        "aliases": [
+          "tronix"
+        ]
+      },
+      {
+        "id": "ent-usdt",
+        "name": "USDT",
+        "type": "TOKEN",
+        "aliases": [
+          "tether"
+        ]
+      },
+      {
+        "id": "ent-trc20",
+        "name": "TRC-20",
+        "type": "TOKEN_STANDARD",
+        "aliases": [
+          "trc20",
+          "trc 20"
+        ]
+      },
+      {
+        "id": "ent-energy",
+        "name": "Energy",
+        "type": "RESOURCE",
+        "aliases": [
+          "энергия",
+          "энергии",
+          "энергией"
+        ]
+      },
+      {
+        "id": "ent-bandwidth",
+        "name": "Bandwidth",
+        "type": "RESOURCE",
+        "aliases": [
+          "bandwidth points"
+        ]
+      },
+      {
+        "id": "ent-delegation",
+        "name": "Delegation",
+        "type": "MECHANISM",
+        "aliases": [
+          "delegate",
+          "delegated energy"
+        ]
+      },
+      {
+        "id": "ent-multisig",
+        "name": "Multisig",
+        "type": "MECHANISM",
+        "aliases": [
+          "multi-signature",
+          "multisignature",
+          "multi sig"
+        ]
+      }
+    ],
+    "articles": [
+      {
+        "id": "art-usdt-fees-en",
+        "title": "USDT TRC-20 Transaction Fees",
+        "language": "EN"
+      },
+      {
+        "id": "art-energy-works",
+        "title": "How TRON Energy Works",
+        "language": "EN"
+      },
+      {
+        "id": "art-rental-vs-burn",
+        "title": "Energy Rental vs Burning TRX",
+        "language": "EN"
+      },
+      {
+        "id": "art-bandwidth",
+        "title": "Bandwidth Explained",
+        "language": "EN"
+      },
+      {
+        "id": "art-usdt-fees-ru",
+        "title": "Комиссии USDT TRC-20",
+        "language": "RU"
+      },
+      {
+        "id": "art-wallet-setup",
+        "title": "TRON Wallet Setup Guide",
+        "language": "EN"
+      },
+      {
+        "id": "art-delegation-guide",
+        "title": "Energy Delegation Guide",
+        "language": "EN"
+      },
+      {
+        "id": "art-trc20-vs-erc20",
+        "title": "TRC-20 vs ERC-20 Comparison",
+        "language": "EN"
+      },
+      {
+        "id": "art-usdt-fees-tr",
+        "title": "USDT TRC-20 İşlem Ücretleri",
+        "language": "TR"
+      },
+      {
+        "id": "art-multisig",
+        "title": "Multi-signature on TRON",
+        "language": "EN"
+      }
+    ],
+    "date_min": "2026-04-03",
+    "date_max": "2026-10-09"
+  }
+}
