@@ -187,7 +187,7 @@ export function PipelineTrace({ trace }: { trace: RagTrace }) {
         ]}
       >
         <p className="mb-1.5 text-xs text-zinc-500">
-          score = 0.6 · fused + 0.3 · entity overlap + 0.1 · source reliability
+          score = (0.6 · fused + 0.3 · entity overlap + 0.1 · source reliability)⁴
         </p>
         <ul className="space-y-1 text-xs">
           {[...rerank.kept, ...rerank.dropped].map((c) => (

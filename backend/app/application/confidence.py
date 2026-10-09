@@ -36,19 +36,15 @@ def compute_confidence(
     )
     return Confidence(
         score=round(score, 4),
-        # Too few results, or a gap the evidence cannot cover, is a refusal regardless of
-        # how strong the individual components are.
-        level=(
-            ConfidenceLevel.LOW
-            if blocking_reasons or len(rerank_scores) < MIN_RESULTS_FOR_ANSWER
-            else confidence_level(score)
-        ),
+        # A blocking reason is a refusal regardless of how strong the components are.
+        level=ConfidenceLevel.LOW if blocking_reasons else confidence_level(score),
         components=ConfidenceComponents(
             rerank_mean=round(rerank_mean, 4),
             verified_share=round(verified_share, 4),
             source_diversity=round(source_diversity, 4),
         ),
-        reasons=(*blocking_reasons, *extra_reasons, *_reasons(rerank_scores, facts, source_ids)),
+        reasons=(*extra_reasons, *_reasons(rerank_scores, facts, source_ids)),
+        blocked_by=tuple(blocking_reasons),
     )
 
 

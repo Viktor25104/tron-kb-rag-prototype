@@ -37,7 +37,10 @@ export function AiAnswerPage() {
               <SourcesPanel context={context} />
             </>
           ) : (
-            <LowConfidenceView lowConfidence={outcome.lowConfidence} />
+            <LowConfidenceView
+              lowConfidence={outcome.lowConfidence}
+              confidence={context.confidence}
+            />
           )}
         </div>
         <div className="flex flex-col gap-4">

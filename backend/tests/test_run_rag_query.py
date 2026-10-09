@@ -60,9 +60,10 @@ def test_fee_question_is_answered_with_high_confidence(fixture_data: FixtureData
     assert result.answer is not None
     confidence = result.context.confidence
     assert confidence.level is ConfidenceLevel.HIGH
-    # Not a perfect score: two facts behind the batching advice are still unverified.
+    # Not a perfect score: a fact behind the batching advice is still unverified.
     assert 0.84 <= confidence.score <= 0.89
-    assert "2 of 5 facts unverified" in confidence.reasons
+    assert "1 of 4 facts unverified" in confidence.reasons
+    assert confidence.blocked_by == ()
     assert len(agent.calls) == 1
     cited = {c.chunk_id for c in result.answer.citations}
     assert cited <= {r.chunk.id for r in result.context.chunks}
@@ -77,7 +78,9 @@ def test_future_pricing_question_is_refused_without_calling_agent(
     assert result.answer is None
     assert result.low_confidence is not None
     assert result.context.confidence.level is ConfidenceLevel.LOW
-    assert result.context.confidence.reasons[0] == "no evidence dated 2027 or later"
+    assert result.context.confidence.blocked_by == ("no evidence dated 2027 or later",)
+    # Blocked, not weak: the formula alone would have allowed an answer.
+    assert result.context.confidence.score >= 0.6
     assert agent.calls == []
     assert result.low_confidence.possible_sources
     assert all("dropped by reranker" in s.reason for s in result.low_confidence.possible_sources)
@@ -91,7 +94,7 @@ def test_language_without_indexed_content_is_refused(fixture_data: FixtureData) 
     assert result.trace.prefilter.corpus_after == 0
     assert result.trace.vector.candidates == ()
     assert result.trace.fts.candidates == ()
-    assert "corpus after filters: 0 processed chunks" in result.context.confidence.reasons
+    assert result.context.confidence.blocked_by == ("corpus after filters: 0 processed chunks",)
 
 
 def test_borderline_multisig_question_is_medium(fixture_data: FixtureData) -> None:
@@ -132,3 +135,13 @@ def test_pipeline_is_deterministic(fixture_data: FixtureData, query_id: str) -> 
     second, _ = run(fixture_data, query_id)
 
     assert first == second
+
+
+def test_reranker_scores_are_spread_and_ordered(fixture_data: FixtureData) -> None:
+    result, _ = run(fixture_data, "fees-reduce")
+    scores = [r.score for r in result.results]
+
+    assert scores == sorted(scores, reverse=True)
+    assert min(scores) >= 0.72
+    assert max(scores) <= 0.95
+    assert max(scores) - min(scores) >= 0.08

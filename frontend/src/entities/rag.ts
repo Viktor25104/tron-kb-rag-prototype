@@ -125,6 +125,7 @@ export interface Confidence {
   level: ConfidenceLevel;
   components: { rerankMean: number; verifiedShare: number; sourceDiversity: number };
   reasons: string[];
+  blockedBy: string[];
 }
 
 export interface RagContext {
@@ -198,3 +199,12 @@ export const emptyFilters = (projectId = DEFAULT_PROJECT_ID): RagFilters => ({
   excludeOutdated: true,
   minConfidence: null,
 });
+
+// Mirrors MEDIUM_CONFIDENCE_THRESHOLD in backend/app/application/config.py.
+export const MEDIUM_CONFIDENCE_THRESHOLD = 0.6;
+
+// A LOW level is worth explaining only when the score alone would have allowed an answer.
+export function blockingReason(confidence: Confidence): string | null {
+  if (confidence.score < MEDIUM_CONFIDENCE_THRESHOLD) return null;
+  return confidence.blockedBy[0] ?? null;
+}

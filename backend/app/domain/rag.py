@@ -135,6 +135,7 @@ class Confidence:
     level: ConfidenceLevel
     components: ConfidenceComponents
     reasons: tuple[str, ...]
+    blocked_by: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True, slots=True)

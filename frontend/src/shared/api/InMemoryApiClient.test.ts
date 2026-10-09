@@ -56,9 +56,9 @@ describe('InMemoryApiClient.runRagQuery', () => {
 
     expect(response.answer).toBeNull();
     expect(response.trace.prefilter.corpus_after).toBe(0);
-    expect(response.context.confidence.reasons).toContain(
+    expect(response.context.confidence.blocked_by).toEqual([
       'corpus after filters: 0 processed chunks',
-    );
+    ]);
   });
 
   it('returns the canned low-confidence run for the forecast question', async () => {

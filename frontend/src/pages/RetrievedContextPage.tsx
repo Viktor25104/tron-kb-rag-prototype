@@ -32,9 +32,7 @@ export function RetrievedContextPage() {
             {headline.sent}. <span className="font-medium text-zinc-900">Not sent:</span>{' '}
             {headline.notSent}.
             {data.outcome.kind === 'low_confidence' && (
-              <span className="ml-1 text-rose-700">
-                Agent not called: confidence below threshold.
-              </span>
+              <span className="ml-1 text-rose-700">Agent not called: confidence is LOW.</span>
             )}
           </>
         }

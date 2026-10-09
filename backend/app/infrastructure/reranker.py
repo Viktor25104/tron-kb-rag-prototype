@@ -6,6 +6,11 @@ from app.domain.rag import FusedCandidate, RerankedCandidate, RerankOutcome, Und
 WEIGHT_FUSED = 0.6
 WEIGHT_ENTITY_OVERLAP = 0.3
 WEIGHT_RELIABILITY = 0.1
+# The weighted sum sits near 1.0 for every candidate found by both retrievers: entity
+# overlap is constant after the entity pre-filter and RRF with k=60 barely separates the
+# first ranks. A monotonic sharpening, like the temperature on a cross-encoder logit,
+# spreads the top of the range without changing the order of any candidate.
+SCORE_SHARPNESS = 4
 
 
 class MockReranker:
@@ -28,11 +33,14 @@ class MockReranker:
         )
         source = self._knowledge.source(self._chunk_sources.get(candidate.chunk_id, ""))
         reliability = source.reliability if source else 0.0
+        raw = (
+            WEIGHT_FUSED * candidate.normalized_score
+            + WEIGHT_ENTITY_OVERLAP * entity_overlap
+            + WEIGHT_RELIABILITY * reliability
+        )
         return RerankedCandidate(
             chunk_id=candidate.chunk_id,
-            score=WEIGHT_FUSED * candidate.normalized_score
-            + WEIGHT_ENTITY_OVERLAP * entity_overlap
-            + WEIGHT_RELIABILITY * reliability,
+            score=raw**SCORE_SHARPNESS,
             fused_score_norm=candidate.normalized_score,
             entity_overlap=entity_overlap,
             source_reliability=reliability,

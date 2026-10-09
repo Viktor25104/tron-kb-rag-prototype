@@ -4,7 +4,7 @@
 
 Решения, границы узлов и спорные моменты описаны в [docs/architecture.md](docs/architecture.md).
 
-**Деплой:** https://<user>.github.io/tron-kb-rag-prototype/ — статическая сборка в memory-режиме, бэкенд не нужен.
+**Деплой:** https://viktor25104.github.io/tron-kb-rag-prototype/ — статическая сборка в memory-режиме, бэкенд не нужен.
 
 ## Запуск
 
@@ -51,9 +51,9 @@ cd frontend && npm ci && npm run dev    # VITE_API_MODE по умолчанию 
 
 | # | Запрос | Фильтры | Результат |
 |---|---|---|---|
-| 1 | How can I reduce USDT TRC-20 transaction fees? | нет | HIGH 0.86, ответ агента с цитатами; 2 из 5 фактов не проверены |
-| 2 | What will Energy rental cost in 2027? | нет | LOW: формула даёт 0.70, но данных за 2027 нет (блокирующая причина), факты о цене аренды конфликтуют |
-| 3 | How does multisig affect transaction fees? | нет | MEDIUM 0.66: один источник, CONFLICTING-факт, ответ с оговоркой |
+| 1 | How can I reduce USDT TRC-20 transaction fees? | нет | HIGH 0.86, ответ агента с цитатами; 1 из 4 фактов не проверен |
+| 2 | What will Energy rental cost in 2027? | нет | LOW, помечено «blocked»: формула даёт 0.62, но данных за 2027 нет; факты о цене аренды конфликтуют |
+| 3 | How does multisig affect transaction fees? | нет | MEDIUM 0.64: один источник, CONFLICTING-факт, ответ с оговоркой |
 | 4 | запрос 1 | `language = TR` | LOW 0.00: corpus after filters: 0 processed chunks |
 
 Экран Low Confidence открывается для запросов 2 и 4 по цепочке RAG Search → Build context → Answer.
@@ -63,7 +63,7 @@ cd frontend && npm ci && npm run dev    # VITE_API_MODE по умолчанию 
 - **Хранилище**: in-memory репозитории, которые при старте загружают `fixtures/*.json` через `FixtureLoader`.
 - **Векторный поиск** (`MockVectorSearch`): доля токенов запроса, совпавших с `semantic_tags` чанка, плюс косинус по TF-векторам текста. Детерминированно, без моделей.
 - **Полнотекстовый поиск** (`Bm25FullTextSearch`): настоящий BM25 из `rank-bm25` по отфильтрованному корпусу. IDF взят в варианте Lucene, потому что у Okapi он обнуляется для терминов, встречающихся в половине документов, а на маленьком корпусе после префильтра это частый случай.
-- **Реранкер** (`MockReranker`): `0.6 · fused_score_norm + 0.3 · entity_overlap + 0.1 · source.reliability`, порог отсечения 0.70.
+- **Реранкер** (`MockReranker`): `(0.6 · fused_score_norm + 0.3 · entity_overlap + 0.1 · source.reliability)⁴`, порог отсечения 0.24. Возведение в степень монотонно, порядок кандидатов не меняется: оно только разводит верх шкалы, где взвешенная сумма у всех кандидатов из обоих поисков близка к 1.
 - **Агент** (`TemplateAgent`): собирает ответ из проверенных фактов и первых предложений чанков с маркерами `[1]…[3]`. Токены считаются как `len(text) // 4`, стоимость по фиксированной цене, модель `gpt-4.1-mini (mock)`, `prompt_version = answer_v1`.
 - **Тайминги**: синтетические, детерминированные, пропорциональны объёму работы на стадии.
 
@@ -134,7 +134,7 @@ make build    # frontend/dist
 Основной вариант — GitHub Pages: workflow `.github/workflows/deploy-pages.yml` на каждый push в `main` (при изменениях во `frontend/`) собирает с `VITE_BASE_PATH=/<repo>/` и кладёт `404.html`, чтобы глубокие ссылки работали при клиентском роутинге. В настройках репозитория нужно один раз выбрать Settings → Pages → Source: GitHub Actions.
 
 ```bash
-git remote add origin git@github.com:<user>/tron-kb-rag-prototype.git
+git remote add origin git@github.com:viktor25104/tron-kb-rag-prototype.git
 git push -u origin main
 ```
 

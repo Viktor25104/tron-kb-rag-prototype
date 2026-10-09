@@ -1,6 +1,7 @@
 import type { Confidence } from '@/entities/rag';
-import { Panel, ScoreBar, StatusPill, formatScore } from '@/shared/ui';
+import { Panel, ScoreBar, formatScore } from '@/shared/ui';
 import { CONFIDENCE_COMPONENTS, CONFIDENCE_WEIGHTS } from '../model';
+import { BlockedNote, ConfidenceLevel } from './ConfidenceLevel';
 
 const LEVEL_COLOR = {
   HIGH: 'text-emerald-700',
@@ -23,8 +24,9 @@ export function ConfidencePanel({
         >
           {formatScore(confidence.score)}
         </span>
-        <StatusPill status={confidence.level} />
+        <ConfidenceLevel confidence={confidence} />
       </div>
+      <BlockedNote confidence={confidence} />
       {!compact && (
         <p className="mt-1 text-xs text-zinc-500">HIGH ≥ 0.75 · MEDIUM ≥ 0.60 · LOW below</p>
       )}

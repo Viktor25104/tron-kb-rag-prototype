@@ -292,6 +292,7 @@ export interface ConfidenceDto {
   level: ConfidenceLevelDto;
   components: { rerank_mean: number; verified_share: number; source_diversity: number };
   reasons: string[];
+  blocked_by: string[];
 }
 
 export interface RagContextDto {

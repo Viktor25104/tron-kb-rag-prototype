@@ -1,17 +1,30 @@
 import { Link } from 'react-router-dom';
-import type { LowConfidence } from '@/entities/rag';
-import { Button, EmptyState, Panel, useToast } from '@/shared/ui';
+import { blockingReason, type Confidence, type LowConfidence } from '@/entities/rag';
+import { BlockedNote, ConfidenceLevel } from '@/features/retrieved-context';
+import { Button, EmptyState, Panel, formatScore, useToast } from '@/shared/ui';
 import { ACTION_LABELS, ACTION_TOASTS } from '../model';
 
-export function LowConfidenceView({ lowConfidence }: { lowConfidence: LowConfidence }) {
+export function LowConfidenceView({
+  lowConfidence,
+  confidence,
+}: {
+  lowConfidence: LowConfidence;
+  confidence: Confidence;
+}) {
   const { notify } = useToast();
   return (
     <div className="flex flex-col gap-4">
       <div className="rounded-md border border-rose-200 bg-rose-50 px-5 py-6">
         <h2 className="text-lg font-semibold text-rose-900">{lowConfidence.message}</h2>
+        <div className="mt-2 flex items-center gap-2 text-sm text-rose-900">
+          Confidence <span className="font-mono">{formatScore(confidence.score)}</span>
+          <ConfidenceLevel confidence={confidence} />
+        </div>
+        <BlockedNote confidence={confidence} />
         <p className="mt-1 text-sm text-rose-800">
-          The agent was not called. Confidence is below the answer threshold, so returning a
-          generated answer would mean guessing.
+          {blockingReason(confidence)
+            ? 'The agent was not called. The score is high enough, but the retrieved evidence cannot cover this question, so a generated answer would be a guess.'
+            : 'The agent was not called. Confidence is below the answer threshold, so returning a generated answer would mean guessing.'}
         </p>
         <div className="mt-4 flex flex-wrap gap-2">
           {lowConfidence.suggestedActions.map((action) => (

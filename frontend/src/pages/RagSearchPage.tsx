@@ -8,7 +8,8 @@ import {
   requestSearch,
   useRagQuery,
 } from '@/features/rag-search';
-import { ErrorBlock, LoadingBlock, PageHeader, StatusPill } from '@/shared/ui';
+import { ConfidenceLevel } from '@/features/retrieved-context';
+import { ErrorBlock, LoadingBlock, PageHeader } from '@/shared/ui';
 
 export function RagSearchPage() {
   const [params] = useSearchParams();
@@ -26,7 +27,7 @@ export function RagSearchPage() {
           query.data && (
             <div className="flex items-center gap-3">
               <span className="flex items-center gap-1.5 text-sm text-zinc-600">
-                Confidence <StatusPill status={query.data.context.confidence.level} />
+                Confidence <ConfidenceLevel confidence={query.data.context.confidence} />
               </span>
               <Link
                 to={`/rag/context${search}`}

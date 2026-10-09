@@ -130,6 +130,7 @@ export function notExportedResponse(request: RagQueryRequestDto): RagQueryRespon
         level: 'LOW',
         components: { rerank_mean: 0, verified_share: 0, source_diversity: 0 },
         reasons: ['memory mode: no pre-computed run for this query'],
+        blocked_by: [],
       },
       token_count: 0,
       excluded_total: 0,

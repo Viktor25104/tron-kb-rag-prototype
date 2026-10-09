@@ -350,6 +350,7 @@ class ConfidenceOut(Schema):
     level: ConfidenceLevel
     components: ConfidenceComponentsOut
     reasons: list[str]
+    blocked_by: list[str]
 
 
 class RagContextOut(Schema):

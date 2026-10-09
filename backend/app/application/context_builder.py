@@ -31,13 +31,12 @@ class ContextBuilder:
         facts = [fact for fact in linked if fact not in excluded]
         sources = self._collect_sources(ranked, facts)
 
-        reasons = self._context_reasons(ranked, excluded, corpus_after)
         confidence = compute_confidence(
             rerank_scores=[r.score for r in ranked],
             facts=facts,
             source_ids={s.id for s in sources},
-            extra_reasons=reasons,
-            blocking_reasons=self._coverage_gaps(ranked, facts, query),
+            extra_reasons=[f"{len(excluded)} outdated facts excluded"] if excluded else [],
+            blocking_reasons=self._blockers(ranked, facts, query, corpus_after),
         )
         token_count = sum(r.chunk.token_count for r in ranked) + sum(
             len(f.statement) // 4 for f in facts
@@ -65,31 +64,25 @@ class ContextBuilder:
         return list(sources.values())
 
     @staticmethod
-    def _context_reasons(
-        ranked: Sequence[RankedResult], excluded: Sequence[Fact], corpus_after: int
+    def _blockers(
+        ranked: Sequence[RankedResult],
+        facts: Sequence[Fact],
+        query: UnderstoodQuery,
+        corpus_after: int,
     ) -> list[str]:
-        reasons: list[str] = []
+        blockers: list[str] = []
         if corpus_after == 0:
-            reasons.append("corpus after filters: 0 processed chunks")
+            blockers.append("corpus after filters: 0 processed chunks")
         elif len(ranked) < MIN_RESULTS_FOR_ANSWER:
             noun = "result" if len(ranked) == 1 else "results"
-            reasons.append(f"only {len(ranked)} {noun} passed reranking")
-        if excluded:
-            reasons.append(f"{len(excluded)} outdated facts excluded")
-        return reasons
-
-    @staticmethod
-    def _coverage_gaps(
-        ranked: Sequence[RankedResult], facts: Sequence[Fact], query: UnderstoodQuery
-    ) -> list[str]:
+            blockers.append(f"only {len(ranked)} {noun} passed reranking")
         # A question about a period no evidence covers (a forecast, typically) cannot be
         # answered from the knowledge base however relevant the retrieved chunks look.
-        if not query.years:
-            return []
-        evidence_years = [r.chunk.created_at.year for r in ranked] + [
-            f.verified_at.year for f in facts if f.verified_at is not None
-        ]
-        requested = max(query.years)
-        if evidence_years and max(evidence_years) >= requested:
-            return []
-        return [f"no evidence dated {requested} or later"]
+        if query.years:
+            evidence_years = [r.chunk.created_at.year for r in ranked] + [
+                f.verified_at.year for f in facts if f.verified_at is not None
+            ]
+            requested = max(query.years)
+            if not evidence_years or max(evidence_years) < requested:
+                blockers.append(f"no evidence dated {requested} or later")
+        return blockers

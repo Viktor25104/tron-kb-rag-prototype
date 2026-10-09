@@ -37,15 +37,6 @@ def test_missing_results_count_as_zero_slots() -> None:
     assert confidence.components.rerank_mean == pytest.approx(0.3)
 
 
-def test_too_few_results_is_low_even_with_strong_components() -> None:
-    facts = [fact("f1", "c1")]
-
-    confidence = compute_confidence([1.0, 1.0], facts, {"a", "b", "c"})
-
-    assert confidence.score >= 0.6
-    assert confidence.level is ConfidenceLevel.LOW
-
-
 @pytest.mark.parametrize(
     ("score", "level"),
     [
@@ -74,7 +65,7 @@ def test_reasons_describe_weak_spots() -> None:
     assert "single source" in reasons
 
 
-def test_blocking_reason_forces_low_and_leads_the_reasons() -> None:
+def test_blocking_reason_forces_low_and_is_reported_separately() -> None:
     confidence = compute_confidence(
         [1.0, 1.0, 1.0],
         [fact("f1", "c1")],
@@ -84,7 +75,15 @@ def test_blocking_reason_forces_low_and_leads_the_reasons() -> None:
 
     assert confidence.score == pytest.approx(1.0)
     assert confidence.level is ConfidenceLevel.LOW
-    assert confidence.reasons[0] == "no evidence dated 2027 or later"
+    assert confidence.blocked_by == ("no evidence dated 2027 or later",)
+    assert "no evidence dated 2027 or later" not in confidence.reasons
+
+
+def test_without_blockers_level_follows_the_score() -> None:
+    confidence = compute_confidence([1.0, 1.0, 1.0], [fact("f1", "c1")], {"a", "b", "c"})
+
+    assert confidence.blocked_by == ()
+    assert confidence.level is ConfidenceLevel.HIGH
 
 
 def _builder(facts: list[Fact]) -> ContextBuilder:
@@ -129,5 +128,16 @@ def test_question_about_uncovered_period_is_blocked() -> None:
     )
 
     assert future.confidence.level is ConfidenceLevel.LOW
-    assert "no evidence dated 2030 or later" in future.confidence.reasons
+    assert future.confidence.blocked_by == ("no evidence dated 2030 or later",)
     assert past.confidence.level is not ConfidenceLevel.LOW
+
+
+def test_too_few_results_block_the_answer_even_with_strong_components() -> None:
+    builder = _builder([fact("f-ok", "c1")])
+    query = QueryUnderstanding([]).understand("question")
+
+    context = builder.build([_ranked("c1"), _ranked("c2")], RagFilters(PROJECT), query, 10, 5)
+
+    assert context.confidence.score >= 0.6
+    assert context.confidence.level is ConfidenceLevel.LOW
+    assert context.confidence.blocked_by == ("only 2 results passed reranking",)

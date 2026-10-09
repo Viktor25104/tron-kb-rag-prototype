@@ -6,8 +6,9 @@ SEARCH_TOP_N = 20
 RRF_K = 60
 DEFAULT_TOP_K = 5
 
-# Below this the reranker treats a candidate as noise even if it made the top-k.
-RERANK_MIN_SCORE = 0.7
+# Below this the reranker treats a candidate as noise even if it made the top-k. The value
+# is tied to the reranker's output scale (0.7 before MockReranker's sharpening, 0.7**4).
+RERANK_MIN_SCORE = 0.24
 
 MIN_RESULTS_FOR_ANSWER = 3
 

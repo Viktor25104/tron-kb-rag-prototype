@@ -215,14 +215,6 @@
       "verified_at": null
     },
     {
-      "id": "fact-fees-7",
-      "chunk_id": "ch-fees-2-3",
-      "statement": "Sending USDT to an address that already holds USDT halves the Energy cost compared with a first transfer.",
-      "status": "UNVERIFIED",
-      "source_id": "src-tpe",
-      "verified_at": null
-    },
-    {
       "id": "fact-fees-8",
       "chunk_id": "ch-fees-2-3",
       "statement": "Consolidating small payments into fewer transfers lowers the total monthly fee.",

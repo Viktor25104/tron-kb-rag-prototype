@@ -169,6 +169,7 @@ export function mapRagResponse(dto: RagQueryResponseDto): RagResult {
           sourceDiversity: context.confidence.components.source_diversity,
         },
         reasons: context.confidence.reasons,
+        blockedBy: context.confidence.blocked_by,
       },
       tokenCount: context.token_count,
       excludedTotal: context.excluded_total,

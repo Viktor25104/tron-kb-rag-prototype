@@ -36,7 +36,7 @@
           "state": "COMPLETED",
           "duration_ms": 12800,
           "counters": {
-            "facts": 8,
+            "facts": 7,
             "claims": 3,
             "entities": 6
           }

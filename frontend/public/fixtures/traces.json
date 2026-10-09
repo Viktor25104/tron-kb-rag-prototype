@@ -430,13 +430,13 @@
           },
           "rerank": {
             "top_k": 5,
-            "min_score": 0.7,
+            "min_score": 0.24,
             "kept": [
               {
                 "chunk_id": "ch-fees-2-1",
                 "article_id": "art-usdt-fees-en",
                 "article_title": "USDT TRC-20 Transaction Fees",
-                "score": 0.98,
+                "score": 0.9224,
                 "fused_score_norm": 1.0,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -450,7 +450,7 @@
                 "chunk_id": "ch-fees-2-3",
                 "article_id": "art-usdt-fees-en",
                 "article_title": "USDT TRC-20 Transaction Fees",
-                "score": 0.9703,
+                "score": 0.8865,
                 "fused_score_norm": 0.9839,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -464,7 +464,7 @@
                 "chunk_id": "ch-bw-1-1",
                 "article_id": "art-bandwidth",
                 "article_title": "Bandwidth Explained",
-                "score": 0.9586,
+                "score": 0.8444,
                 "fused_score_norm": 0.9394,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.95,
@@ -478,7 +478,7 @@
                 "chunk_id": "ch-fees-1-3",
                 "article_id": "art-usdt-fees-en",
                 "article_title": "USDT TRC-20 Transaction Fees",
-                "score": 0.9564,
+                "score": 0.8367,
                 "fused_score_norm": 0.9607,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -492,7 +492,7 @@
                 "chunk_id": "ch-energy-3-1",
                 "article_id": "art-energy-works",
                 "article_title": "How TRON Energy Works",
-                "score": 0.9497,
+                "score": 0.8134,
                 "fused_score_norm": 0.9245,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.95,
@@ -508,7 +508,7 @@
                 "chunk_id": "ch-fees-1-1",
                 "article_id": "art-usdt-fees-en",
                 "article_title": "USDT TRC-20 Transaction Fees",
-                "score": 0.9475,
+                "score": 0.8059,
                 "fused_score_norm": 0.9458,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -522,7 +522,7 @@
                 "chunk_id": "ch-fees-1-2",
                 "article_id": "art-usdt-fees-en",
                 "article_title": "USDT TRC-20 Transaction Fees",
-                "score": 0.9225,
+                "score": 0.7242,
                 "fused_score_norm": 0.9042,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -536,7 +536,7 @@
                 "chunk_id": "ch-wallet-2-1",
                 "article_id": "art-wallet-setup",
                 "article_title": "TRON Wallet Setup Guide",
-                "score": 0.6414,
+                "score": 0.1693,
                 "fused_score_norm": 0.4357,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -549,7 +549,7 @@
                 "chunk_id": "ch-fees-3-2",
                 "article_id": "art-usdt-fees-en",
                 "article_title": "USDT TRC-20 Transaction Fees",
-                "score": 0.6377,
+                "score": 0.1654,
                 "fused_score_norm": 0.4296,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -562,7 +562,7 @@
                 "chunk_id": "ch-fees-4-3",
                 "article_id": "art-usdt-fees-en",
                 "article_title": "USDT TRC-20 Transaction Fees",
-                "score": 0.624,
+                "score": 0.1516,
                 "fused_score_norm": 0.4067,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -575,7 +575,7 @@
                 "chunk_id": "ch-wallet-1-3",
                 "article_id": "art-wallet-setup",
                 "article_title": "TRON Wallet Setup Guide",
-                "score": 0.5073,
+                "score": 0.0662,
                 "fused_score_norm": 0.4621,
                 "entity_overlap": 0.5,
                 "source_reliability": 0.8,
@@ -588,7 +588,7 @@
                 "chunk_id": "ch-wallet-1-2",
                 "article_id": "art-wallet-setup",
                 "article_title": "TRON Wallet Setup Guide",
-                "score": 0.4991,
+                "score": 0.0621,
                 "fused_score_norm": 0.4485,
                 "entity_overlap": 0.5,
                 "source_reliability": 0.8,
@@ -601,7 +601,7 @@
                 "chunk_id": "ch-energy-1-3",
                 "article_id": "art-energy-works",
                 "article_title": "How TRON Energy Works",
-                "score": 0.4923,
+                "score": 0.0587,
                 "fused_score_norm": 0.4122,
                 "entity_overlap": 0.5,
                 "source_reliability": 0.95,
@@ -614,7 +614,7 @@
                 "chunk_id": "ch-energy-1-1",
                 "article_id": "art-energy-works",
                 "article_title": "How TRON Energy Works",
-                "score": 0.4858,
+                "score": 0.0557,
                 "fused_score_norm": 0.4013,
                 "entity_overlap": 0.5,
                 "source_reliability": 0.95,
@@ -627,7 +627,7 @@
                 "chunk_id": "ch-wallet-3-2",
                 "article_id": "art-wallet-setup",
                 "article_title": "TRON Wallet Setup Guide",
-                "score": 0.4842,
+                "score": 0.055,
                 "fused_score_norm": 0.4236,
                 "entity_overlap": 0.5,
                 "source_reliability": 0.8,
@@ -640,7 +640,7 @@
                 "chunk_id": "ch-wallet-3-1",
                 "article_id": "art-wallet-setup",
                 "article_title": "TRON Wallet Setup Guide",
-                "score": 0.4807,
+                "score": 0.0534,
                 "fused_score_norm": 0.4178,
                 "entity_overlap": 0.5,
                 "source_reliability": 0.8,
@@ -654,13 +654,13 @@
           },
           "context": {
             "chunks": 5,
-            "facts": 5,
+            "facts": 4,
             "sources": 3,
-            "token_count": 425,
+            "token_count": 399,
             "excluded_facts": 0,
-            "duration_ms": 10
+            "duration_ms": 9
           },
-          "total_ms": 197
+          "total_ms": 196
         },
         "results": [
           {
@@ -684,7 +684,7 @@
                 "staking"
               ]
             },
-            "score": 0.98,
+            "score": 0.9223681599999999,
             "verification_status": "VERIFIED",
             "source": {
               "id": "src-tpe",
@@ -723,7 +723,7 @@
                 "transfer"
               ]
             },
-            "score": 0.9703225806451612,
+            "score": 0.8864710401614686,
             "verification_status": "UNVERIFIED",
             "source": {
               "id": "src-tpe",
@@ -760,7 +760,7 @@
                 "usdt"
               ]
             },
-            "score": 0.9586105188343994,
+            "score": 0.8444399294343558,
             "verification_status": "VERIFIED",
             "source": {
               "id": "src-tron-docs",
@@ -797,7 +797,7 @@
                 "sender"
               ]
             },
-            "score": 0.9564136904761904,
+            "score": 0.836725754063003,
             "verification_status": "UNVERIFIED",
             "source": {
               "id": "src-tpe",
@@ -837,7 +837,7 @@
                 "transaction"
               ]
             },
-            "score": 0.9496727898966704,
+            "score": 0.8133846625823523,
             "verification_status": "VERIFIED",
             "source": {
               "id": "src-tron-docs",
@@ -880,7 +880,7 @@
                   "staking"
                 ]
               },
-              "score": 0.98,
+              "score": 0.9223681599999999,
               "verification_status": "VERIFIED",
               "source": {
                 "id": "src-tpe",
@@ -919,7 +919,7 @@
                   "transfer"
                 ]
               },
-              "score": 0.9703225806451612,
+              "score": 0.8864710401614686,
               "verification_status": "UNVERIFIED",
               "source": {
                 "id": "src-tpe",
@@ -956,7 +956,7 @@
                   "usdt"
                 ]
               },
-              "score": 0.9586105188343994,
+              "score": 0.8444399294343558,
               "verification_status": "VERIFIED",
               "source": {
                 "id": "src-tron-docs",
@@ -993,7 +993,7 @@
                   "sender"
                 ]
               },
-              "score": 0.9564136904761904,
+              "score": 0.836725754063003,
               "verification_status": "UNVERIFIED",
               "source": {
                 "id": "src-tpe",
@@ -1033,7 +1033,7 @@
                   "transaction"
                 ]
               },
-              "score": 0.9496727898966704,
+              "score": 0.8133846625823523,
               "verification_status": "VERIFIED",
               "source": {
                 "id": "src-tron-docs",
@@ -1061,14 +1061,6 @@
               "status": "VERIFIED",
               "source_id": "src-tpe",
               "verified_at": "2026-09-14T15:00:00Z"
-            },
-            {
-              "id": "fact-fees-7",
-              "chunk_id": "ch-fees-2-3",
-              "statement": "Sending USDT to an address that already holds USDT halves the Energy cost compared with a first transfer.",
-              "status": "UNVERIFIED",
-              "source_id": "src-tpe",
-              "verified_at": null
             },
             {
               "id": "fact-fees-8",
@@ -1119,20 +1111,21 @@
             }
           ],
           "confidence": {
-            "score": 0.8615,
+            "score": 0.8553,
             "level": "HIGH",
             "components": {
-              "rerank_mean": 0.963,
-              "verified_share": 0.6,
+              "rerank_mean": 0.8607,
+              "verified_share": 0.75,
               "source_diversity": 1.0
             },
             "reasons": [
-              "top rerank score 0.98",
-              "2 of 5 facts unverified",
+              "top rerank score 0.92",
+              "1 of 4 facts unverified",
               "3 distinct sources"
-            ]
+            ],
+            "blocked_by": []
           },
-          "token_count": 425,
+          "token_count": 399,
           "excluded_total": 79,
           "excluded_facts": []
         },
@@ -1163,9 +1156,9 @@
           ],
           "model": "gpt-4.1-mini (mock)",
           "prompt_version": "answer_v1",
-          "tokens_in": 546,
+          "tokens_in": 516,
           "tokens_out": 103,
-          "cost_usd": 0.000383,
+          "cost_usd": 0.000371,
           "duration_ms": 1822
         },
         "low_confidence": null
@@ -1636,13 +1629,13 @@
           },
           "rerank": {
             "top_k": 5,
-            "min_score": 0.7,
+            "min_score": 0.24,
             "kept": [
               {
                 "chunk_id": "ch-rental-2-2",
                 "article_id": "art-rental-vs-burn",
                 "article_title": "Energy Rental vs Burning TRX",
-                "score": 0.9659,
+                "score": 0.8706,
                 "fused_score_norm": 0.9766,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -1656,7 +1649,7 @@
                 "chunk_id": "ch-fees-2-1",
                 "article_id": "art-usdt-fees-en",
                 "article_title": "USDT TRC-20 Transaction Fees",
-                "score": 0.9282,
+                "score": 0.7423,
                 "fused_score_norm": 0.9137,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -1670,7 +1663,7 @@
                 "chunk_id": "ch-fees-4-1",
                 "article_id": "art-usdt-fees-en",
                 "article_title": "USDT TRC-20 Transaction Fees",
-                "score": 0.924,
+                "score": 0.7289,
                 "fused_score_norm": 0.9067,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -1686,7 +1679,7 @@
                 "chunk_id": "ch-fees-2-2",
                 "article_id": "art-usdt-fees-en",
                 "article_title": "USDT TRC-20 Transaction Fees",
-                "score": 0.6752,
+                "score": 0.2078,
                 "fused_score_norm": 0.4919,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -1699,7 +1692,7 @@
                 "chunk_id": "ch-rental-3-3",
                 "article_id": "art-rental-vs-burn",
                 "article_title": "Energy Rental vs Burning TRX",
-                "score": 0.6752,
+                "score": 0.2078,
                 "fused_score_norm": 0.4919,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -1712,7 +1705,7 @@
                 "chunk_id": "ch-rental-3-1",
                 "article_id": "art-rental-vs-burn",
                 "article_title": "Energy Rental vs Burning TRX",
-                "score": 0.6705,
+                "score": 0.2021,
                 "fused_score_norm": 0.4841,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -1725,7 +1718,7 @@
                 "chunk_id": "ch-energy-4-2",
                 "article_id": "art-energy-works",
                 "article_title": "How TRON Energy Works",
-                "score": 0.6681,
+                "score": 0.1993,
                 "fused_score_norm": 0.4552,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.95,
@@ -1738,7 +1731,7 @@
                 "chunk_id": "ch-rental-2-1",
                 "article_id": "art-rental-vs-burn",
                 "article_title": "Energy Rental vs Burning TRX",
-                "score": 0.6659,
+                "score": 0.1967,
                 "fused_score_norm": 0.4766,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -1751,7 +1744,7 @@
                 "chunk_id": "ch-rental-2-3",
                 "article_id": "art-rental-vs-burn",
                 "article_title": "Energy Rental vs Burning TRX",
-                "score": 0.6615,
+                "score": 0.1915,
                 "fused_score_norm": 0.4692,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -1764,7 +1757,7 @@
                 "chunk_id": "ch-energy-1-1",
                 "article_id": "art-energy-works",
                 "article_title": "How TRON Energy Works",
-                "score": 0.6602,
+                "score": 0.19,
                 "fused_score_norm": 0.442,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.95,
@@ -1777,7 +1770,7 @@
                 "chunk_id": "ch-fees-4-3",
                 "article_id": "art-usdt-fees-en",
                 "article_title": "USDT TRC-20 Transaction Fees",
-                "score": 0.6573,
+                "score": 0.1866,
                 "fused_score_norm": 0.4621,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -1790,7 +1783,7 @@
                 "chunk_id": "ch-energy-3-1",
                 "article_id": "art-energy-works",
                 "article_title": "How TRON Energy Works",
-                "score": 0.6564,
+                "score": 0.1857,
                 "fused_score_norm": 0.4357,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.95,
@@ -1803,7 +1796,7 @@
                 "chunk_id": "ch-fees-3-1",
                 "article_id": "art-usdt-fees-en",
                 "article_title": "USDT TRC-20 Transaction Fees",
-                "score": 0.6491,
+                "score": 0.1775,
                 "fused_score_norm": 0.4485,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -1816,7 +1809,7 @@
                 "chunk_id": "ch-msig-2-2",
                 "article_id": "art-multisig",
                 "article_title": "Multi-signature on TRON",
-                "score": 0.6358,
+                "score": 0.1634,
                 "fused_score_norm": 0.4013,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.95,
@@ -1829,7 +1822,7 @@
                 "chunk_id": "ch-fees-1-3",
                 "article_id": "art-usdt-fees-en",
                 "article_title": "USDT TRC-20 Transaction Fees",
-                "score": 0.6342,
+                "score": 0.1617,
                 "fused_score_norm": 0.4236,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -1842,7 +1835,7 @@
                 "chunk_id": "ch-wallet-2-3",
                 "article_id": "art-wallet-setup",
                 "article_title": "TRON Wallet Setup Guide",
-                "score": 0.6307,
+                "score": 0.1582,
                 "fused_score_norm": 0.4178,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -1855,7 +1848,7 @@
                 "chunk_id": "ch-fees-3-2",
                 "article_id": "art-usdt-fees-en",
                 "article_title": "USDT TRC-20 Transaction Fees",
-                "score": 0.6273,
+                "score": 0.1548,
                 "fused_score_norm": 0.4122,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -1868,7 +1861,7 @@
                 "chunk_id": "ch-fees-2-3",
                 "article_id": "art-usdt-fees-en",
                 "article_title": "USDT TRC-20 Transaction Fees",
-                "score": 0.6177,
+                "score": 0.1455,
                 "fused_score_norm": 0.3961,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -1881,7 +1874,7 @@
                 "chunk_id": "ch-fees-1-1",
                 "article_id": "art-usdt-fees-en",
                 "article_title": "USDT TRC-20 Transaction Fees",
-                "score": 0.6146,
+                "score": 0.1427,
                 "fused_score_norm": 0.391,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.8,
@@ -1894,7 +1887,7 @@
                 "chunk_id": "ch-bw-2-2",
                 "article_id": "art-bandwidth",
                 "article_title": "Bandwidth Explained",
-                "score": 0.3266,
+                "score": 0.0114,
                 "fused_score_norm": 0.3861,
                 "entity_overlap": 0.0,
                 "source_reliability": 0.95,
@@ -1907,7 +1900,7 @@
                 "chunk_id": "ch-msig-2-1",
                 "article_id": "art-multisig",
                 "article_title": "Multi-signature on TRON",
-                "score": 0.3237,
+                "score": 0.011,
                 "fused_score_norm": 0.3812,
                 "entity_overlap": 0.0,
                 "source_reliability": 0.95,
@@ -1948,7 +1941,7 @@
                 "forecast"
               ]
             },
-            "score": 0.9659375000000001,
+            "score": 0.8705547850319009,
             "verification_status": "CONFLICTING",
             "source": {
               "id": "src-tpe",
@@ -1988,7 +1981,7 @@
                 "staking"
               ]
             },
-            "score": 0.92822266934943,
+            "score": 0.7423499485416146,
             "verification_status": "VERIFIED",
             "source": {
               "id": "src-tpe",
@@ -2026,7 +2019,7 @@
                 "business"
               ]
             },
-            "score": 0.9239999999999999,
+            "score": 0.7289334581759997,
             "verification_status": "UNVERIFIED",
             "source": {
               "id": "src-tpe",
@@ -2066,7 +2059,7 @@
                   "forecast"
                 ]
               },
-              "score": 0.9659375000000001,
+              "score": 0.8705547850319009,
               "verification_status": "CONFLICTING",
               "source": {
                 "id": "src-tpe",
@@ -2106,7 +2099,7 @@
                   "staking"
                 ]
               },
-              "score": 0.92822266934943,
+              "score": 0.7423499485416146,
               "verification_status": "VERIFIED",
               "source": {
                 "id": "src-tpe",
@@ -2144,7 +2137,7 @@
                   "business"
                 ]
               },
-              "score": 0.9239999999999999,
+              "score": 0.7289334581759997,
               "verification_status": "UNVERIFIED",
               "source": {
                 "id": "src-tpe",
@@ -2207,19 +2200,21 @@
             }
           ],
           "confidence": {
-            "score": 0.703,
+            "score": 0.6236,
             "level": "LOW",
             "components": {
-              "rerank_mean": 0.9394,
+              "rerank_mean": 0.7806,
               "verified_share": 0.3333,
               "source_diversity": 0.6667
             },
             "reasons": [
-              "no evidence dated 2027 or later",
-              "top rerank score 0.97",
+              "top rerank score 0.87",
               "2 of 3 facts unverified",
               "2 conflicting facts",
               "2 distinct sources"
+            ],
+            "blocked_by": [
+              "no evidence dated 2027 or later"
             ]
           },
           "token_count": 254,
@@ -2234,41 +2229,41 @@
               "article_id": "art-energy-works",
               "title": "How TRON Energy Works",
               "chunk_id": "ch-energy-4-2",
-              "score": 0.6681343283582089,
+              "score": 0.19927606760846198,
               "origins": [
                 "fts"
               ],
-              "reason": "matched by FTS, dropped by reranker: score 0.67"
+              "reason": "matched by FTS, dropped by reranker: score 0.20"
             },
             {
               "article_id": "art-multisig",
               "title": "Multi-signature on TRON",
               "chunk_id": "ch-msig-2-2",
-              "score": 0.6357894736842105,
+              "score": 0.16340048201717292,
               "origins": [
                 "fts"
               ],
-              "reason": "matched by FTS, dropped by reranker: score 0.64"
+              "reason": "matched by FTS, dropped by reranker: score 0.16"
             },
             {
               "article_id": "art-wallet-setup",
               "title": "TRON Wallet Setup Guide",
               "chunk_id": "ch-wallet-2-3",
-              "score": 0.6306849315068492,
+              "score": 0.1582157882728919,
               "origins": [
                 "fts"
               ],
-              "reason": "matched by FTS, dropped by reranker: score 0.63"
+              "reason": "matched by FTS, dropped by reranker: score 0.16"
             },
             {
               "article_id": "art-bandwidth",
               "title": "Bandwidth Explained",
               "chunk_id": "ch-bw-2-2",
-              "score": 0.32664556962025315,
+              "score": 0.01138431983489073,
               "origins": [
                 "fts"
               ],
-              "reason": "matched by FTS, dropped by reranker: score 0.33"
+              "reason": "matched by FTS, dropped by reranker: score 0.01"
             }
           ],
           "suggested_actions": [
@@ -2507,13 +2502,13 @@
           },
           "rerank": {
             "top_k": 5,
-            "min_score": 0.7,
+            "min_score": 0.24,
             "kept": [
               {
                 "chunk_id": "ch-msig-2-2",
                 "article_id": "art-multisig",
                 "article_title": "Multi-signature on TRON",
-                "score": 0.995,
+                "score": 0.9801,
                 "fused_score_norm": 1.0,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.95,
@@ -2527,7 +2522,7 @@
                 "chunk_id": "ch-msig-3-2",
                 "article_id": "art-multisig",
                 "article_title": "Multi-signature on TRON",
-                "score": 0.9853,
+                "score": 0.9426,
                 "fused_score_norm": 0.9839,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.95,
@@ -2541,7 +2536,7 @@
                 "chunk_id": "ch-msig-2-1",
                 "article_id": "art-multisig",
                 "article_title": "Multi-signature on TRON",
-                "score": 0.976,
+                "score": 0.9072,
                 "fused_score_norm": 0.9683,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.95,
@@ -2557,7 +2552,7 @@
                 "chunk_id": "ch-msig-3-1",
                 "article_id": "art-multisig",
                 "article_title": "Multi-signature on TRON",
-                "score": 0.6809,
+                "score": 0.215,
                 "fused_score_norm": 0.4766,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.95,
@@ -2570,7 +2565,7 @@
                 "chunk_id": "ch-msig-1-1",
                 "article_id": "art-multisig",
                 "article_title": "Multi-signature on TRON",
-                "score": 0.6765,
+                "score": 0.2095,
                 "fused_score_norm": 0.4692,
                 "entity_overlap": 1.0,
                 "source_reliability": 0.95,
@@ -2612,7 +2607,7 @@
                 "cost"
               ]
             },
-            "score": 0.9949999999999999,
+            "score": 0.9801495006249995,
             "verification_status": "CONFLICTING",
             "source": {
               "id": "src-tron-docs",
@@ -2649,7 +2644,7 @@
                 "fee"
               ]
             },
-            "score": 0.9853225806451611,
+            "score": 0.9425702811943095,
             "verification_status": "UNVERIFIED",
             "source": {
               "id": "src-tron-docs",
@@ -2688,7 +2683,7 @@
                 "cost"
               ]
             },
-            "score": 0.9759523809523809,
+            "score": 0.9072239603213198,
             "verification_status": "VERIFIED",
             "source": {
               "id": "src-tron-docs",
@@ -2729,7 +2724,7 @@
                   "cost"
                 ]
               },
-              "score": 0.9949999999999999,
+              "score": 0.9801495006249995,
               "verification_status": "CONFLICTING",
               "source": {
                 "id": "src-tron-docs",
@@ -2766,7 +2761,7 @@
                   "fee"
                 ]
               },
-              "score": 0.9853225806451611,
+              "score": 0.9425702811943095,
               "verification_status": "UNVERIFIED",
               "source": {
                 "id": "src-tron-docs",
@@ -2805,7 +2800,7 @@
                   "cost"
                 ]
               },
-              "score": 0.9759523809523809,
+              "score": 0.9072239603213198,
               "verification_status": "VERIFIED",
               "source": {
                 "id": "src-tron-docs",
@@ -2861,26 +2856,27 @@
             }
           ],
           "confidence": {
-            "score": 0.6594,
+            "score": 0.6383,
             "level": "MEDIUM",
             "components": {
-              "rerank_mean": 0.9854,
+              "rerank_mean": 0.9433,
               "verified_share": 0.3333,
               "source_diversity": 0.3333
             },
             "reasons": [
-              "top rerank score 0.99",
+              "top rerank score 0.98",
               "2 of 3 facts unverified",
               "1 conflicting fact",
               "single source"
-            ]
+            ],
+            "blocked_by": []
           },
           "token_count": 183,
           "excluded_total": 81,
           "excluded_facts": []
         },
         "answer": {
-          "text": "A transaction signed under a multi-signature permission pays an additional 1 TRX fee on top of the usual Energy and Bandwidth costs, so multisig raises the fee of every USDT transfer sent from such an account. [1] Each extra signature on a multisig transaction adds about 65 bytes, which increases the Bandwidth it consumes and, once the free allowance is spent, the fee. [2] AccountPermissionUpdate costs 100 TRX. [3]\n\nConfidence is medium (top rerank score 0.99; 2 of 3 facts unverified; 1 conflicting fact; single source). Verify before publishing.",
+          "text": "A transaction signed under a multi-signature permission pays an additional 1 TRX fee on top of the usual Energy and Bandwidth costs, so multisig raises the fee of every USDT transfer sent from such an account. [1] Each extra signature on a multisig transaction adds about 65 bytes, which increases the Bandwidth it consumes and, once the free allowance is spent, the fee. [2] AccountPermissionUpdate costs 100 TRX. [3]\n\nConfidence is medium (top rerank score 0.98; 2 of 3 facts unverified; 1 conflicting fact; single source). Verify before publishing.",
           "citations": [
             {
               "marker": 1,
@@ -3031,7 +3027,7 @@
           },
           "rerank": {
             "top_k": 5,
-            "min_score": 0.7,
+            "min_score": 0.24,
             "kept": [],
             "dropped": [],
             "duration_ms": 38
@@ -3060,8 +3056,10 @@
               "source_diversity": 0.0
             },
             "reasons": [
-              "corpus after filters: 0 processed chunks",
               "no facts linked to retrieved chunks"
+            ],
+            "blocked_by": [
+              "corpus after filters: 0 processed chunks"
             ]
           },
           "token_count": 0,

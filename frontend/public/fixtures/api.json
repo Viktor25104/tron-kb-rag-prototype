@@ -14,7 +14,7 @@
       "embedded_count": 12,
       "fact_counts": {
         "VERIFIED": 5,
-        "UNVERIFIED": 3,
+        "UNVERIFIED": 2,
         "OUTDATED": 0,
         "CONFLICTING": 0,
         "NO_SOURCE": 0
@@ -562,14 +562,6 @@
           "status": "VERIFIED",
           "source_id": "src-tron-docs",
           "verified_at": "2026-08-30T08:00:00Z"
-        },
-        {
-          "id": "fact-fees-7",
-          "chunk_id": "ch-fees-2-3",
-          "statement": "Sending USDT to an address that already holds USDT halves the Energy cost compared with a first transfer.",
-          "status": "UNVERIFIED",
-          "source_id": "src-tpe",
-          "verified_at": null
         },
         {
           "id": "fact-fees-8",
@@ -3622,7 +3614,7 @@
           "state": "COMPLETED",
           "duration_ms": 12800,
           "counters": {
-            "facts": 8,
+            "facts": 7,
             "claims": 3,
             "entities": 6
           }
@@ -4493,7 +4485,7 @@
             "state": "COMPLETED",
             "duration_ms": 12800,
             "counters": {
-              "facts": 8,
+              "facts": 7,
               "claims": 3,
               "entities": 6
             }
