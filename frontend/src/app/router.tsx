@@ -2,6 +2,7 @@ import { Navigate, createBrowserRouter } from 'react-router-dom';
 import { DocumentPage } from '@/pages/DocumentPage';
 import { KnowledgeBasePage } from '@/pages/KnowledgeBasePage';
 import { ProcessingPage } from '@/pages/ProcessingPage';
+import { RagSearchPage } from '@/pages/RagSearchPage';
 import { Layout } from './Layout';
 
 export const router = createBrowserRouter(
@@ -13,6 +14,7 @@ export const router = createBrowserRouter(
         { path: 'kb', element: <KnowledgeBasePage /> },
         { path: 'kb/articles/:articleId', element: <DocumentPage /> },
         { path: 'processing', element: <ProcessingPage /> },
+        { path: 'rag', element: <RagSearchPage /> },
         { path: '*', element: <Navigate to="/kb" replace /> },
       ],
     },
